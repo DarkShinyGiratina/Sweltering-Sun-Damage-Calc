@@ -5122,18 +5122,11 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 60, at: 150, df: 50, sa: 150, sd: 50, sp: 60},
     weightkg: 53,
     abilities: {0: 'Stance Change'},
-    otherFormes: ['Aegislash-Shield', 'Aegislash-Both'],
+    otherFormes: ['Aegislash-Shield'],
   },
   'Aegislash-Shield': {
     types: ['Steel', 'Ghost'],
     bs: {hp: 60, at: 50, df: 150, sa: 50, sd: 150, sp: 60},
-    weightkg: 53,
-    abilities: {0: 'Stance Change'},
-    baseSpecies: 'Aegislash-Blade',
-  },
-  'Aegislash-Both': {
-    types: ['Steel', 'Ghost'],
-    bs: {hp: 60, at: 150, df: 150, sa: 150, sd: 150, sp: 60},
     weightkg: 53,
     abilities: {0: 'Stance Change'},
     baseSpecies: 'Aegislash-Blade',
@@ -5393,33 +5386,19 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     nfe: true,
     abilities: {0: 'Sap Sipper'},
   },
-  Gourgeist: {
+  'Gourgeist-Small': {
     types: ['Ghost', 'Grass'],
     bs: {hp: 65, at: 90, df: 122, sa: 58, sd: 75, sp: 84},
     weightkg: 12.5,
     abilities: {0: 'Pickup'},
-    otherFormes: ['Gourgeist-Large', 'Gourgeist-Small', 'Gourgeist-Super'],
-  },
-  'Gourgeist-Large': {
-    types: ['Ghost', 'Grass'],
-    bs: {hp: 75, at: 95, df: 122, sa: 58, sd: 75, sp: 69},
-    weightkg: 14,
-    abilities: {0: 'Pickup'},
-    baseSpecies: 'Gourgeist',
-  },
-  'Gourgeist-Small': {
-    types: ['Ghost', 'Grass'],
-    bs: {hp: 55, at: 85, df: 122, sa: 58, sd: 75, sp: 99},
-    weightkg: 9.5,
-    abilities: {0: 'Pickup'},
-    baseSpecies: 'Gourgeist',
+    otherFormes: ['Gourgeist-Super'],
   },
   'Gourgeist-Super': {
     types: ['Ghost', 'Grass'],
     bs: {hp: 85, at: 100, df: 122, sa: 58, sd: 75, sp: 54},
     weightkg: 39,
     abilities: {0: 'Pickup'},
-    baseSpecies: 'Gourgeist',
+    baseSpecies: 'Gourgeist-Small',
   },
   Greninja: {
     types: ['Water', 'Dark'],
@@ -6278,23 +6257,28 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Rattata': {
       types: ['Normal'],
-      bs: { hp: 47, at: 69, df: 42, sa: 40, sd: 42, sp: 90 }
+      bs: { hp: 47, at: 69, df: 42, sa: 40, sd: 42, sp: 90 },
+      otherFormes: ['Rattata-Alola']
   },
   'Raticate': {
       types: ['Normal'],
-      bs: { hp: 70, at: 109, df: 72, sa: 50, sd: 72, sp: 107 }
+      bs: { hp: 70, at: 109, df: 72, sa: 50, sd: 72, sp: 107 },
+      otherFormes: ['Raticate-Alola', 'Raticate-Alola-Totem']
   },
   'Rattata-Alola': {
       types: ['Normal', 'Dark'],
-      bs: { hp: 47, at: 69, df: 42, sa: 40, sd: 42, sp: 90 }
+      bs: { hp: 47, at: 69, df: 42, sa: 40, sd: 42, sp: 90 },
+      baseSpecies: 'Rattata'
   },
   'Raticate-Alola': {
       types: ['Normal', 'Dark'],
-      bs: { hp: 94, at: 109, df: 80, sa: 40, sd: 80, sp: 77 }
+      bs: { hp: 94, at: 109, df: 80, sa: 40, sd: 80, sp: 77 },
+      baseSpecies: 'Raticate'
   },
   'Raticate-Alola-Totem': {
       types: ['Normal', 'Dark'],
-      bs: { hp: 119, at: 114, df: 90, sa: 40, sd: 90, sp: 47 }
+      bs: { hp: 119, at: 114, df: 90, sa: 40, sd: 90, sp: 47 },
+      baseSpecies: 'Raticate'
   },
   'Spearow': {
       types: ['Normal', 'Flying'],
@@ -6322,27 +6306,33 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Raichu': {
       types: ['Electric'],
-      bs: { hp: 70, at: 95, df: 65, sa: 110, sd: 85, sp: 125 }
+      bs: { hp: 70, at: 95, df: 65, sa: 110, sd: 85, sp: 125 },
+      otherFormes: ['Raichu-Alola']
   },
   'Raichu-Alola': {
       types: ['Electric', 'Psychic'],
-      bs: { hp: 70, at: 85, df: 60, sa: 110, sd: 95, sp: 130 }
+      bs: { hp: 70, at: 85, df: 60, sa: 110, sd: 95, sp: 130 },
+      baseSpecies: 'Raichu'
   },
   'Sandshrew': {
       types: ['Ground'],
-      bs: { hp: 50, at: 75, df: 95, sa: 20, sd: 60, sp: 50 }
+      bs: { hp: 50, at: 75, df: 95, sa: 20, sd: 60, sp: 50 },
+      otherFormes: ['Sandshrew-Alola']
   },
   'Sandslash': {
       types: ['Ground'],
-      bs: { hp: 75, at: 110, df: 115, sa: 45, sd: 70, sp: 110 }
+      bs: { hp: 75, at: 110, df: 115, sa: 45, sd: 70, sp: 110 },
+      otherFormes: ['Sandslash-Alola']
   },
   'Sandshrew-Alola': {
       types: ['Ice', 'Steel'],
-      bs: { hp: 50, at: 75, df: 110, sa: 10, sd: 70, sp: 40 }
+      bs: { hp: 50, at: 75, df: 110, sa: 10, sd: 70, sp: 40 },
+      baseSpecies: 'Sandshrew'
   },
   'Sandslash-Alola': {
       types: ['Ice', 'Steel'],
-      bs: { hp: 75, at: 115, df: 125, sa: 25, sd: 85, sp: 100 }
+      bs: { hp: 75, at: 115, df: 125, sa: 25, sd: 85, sp: 100 },
+      baseSpecies: 'Sandslash'
   },
   'Nidoran-F': {
       types: ['Poison', 'Normal'],
@@ -6382,19 +6372,23 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Vulpix': {
       types: ['Fire'],
-      bs: { hp: 45, at: 40, df: 45, sa: 88, sd: 75, sp: 77 }
+      bs: { hp: 45, at: 40, df: 45, sa: 88, sd: 75, sp: 77 },
+      otherFormes:['Vulpix-Alola']
   },
   'Ninetales': {
       types: ['Fire', 'Fairy'],
-      bs: { hp: 73, at: 57, df: 75, sa: 112, sd: 109, sp: 109 }
+      bs: { hp: 73, at: 57, df: 75, sa: 112, sd: 109, sp: 109 },
+      otherFormes:['Ninetales-Alola']
   },
   'Vulpix-Alola': {
       types: ['Ice'],
-      bs: { hp: 45, at: 40, df: 45, sa: 85, sd: 78, sp: 77 }
+      bs: { hp: 45, at: 40, df: 45, sa: 85, sd: 78, sp: 77 },
+      baseSpecies:'Vulpix'
   },
   'Ninetales-Alola': {
 		types: ['Ice', 'Fairy'],
-		bs: { hp: 73, at: 57, df: 75, sa: 109, sd: 112, sp: 109 }
+		bs: { hp: 73, at: 57, df: 75, sa: 109, sd: 112, sp: 109 },
+    baseSpecies:'Ninetales'
   },
   'Igglybuff': {
       types: ['Normal', 'Fairy'],
@@ -6454,35 +6448,43 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Diglett': {
       types: ['Ground'],
-      bs: { hp: 25, at: 60, df: 55, sa: 35, sd: 55, sp: 100 }
+      bs: { hp: 25, at: 60, df: 55, sa: 35, sd: 55, sp: 100 },
+      otherFormes: ['Diglett-Alola']
   },
   'Dugtrio': {
       types: ['Ground'],
-      bs: { hp: 65, at: 1045, df: 70, sa: 50, sd: 70, sp: 120 }
+      bs: { hp: 65, at: 105, df: 70, sa: 50, sd: 70, sp: 120 },
+      otherFormes: ['Dugtrio-Alola']
   },
   'Diglett-Alola': {
       types: ['Ground', 'Steel'],
-      bs: { hp: 25, at: 60, df: 60, sa: 35, sd: 55, sp: 95 }
+      bs: { hp: 25, at: 60, df: 60, sa: 35, sd: 55, sp: 95 },
+      baseSpecies: 'Diglett'
   },
   'Dugtrio-Alola': {
       types: ['Ground', 'Steel'],
-      bs: { hp: 65, at: 105, df: 80, sa: 50, sd: 70, sp: 110 }
+      bs: { hp: 65, at: 105, df: 80, sa: 50, sd: 70, sp: 110 },
+      baseSpecies: 'Dugtrio'
   },
   'Meowth': {
 		types: ['Normal'],
-		bs: { hp: 40, at: 65, df: 35, sa: 55, sd: 40, sp: 95 }
+		bs: { hp: 40, at: 65, df: 35, sa: 55, sd: 40, sp: 95 },
+    otherFormes: ['Meowth-Alola']
   },
   'Persian': {
       types: ['Normal'],
-      bs: { hp: 70, at: 102, df: 65, sa: 90, sd: 70, sp: 118 }
+      bs: { hp: 70, at: 102, df: 65, sa: 90, sd: 70, sp: 118 },
+      otherFormes: ['Persian-Alola']
   },
   'Meowth-Alola': {
       types: ['Dark'],
-      bs: { hp: 40, at: 60, df: 35, sa: 65, sd: 40, sp: 95 }
+      bs: { hp: 40, at: 60, df: 35, sa: 65, sd: 40, sp: 95 },
+      baseSpecies: 'Meowth'
   },
   'Persian-Alola': {
       types: ['Dark'],
-      bs: { hp: 70, at: 93, df: 65, sa: 102, sd: 70, sp: 115 }
+      bs: { hp: 70, at: 93, df: 65, sa: 102, sd: 70, sp: 115 },
+      baseSpecies: 'Persian'
   },
   'Psyduck': {
       types: ['Water', 'Psychic'],
@@ -6574,27 +6576,33 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Geodude': {
       types: ['Rock', 'Ground'],
-      bs: { hp: 45, at: 80, df: 100, sa: 30, sd: 50, sp: 20 }
+      bs: { hp: 45, at: 80, df: 100, sa: 30, sd: 50, sp: 20 },
+      otherFormes: ['Geodude-Alola']
   },
   'Graveler': {
       types: ['Rock', 'Ground'],
-      bs: { hp: 70, at: 110, df: 115, sa: 35, sd: 55, sp: 65 }
+      bs: { hp: 70, at: 110, df: 115, sa: 35, sd: 55, sp: 65 },
+      otherFormes: ['Graveler-Alola']
   },
   'Golem': {
       types: ['Rock', 'Ground'],
-      bs: { hp: 80, at: 120, df: 130, sa: 55, sd: 70, sp: 95 }
+      bs: { hp: 80, at: 120, df: 130, sa: 55, sd: 70, sp: 95 },
+      otherFormes: ['Golem-Alola']
   },
   'Geodude-Alola': {
       types: ['Rock', 'Electric'],
-      bs: { hp: 45, at: 80, df: 100, sa: 30, sd: 50, sp: 20 }
+      bs: { hp: 45, at: 80, df: 100, sa: 30, sd: 50, sp: 20 },
+      baseSpecies:'Geodude'
   },
   'Graveler-Alola': {
       types: ['Rock', 'Electric'],
-      bs: { hp: 70, at: 110, df: 115, sa: 35, sd: 60, sp: 60 }
+      bs: { hp: 70, at: 110, df: 115, sa: 35, sd: 60, sp: 60 },
+      baseSpecies:'Graveler'
   },
   'Golem-Alola': {
       types: ['Rock', 'Electric'],
-      bs: { hp: 80, at: 120, df: 130, sa: 105, sd: 70, sp: 45 }
+      bs: { hp: 80, at: 120, df: 130, sa: 105, sd: 70, sp: 45 },
+      baseSpecies:'Golem'
   },
   'Ponyta': {
       types: ['Fire', 'Normal'],
@@ -6654,19 +6662,23 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Grimer': {
       types: ['Poison'],
-      bs: { hp: 60, at: 80, df: 60, sa: 75, sd: 80, sp: 15 }
+      bs: { hp: 60, at: 80, df: 60, sa: 75, sd: 80, sp: 15 },
+      otherFormes: ['Grimer-Alola']
   },
   'Muk': {
       types: ['Poison'],
-      bs: { hp: 110, at: 110, df: 80, sa: 95, sd: 115, sp: 15 }
+      bs: { hp: 110, at: 110, df: 80, sa: 95, sd: 115, sp: 15 },
+      otherFormes: ['Muk-Alola']
   },
   'Grimer-Alola': {
       types: ['Poison', 'Dark'],
-      bs: { hp: 60, at: 85, df: 60, sa: 70, sd: 80, sp: 15 }
+      bs: { hp: 60, at: 85, df: 60, sa: 70, sd: 80, sp: 15 },
+      baseSpecies:'Grimer'
   },
   'Muk-Alola': {
       types: ['Poison', 'Dark'],
-      bs: { hp: 110, at: 115, df: 85, sa: 90, sd: 110, sp: 15 }
+      bs: { hp: 110, at: 115, df: 85, sa: 90, sd: 110, sp: 15 },
+      baseSpecies:'Muk'
   },
   'Shellder': {
       types: ['Water'],
@@ -6734,11 +6746,13 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Exeggutor': {
       types: ['Grass', 'Psychic'],
-      bs: { hp: 95, at: 100, df: 90, sa: 125, sd: 115, sp: 50 }
+      bs: { hp: 95, at: 100, df: 90, sa: 125, sd: 115, sp: 50 },
+      otherFormes: ['Exeggutor-Alola']
   },
   'Exeggutor-Alola': {
       types: ['Grass', 'Dragon'],
-      bs: { hp: 120, at: 125, df: 90, sa: 100, sd: 90, sp: 50 }
+      bs: { hp: 120, at: 125, df: 90, sa: 100, sd: 90, sp: 50 },
+      baseSpecies:'Exeggutor'
   },
   'Cubone': {
       types: ['Ground'],
@@ -6746,15 +6760,18 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Marowak': {
       types: ['Ground', 'Fighting'],
-      bs: { hp: 65, at: 80, df: 115, sa: 50, sd: 80, sp: 90 }
+      bs: { hp: 65, at: 80, df: 115, sa: 50, sd: 80, sp: 90 },
+      otherFormes: ['Marowak-Alola', 'Marowak-Alola-Totem']
   },
   'Marowak-Alola': {
       types: ['Ghost', 'Fire'],
-      bs: { hp: 65, at: 80, df: 110, sa: 50, sd: 80, sp: 95 }
+      bs: { hp: 65, at: 80, df: 110, sa: 50, sd: 80, sp: 95 },
+      baseSpecies: 'Marowak'
   },
   'Marowak-Alola-Totem': {
       types: ['Ghost', 'Fire'],
-      bs: { hp: 80, at: 80, df: 110, sa: 105, sd: 80, sp: 95 }
+      bs: { hp: 80, at: 80, df: 110, sa: 105, sd: 80, sp: 95 },
+      baseSpecies:'Marowak'
   },
   'Tyrogue': {
       types: ['Fighting'],
@@ -8266,19 +8283,23 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Shellos': {
       types: ['Poison', 'Ground'],
-      bs: { hp: 58, at: 35, df: 58, sa: 83, sd: 93, sp: 23 }
+      bs: { hp: 58, at: 35, df: 58, sa: 83, sd: 93, sp: 23 },
+      otherFormes: ['Shellos-East']
   },
   'Gastrodon': {
       types: ['Poison', 'Ground'],
-      bs: { hp: 88, at: 60, df: 88, sa: 113, sd: 123, sp: 28 }
+      bs: { hp: 88, at: 60, df: 88, sa: 113, sd: 123, sp: 28 },
+      otherFormes: ['Gastrodon-East']
   },
   'Shellos-East': {
       types: ['Water', 'Ground'],
-      bs: { hp: 58, at: 35, df: 58, sa: 78, sd: 98, sp: 23 }
+      bs: { hp: 58, at: 35, df: 58, sa: 78, sd: 98, sp: 23 },
+      baseSpecies:'Shellos'
   },
   'Gastrodon-East': {
       types: ['Water', 'Ground'],
-      bs: { hp: 88, at: 60, df: 88, sa: 108, sd: 128, sp: 28 }
+      bs: { hp: 88, at: 60, df: 88, sa: 108, sd: 128, sp: 28 },
+      baseSpecies:'Gastrodon'
   },
   'Drifloon': {
       types: ['Ghost', 'Flying'],
@@ -8494,7 +8515,8 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Arceus': {
       types: ['Normal'],
-      bs: { hp: 250, at: 250, df: 250, sa: 250, sd: 250, sp: 250 }
+      bs: { hp: 250, at: 250, df: 250, sa: 250, sd: 250, sp: 250 },
+      otherFormes: []
   },
   'Snivy': {
 		types: ['Grass'],
@@ -9190,11 +9212,13 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Greninja': {
       types: ['Water', 'Dark'],
-      bs: { hp: 72, at: 100, df: 67, sa: 108, sd: 71, sp: 132 }
+      bs: { hp: 72, at: 100, df: 67, sa: 108, sd: 71, sp: 132 },
+      otherFormes: ['Greninja-Ash']
   },
   'Greninja-Ash': {
       types: ['Water', 'Dark'],
-      bs: { hp: 72, at: 145, df: 67, sa: 153, sd: 71, sp: 142 }
+      bs: { hp: 72, at: 145, df: 67, sa: 153, sd: 71, sp: 142 },
+      baseSpecies: 'Greninja'
   },
   'Bunnelby': {
       types: ['Normal'],
@@ -9248,7 +9272,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       types: ['Fairy'],
       bs: { hp: 78, at: 52, df: 78, sa: 113, sd: 154, sp: 75 }
   },
-  'Floette-Eternal-Flower': {
+  'Floette-Eternal': {
       types: ['Fairy', 'Dark'],
       bs: { hp: 67, at: 52, df: 67, sa: 154, sd: 113, sp: 97 }
   },
@@ -9270,43 +9294,53 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Furfrou': {
       types: ['Normal'],
-      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 }
+      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
+      otherFormes: ['Furfrou-Kabuki', 'Furfrou-Pharaoh', 'Furfrou-Heart', 'Furfrou-La-Reine', 'Furfrou-Dandy', 'Furfrou-Debutante', 'Furfrou-Matron', 'Furfrou-Diamond', 'Furfrou-Star']
   },
   'Furfrou-Kabuki': {
       types: ['Normal', 'Fighting'],
-      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 }
+      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
+      baseSpecies: 'Furfrou'
   },
   'Furfrou-Pharaoh': {
       types: ['Normal', 'Dark'],
-      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 }
+      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
+      baseSpecies: 'Furfrou'
   },
   'Furfrou-Heart': {
       types: ['Normal', 'Fairy'],
-      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 }
+      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
+      baseSpecies: 'Furfrou'
   },
   'Furfrou-La-Reine': {
       types: ['Normal', 'Water'],
-      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 }
+      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
+      baseSpecies: 'Furfrou'
   },
   'Furfrou-Dandy': {
       types: ['Normal', 'Grass'],
-      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 }
+      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
+      baseSpecies: 'Furfrou'
   },
   'Furfrou-Debutante': {
       types: ['Normal', 'Electric'],
-      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 }
+      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
+      baseSpecies: 'Furfrou'
   },
   'Furfrou-Matron': {
       types: ['Normal', 'Poison'],
-      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 }
+      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
+      baseSpecies: 'Furfrou'
   },
   'Furfrou-Diamond': {
       types: ['Normal', 'Rock'],
-      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 }
+      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
+      baseSpecies: 'Furfrou'
   },
   'Furfrou-Star': {
       types: ['Normal', 'Ice'],
-      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 }
+      bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
+      baseSpecies: 'Furfrou'
   },
   'Espurr': {
       types: ['Psychic'],
@@ -9328,9 +9362,9 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       types: ['Steel', 'Ghost'],
       bs: { hp: 65, at: 125, df: 150, sa: 45, sd: 65, sp: 50 }
   },
-  'Aegislash': {
+  'Aegislash-Shield': {
       types: ['Steel', 'Ghost'],
-      bs: { hp: 75, at: 50, df: 150, sa: 50, sd: 150, sp: 75 }
+      bs: { hp: 75, at: 50, df: 150, sa: 50, sd: 150, sp: 75 },
   },
   'Aegislash-Blade': {
       types: ['Steel', 'Ghost'],
@@ -9494,15 +9528,18 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Zygarde-10%': {
       types: ['Dragon', 'Normal'],
-      bs: { hp: 64, at: 110, df: 71, sa: 110, sd: 71, sp: 134 }
+      bs: { hp: 64, at: 110, df: 71, sa: 110, sd: 71, sp: 134 },
+      baseSpecies: 'Zygarde'
   },
   'Zygarde': {
       types: ['Dragon', 'Ground'],
-      bs: { hp: 128, at: 121, df: 121, sa: 121, sd: 95, sp: 74 }
+      bs: { hp: 128, at: 121, df: 121, sa: 121, sd: 95, sp: 74 },
+      otherFormes: ['Zygarde-10%', 'Zygarde-Complete']
   },
   'Zygarde-Complete': {
       types: ['Dragon', 'Ground'],
-      bs: { hp: 228, at: 121, df: 121, sa: 121, sd: 95, sp: 74 }
+      bs: { hp: 228, at: 121, df: 121, sa: 121, sd: 95, sp: 74 },
+      baseSpecies: 'Zygarde'
   },
   'Xerneas': {
       types: ['Fairy'],
@@ -9566,11 +9603,13 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Gumshoos': {
       types: ['Normal'],
-      bs: { hp: 75, at: 115, df: 75, sa: 50, sd: 75, sp: 90 }
+      bs: { hp: 75, at: 115, df: 75, sa: 50, sd: 75, sp: 90 },
+      otherFormes: ['Gumshoos-Totem']
   },
   'Gumshoos-Totem': {
       types: ['Normal'],
-      bs: { hp: 100, at: 125, df: 75, sa: 50, sd: 75, sp: 90 }
+      bs: { hp: 100, at: 125, df: 75, sa: 50, sd: 75, sp: 90 },
+      baseSpecies: 'Gumshoos'
   },
   'Grubbin': {
       types: ['Bug'],
@@ -9582,11 +9621,13 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Vikavolt': {
       types: ['Bug', 'Electric'],
-      bs: { hp: 72, at: 70, df: 90, sa: 145, sd: 75, sp: 123 }
+      bs: { hp: 72, at: 70, df: 90, sa: 145, sd: 75, sp: 123 },
+      otherFormes: ['Vikavolt-Totem']
   },
   'Vikavolt-Totem': {
       types: ['Bug', 'Electric'],
-      bs: { hp: 92, at: 100, df: 90, sa: 145, sd: 75, sp: 123 }
+      bs: { hp: 92, at: 100, df: 90, sa: 145, sd: 75, sp: 123 },
+      baseSpecies: 'Vikavolt'
   },
   'Crabrawler': {
       types: ['Fighting', 'Water'],
@@ -9598,19 +9639,23 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Oricorio': {
       types: ['Fire', 'Flying'],
-      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 }
+      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 },
+      otherFormes: ['Oriocorio-Pom-Pom', 'Oricorio-Pa\'u', 'Oricorio-Sensu']
   },
   'Oricorio-Pom-Pom': {
       types: ['Electric', 'Flying'],
-      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 }
+      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 },
+      baseSpecies: 'Oricorio'
   },
   'Oricorio-Pa\'u': {
       types: ['Psychic', 'Flying'],
-      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 }
+      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 },
+      baseSpecies: 'Oricorio'
   },
   'Oricorio-Sensu': {
       types: ['Ghost', 'Flying'],
-      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 }
+      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 },
+      baseSpecies: 'Oricorio'
   },
   'Cutiefly': {
       types: ['Bug', 'Fairy'],
@@ -9618,11 +9663,13 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Ribombee': {
       types: ['Bug', 'Fairy'],
-      bs: { hp: 60, at: 55, df: 60, sa: 111, sd: 95, sp: 134 }
+      bs: { hp: 60, at: 55, df: 60, sa: 111, sd: 95, sp: 134 },
+      otherFormes: ['Ribombee-Totem']
   },
   'Ribombee-Totem': {
       types: ['Bug', 'Fairy'],
-      bs: { hp: 85, at: 55, df: 60, sa: 116, sd: 100, sp: 134 }
+      bs: { hp: 85, at: 55, df: 60, sa: 116, sd: 100, sp: 134 },
+      baseSpecies: 'Ribombee'
   },
   'Rockruff': {
       types: ['Rock', 'Normal'],
@@ -9630,23 +9677,28 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Lycanroc': {
       types: ['Rock', 'Normal'],
-      bs: { hp: 75, at: 120, df: 73, sa: 55, sd: 65, sp: 127 }
+      bs: { hp: 75, at: 120, df: 73, sa: 55, sd: 65, sp: 127 },
+      otherFormes: ['Lycanroc-Midnight', 'Lycanroc-Dusk']
   },
   'Lycanroc-Midnight': {
       types: ['Rock', 'Dark'],
-      bs: { hp: 75, at: 120, df: 93, sa: 55, sd: 75, sp: 97 }
+      bs: { hp: 75, at: 120, df: 93, sa: 55, sd: 75, sp: 97 },
+      baseSpecies: 'Lycanroc'
   },
   'Lycanroc-Dusk': {
       types: ['Rock', 'Fighting'],
-      bs: { hp: 75, at: 120, df: 83, sa: 55, sd: 70, sp: 112 }
+      bs: { hp: 75, at: 120, df: 83, sa: 55, sd: 70, sp: 112 },
+      baseSpecies: 'Lycanroc'
   },
   'Wishiwashi': {
       types: ['Water'],
-      bs: { hp: 30, at: 20, df: 25, sa: 20, sd: 25, sp: 90 }
+      bs: { hp: 30, at: 20, df: 25, sa: 20, sd: 25, sp: 90 },
+      otherFormes: ['Wishiwashi-School']
   },
   'Wishiwashi-School': {
       types: ['Water'],
-      bs: { hp: 150, at: 140, df: 100, sa: 140, sd: 100, sp: 30 }
+      bs: { hp: 150, at: 140, df: 100, sa: 140, sd: 100, sp: 30 },
+      baseSpecies: 'Wishiwashi'
   },
   'Mareanie': {
       types: ['Poison', 'Water'],
@@ -9670,11 +9722,13 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Araquanid': {
       types: ['Water', 'Bug'],
-      bs: { hp: 94, at: 70, df: 92, sa: 80, sd: 132, sp: 67 }
+      bs: { hp: 94, at: 70, df: 92, sa: 80, sd: 132, sp: 67 },
+      otherFormes: ['Araquanid-Totem']
   },
   'Araquanid-Totem': {
       types: ['Water', 'Bug'],
-      bs: { hp: 124, at: 70, df: 92, sa: 80, sd: 132, sp: 52 }
+      bs: { hp: 124, at: 70, df: 92, sa: 80, sd: 132, sp: 52 },
+      baseSpecies: 'Araquanid'
   },
   'Fomantis': {
       types: ['Grass'],
@@ -9682,11 +9736,13 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Lurantis': {
       types: ['Grass'],
-      bs: { hp: 70, at: 110, df: 75, sa: 100, sd: 75, sp: 105 }
+      bs: { hp: 70, at: 110, df: 75, sa: 100, sd: 75, sp: 105 },
+      otherFormes: ['Lurantis-Totem']
   },
   'Lurantis-Totem': {
       types: ['Grass'],
-      bs: { hp: 95, at: 110, df: 75, sa: 100, sd: 75, sp: 95 }
+      bs: { hp: 95, at: 110, df: 75, sa: 100, sd: 75, sp: 95 },
+      baseSpecies: 'Lurantis'
   },
   'Morelull': {
       types: ['Poison', 'Fairy'],
@@ -9702,11 +9758,13 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Salazzle': {
       types: ['Poison', 'Fire'],
-      bs: { hp: 73, at: 64, df: 60, sa: 121, sd: 83, sp: 124 }
+      bs: { hp: 73, at: 64, df: 60, sa: 121, sd: 83, sp: 124 },
+      otherFormes: ['Salazzle-Totem']
   },
   'Salazzle-Totem': {
       types: ['Poison', 'Fire'],
-      bs: { hp: 98, at: 64, df: 60, sa: 121, sd: 83, sp: 124 }
+      bs: { hp: 98, at: 64, df: 60, sa: 121, sd: 83, sp: 124 },
+      baseSpecies: 'Salazzle'
   },
   'Stufful': {
       types: ['Normal', 'Fighting'],
@@ -9770,35 +9828,43 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Minior-Meteor': {
       types: ['Rock', 'Flying'],
-      bs: { hp: 60, at: 60, df: 150, sa: 60, sd: 150, sp: 60 }
+      bs: { hp: 60, at: 60, df: 150, sa: 60, sd: 150, sp: 60 },
+      otherFormes: ['Minior-Pink', 'Minior-Orange', 'Minior-Yellow', 'Minior-Green', 'Minior-Blue', 'Minior-Indigo', 'Minior-Violet']
   },
   'Minior-Pink': {
       types: ['Rock', 'Psychic'],
-      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 },
+      baseSpecies: 'Minior-Meteor'
   },
   'Minior-Orange': {
       types: ['Rock', 'Fire'],
-      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 },
+      baseSpecies: 'Minior-Meteor'
   },
   'Minior-Yellow': {
       types: ['Rock', 'Electric'],
-      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 },
+      baseSpecies: 'Minior-Meteor'
   },
   'Minior-Green': {
       types: ['Rock', 'Grass'],
-      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 },
+      baseSpecies: 'Minior-Meteor'
   },
   'Minior-Blue': {
       types: ['Rock', 'Ice'],
-      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 },
+      baseSpecies: 'Minior-Meteor'
   },
   'Minior-Indigo': {
       types: ['Rock', 'Water'],
-      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 },
+      baseSpecies: 'Minior-Meteor'
   },
   'Minior-Violet': {
       types: ['Rock', 'Dragon'],
-      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 },
+      baseSpecies: 'Minior-Meteor'
   },
   'Komala': {
       types: ['Normal', 'Grass'],
@@ -9810,19 +9876,23 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Togedemaru': {
       types: ['Electric', 'Steel'],
-      bs: { hp: 65, at: 98, df: 118, sa: 40, sd: 93, sp: 101 }
+      bs: { hp: 65, at: 98, df: 118, sa: 40, sd: 93, sp: 101 },
+      otherFormes: ['Togedemaru-Totem']
   },
   'Togedemaru-Totem': {
       types: ['Electric', 'Steel'],
-      bs: { hp: 100, at: 108, df: 118, sa: 40, sd: 93, sp: 91 }
+      bs: { hp: 100, at: 108, df: 118, sa: 40, sd: 93, sp: 91 },
+      baseSpecies: 'Togedemaru'
   },
   'Mimikyu': {
       types: ['Ghost', 'Fairy'],
-      bs: { hp: 55, at: 95, df: 55, sa: 95, sd: 119, sp: 106 }
+      bs: { hp: 55, at: 95, df: 55, sa: 95, sd: 119, sp: 106 },
+      otherFormes: ['Mimikyu-Totem']
   },
   'Mimikyu-Totem': {
       types: ['Ghost', 'Fairy'],
-      bs: { hp: 80, at: 100, df: 55, sa: 100, sd: 119, sp: 96 }
+      bs: { hp: 80, at: 100, df: 55, sa: 100, sd: 119, sp: 96 },
+      baseSpecies: 'Mimikyu'
   },
   'Bruxish': {
       types: ['Water', 'Psychic'],
@@ -9846,11 +9916,13 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Kommo-o': {
       types: ['Dragon', 'Steel'],
-      bs: { hp: 90, at: 110, df: 125, sa: 110, sd: 80, sp: 85 }
+      bs: { hp: 90, at: 110, df: 125, sa: 110, sd: 80, sp: 85 },
+      otherFormes: ['Kommo-o-Totem']
   },
   'Kommo-o-Totem': {
       types: ['Dragon', 'Steel'],
-      bs: { hp: 125, at: 120, df: 125, sa: 110, sd: 80, sp: 65 }
+      bs: { hp: 125, at: 120, df: 125, sa: 110, sd: 80, sp: 65 },
+      baseSpecies: 'Kommo-o'
   },
   'Tapu Koko': {
       types: ['Electric', 'Fairy'],
@@ -9934,7 +10006,8 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Necrozma': {
       types: ['Psychic', 'Dark'],
-      bs: { hp: 103, at: 127, df: 101, sa: 131, sd: 101, sp: 97 }
+      bs: { hp: 103, at: 127, df: 101, sa: 131, sd: 101, sp: 97 },
+      otherFormes: ['Necrozma-Dusk-Mane', 'Necrozma-Dawn-Wings', 'Necrozma-Ultra']
   },
   'Solgaleo': {
       types: ['Psychic', 'Steel'],
@@ -9946,15 +10019,18 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Necrozma-Dusk-Mane': {
       types: ['Psychic', 'Steel'],
-      bs: { hp: 139, at: 157, df: 139, sa: 149, sd: 139, sp: 97 }
+      bs: { hp: 139, at: 157, df: 139, sa: 149, sd: 139, sp: 97 },
+      baseSpecies: 'Necrozma'
   },
   'Necrozma-Dawn-Wings': {
       types: ['Psychic', 'Ghost'],
-      bs: { hp: 139, at: 139, df: 131, sa: 157, sd: 157, sp: 97 }
+      bs: { hp: 139, at: 139, df: 131, sa: 157, sd: 157, sp: 97 },
+      baseSpecies: 'Necrozma'
   },
   'Necrozma-Ultra': {
       types: ['Psychic', 'Dragon'],
-      bs: { hp: 139, at: 199, df: 103, sa: 199, sd: 103, sp: 137 }
+      bs: { hp: 139, at: 199, df: 103, sa: 199, sd: 103, sp: 137 },
+      baseSpecies: 'Necrozma'
   }
 };
 
@@ -9969,7 +10045,6 @@ delete SM['Pikachu-Libre'];
 
 const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Aegislash-Blade': {bs: {at: 140, sa: 140}},
-  'Aegislash-Both': {bs: {at: 140, df: 140, sa: 140, sd: 140}},
   'Aegislash-Shield': {bs: {df: 140, sd: 140}},
   Articuno: {otherFormes: ['Articuno-Galar']},
   Blastoise: {otherFormes: ['Blastoise-Gmax', 'Blastoise-Mega']},
@@ -9989,7 +10064,22 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Lapras: {otherFormes: ['Lapras-Gmax']},
   Linoone: {otherFormes: ['Linoone-Galar']},
   Machamp: {otherFormes: ['Machamp-Gmax']},
-  Melmetal: {otherFormes: ['Melmetal-Gmax']},
+  Melmetal: {
+    types: ['Steel'],
+    bs: {hp: 135, at: 143, df: 143, sa: 80, sd: 65, sp: 34},
+    weightkg: 800,
+    gender: 'N',
+    abilities: {0: 'Iron Fist'},
+  },
+  // Meltan does NOT benefit from Eviolite and should not have nfe: true (credit: Anubis)
+  // https://smogon.com/forums/threads/sword-shield-battle-mechanics-research.3655528/post-8295399
+  Meltan: {
+    types: ['Steel'],
+    bs: {hp: 46, at: 65, df: 65, sa: 55, sd: 35, sp: 34},
+    weightkg: 8,
+    gender: 'N',
+    abilities: {0: 'Magnet Pull'},
+  },
   Meowth: {otherFormes: ['Meowth-Alola', 'Meowth-Galar', 'Meowth-Gmax']},
   Moltres: {otherFormes: ['Moltres-Galar']},
   'Mr. Mime': {otherFormes: ['Mr. Mime-Galar']},
@@ -11222,6 +11312,8 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
 
 const SS: {[name: string]: SpeciesData} = extend(true, {}, SM, SS_PATCH);
 
+delete SS['Pikachu-Starter'];
+delete SS['Eevee-Starter'];
 
 const PLA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Arcanine: {otherFormes: ['Arcanine-Hisui']},
