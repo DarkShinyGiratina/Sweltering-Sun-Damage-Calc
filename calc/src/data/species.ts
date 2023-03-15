@@ -9512,1081 +9512,450 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       types: ['Dark', 'Flying'],
       bs: { hp: 126, at: 131, df: 95, sa: 171, sd: 128, sp: 99 }
   },
-
-
-
-
-
-
-
-
-  Araquanid: {
-    types: ['Water', 'Bug'],
-    bs: {hp: 68, at: 70, df: 92, sa: 50, sd: 132, sp: 42},
-    abilities: {0: 'Water Bubble'},
-    weightkg: 82,
-    otherFormes: ['Araquanid-Totem'],
+  'Rowlet': {
+		types: ['Grass', 'Flying'],
+		bs: { hp: 53, at: 55, df: 55, sa: 55, sd: 55, sp: 47 }
   },
-  'Araquanid-Totem': {
-    types: ['Water', 'Bug'],
-    bs: {hp: 68, at: 70, df: 92, sa: 50, sd: 132, sp: 42},
-    abilities: {0: 'Water Bubble'},
-    weightkg: 217.5,
-    baseSpecies: 'Araquanid',
+  'Dartrix': {
+      types: ['Grass', 'Flying'],
+      bs: { hp: 63, at: 75, df: 70, sa: 75, sd: 70, sp: 82 }
   },
-  Bewear: {
-    types: ['Normal', 'Fighting'],
-    bs: {hp: 120, at: 125, df: 80, sa: 55, sd: 60, sp: 60},
-    abilities: {0: 'Fluffy'},
-    weightkg: 135,
+  'Decidueye': {
+      types: ['Grass', 'Ghost'],
+      bs: { hp: 73, at: 110, df: 70, sa: 110, sd: 70, sp: 117 }
   },
-  Blacephalon: {
-    types: ['Fire', 'Ghost'],
-    bs: {hp: 53, at: 127, df: 53, sa: 151, sd: 79, sp: 107},
-    weightkg: 13,
-    abilities: {0: 'Beast Boost'},
-    gender: 'N',
+  'Litten': {
+      types: ['Fire'],
+      bs: { hp: 45, at: 65, df: 45, sa: 45, sd: 45, sp: 75 }
   },
-  Bounsweet: {
-    types: ['Grass'],
-    bs: {hp: 42, at: 30, df: 38, sa: 30, sd: 38, sp: 32},
-    weightkg: 3.2,
-    nfe: true,
-    abilities: {0: 'Leaf Guard'},
+  'Torracat': {
+      types: ['Fire'],
+      bs: { hp: 65, at: 90, df: 60, sa: 60, sd: 60, sp: 100 }
   },
-  Brionne: {
-    types: ['Water'],
-    bs: {hp: 60, at: 69, df: 69, sa: 91, sd: 81, sp: 50},
-    weightkg: 17.5,
-    nfe: true,
-    abilities: {0: 'Torrent'},
+  'Incineroar': {
+      types: ['Fire', 'Dark'],
+      bs: { hp: 95, at: 125, df: 90, sa: 70, sd: 90, sp: 80 }
   },
-  Bruxish: {
-    types: ['Water', 'Psychic'],
-    bs: {hp: 68, at: 105, df: 70, sa: 70, sd: 70, sp: 92},
-    weightkg: 19,
-    abilities: {0: 'Dazzling'},
+  'Popplio': {
+      types: ['Water'],
+      bs: { hp: 50, at: 49, df: 54, sa: 66, sd: 61, sp: 40 }
   },
-  Buzzwole: {
-    types: ['Bug', 'Fighting'],
-    bs: {hp: 107, at: 139, df: 139, sa: 53, sd: 53, sp: 79},
-    weightkg: 333.6,
-    abilities: {0: 'Beast Boost'},
-    gender: 'N',
+  'Brionne': {
+      types: ['Water'],
+      bs: { hp: 60, at: 64, df: 74, sa: 96, sd: 91, sp: 50 }
   },
-  Caribolt: {
-    types: ['Grass', 'Electric'],
-    bs: {hp: 84, at: 106, df: 82, sa: 77, sd: 80, sp: 106},
-    weightkg: 140,
-    abilities: {0: 'Overgrow'},
+  'Primarina': {
+      types: ['Water', 'Fairy'],
+      bs: { hp: 85, at: 74, df: 84, sa: 126, sd: 121, sp: 60 }
   },
-  Celesteela: {
-    types: ['Steel', 'Flying'],
-    bs: {hp: 97, at: 101, df: 103, sa: 107, sd: 101, sp: 61},
-    weightkg: 999.9,
-    abilities: {0: 'Beast Boost'},
-    gender: 'N',
+  'Pikipek': {
+      types: ['Normal', 'Flying'],
+      bs: { hp: 40, at: 75, df: 40, sa: 40, sd: 40, sp: 75 }
   },
-  Charjabug: {
-    types: ['Bug', 'Electric'],
-    bs: {hp: 57, at: 82, df: 95, sa: 55, sd: 75, sp: 36},
-    weightkg: 10.5,
-    nfe: true,
-    abilities: {0: 'Battery'},
+  'Trumbeak': {
+      types: ['Normal', 'Flying'],
+      bs: { hp: 55, at: 90, df: 50, sa: 80, sd: 50, sp: 95 }
   },
-  Comfey: {
-    types: ['Fairy'],
-    bs: {hp: 51, at: 52, df: 90, sa: 82, sd: 110, sp: 100},
-    weightkg: 0.3,
-    abilities: {0: 'Flower Veil'},
+  'Toucannon': {
+      types: ['Normal', 'Flying'],
+      bs: { hp: 80, at: 120, df: 85, sa: 110, sd: 85, sp: 70 }
   },
-  Cosmoem: {
-    types: ['Psychic'],
-    bs: {hp: 43, at: 29, df: 131, sa: 29, sd: 131, sp: 37},
-    weightkg: 999.9,
-    nfe: true,
-    gender: 'N',
-    abilities: {0: 'Sturdy'},
+  'Yungoos': {
+      types: ['Normal'],
+      bs: { hp: 45, at: 75, df: 45, sa: 30, sd: 45, sp: 90 }
   },
-  Coribalis: {
-    types: ['Water', 'Bug'],
-    bs: {hp: 76, at: 69, df: 90, sa: 65, sd: 77, sp: 43},
-    weightkg: 24.5,
-    nfe: true,
-    abilities: {0: 'Torrent'},
-  },
-  Cosmog: {
-    types: ['Psychic'],
-    bs: {hp: 43, at: 29, df: 31, sa: 29, sd: 31, sp: 37},
-    weightkg: 0.1,
-    nfe: true,
-    gender: 'N',
-    abilities: {0: 'Unaware'},
-  },
-  Crabominable: {
-    types: ['Fighting', 'Ice'],
-    bs: {hp: 97, at: 132, df: 77, sa: 62, sd: 67, sp: 43},
-    weightkg: 180,
-    abilities: {0: 'Hyper Cutter'},
-  },
-  Crabrawler: {
-    types: ['Fighting'],
-    bs: {hp: 47, at: 82, df: 57, sa: 42, sd: 47, sp: 63},
-    weightkg: 7,
-    nfe: true,
-    abilities: {0: 'Hyper Cutter'},
-  },
-  Cutiefly: {
-    types: ['Bug', 'Fairy'],
-    bs: {hp: 40, at: 45, df: 40, sa: 55, sd: 40, sp: 84},
-    weightkg: 0.2,
-    nfe: true,
-    abilities: {0: 'Honey Gather'},
-  },
-  Dartrix: {
-    types: ['Grass', 'Flying'],
-    bs: {hp: 78, at: 75, df: 75, sa: 70, sd: 70, sp: 52},
-    weightkg: 16,
-    nfe: true,
-    abilities: {0: 'Overgrow'},
-  },
-  Decidueye: {
-    types: ['Grass', 'Ghost'],
-    bs: {hp: 78, at: 107, df: 75, sa: 100, sd: 100, sp: 70},
-    weightkg: 36.6,
-    abilities: {0: 'Overgrow'},
-  },
-  Dewpider: {
-    types: ['Water', 'Bug'],
-    bs: {hp: 38, at: 40, df: 52, sa: 40, sd: 72, sp: 27},
-    weightkg: 4,
-    nfe: true,
-    abilities: {0: 'Water Bubble'},
-  },
-  Dhelmise: {
-    types: ['Ghost', 'Grass'],
-    bs: {hp: 70, at: 131, df: 100, sa: 86, sd: 90, sp: 40},
-    weightkg: 210,
-    gender: 'N',
-    abilities: {0: 'Steelworker'},
-  },
-  Drampa: {
-    types: ['Normal', 'Dragon'],
-    bs: {hp: 78, at: 60, df: 85, sa: 135, sd: 91, sp: 36},
-    weightkg: 185,
-    abilities: {0: 'Berserk'},
-  },
-  'Eevee-Starter': {
-    types: ['Normal'],
-    bs: {hp: 65, at: 75, df: 70, sa: 65, sd: 85, sp: 75},
-    weightkg: 6.5,
-    abilities: {0: 'Run Away'},
-    baseSpecies: 'Eevee',
-  },
-  Electrelk: {
-    types: ['Grass', 'Electric'],
-    bs: {hp: 59, at: 81, df: 67, sa: 57, sd: 55, sp: 101},
-    weightkg: 41.5,
-    nfe: true,
-    abilities: {0: 'Overgrow'},
-  },
-  Equilibra: {
-    types: ['Steel', 'Ground'],
-    bs: {hp: 102, at: 50, df: 96, sa: 133, sd: 118, sp: 60},
-    weightkg: 51.3,
-    gender: 'N',
-    abilities: {0: 'Levitate'},
-  },
-  Fawnifer: {
-    types: ['Grass'],
-    bs: {hp: 49, at: 61, df: 42, sa: 52, sd: 40, sp: 76},
-    weightkg: 6.9,
-    nfe: true,
-    abilities: {0: 'Overgrow'},
-  },
-  Fomantis: {
-    types: ['Grass'],
-    bs: {hp: 40, at: 55, df: 35, sa: 50, sd: 35, sp: 35},
-    weightkg: 1.5,
-    nfe: true,
-    abilities: {0: 'Leaf Guard'},
-  },
-  Golisopod: {
-    types: ['Bug', 'Water'],
-    bs: {hp: 75, at: 125, df: 140, sa: 60, sd: 90, sp: 40},
-    weightkg: 108,
-    abilities: {0: 'Emergency Exit'},
-  },
-  Grubbin: {
-    types: ['Bug'],
-    bs: {hp: 47, at: 62, df: 45, sa: 55, sd: 45, sp: 46},
-    weightkg: 4.4,
-    nfe: true,
-    abilities: {0: 'Swarm'},
-  },
-  Gumshoos: {
-    types: ['Normal'],
-    bs: {hp: 88, at: 110, df: 60, sa: 55, sd: 60, sp: 45},
-    weightkg: 14.2,
-    otherFormes: ['Gumshoos-Totem'],
-    abilities: {0: 'Stakeout'},
+  'Gumshoos': {
+      types: ['Normal'],
+      bs: { hp: 75, at: 115, df: 75, sa: 50, sd: 75, sp: 90 }
   },
   'Gumshoos-Totem': {
-    types: ['Normal'],
-    bs: {hp: 88, at: 110, df: 60, sa: 55, sd: 60, sp: 45},
-    weightkg: 60,
-    baseSpecies: 'Gumshoos',
-    abilities: {0: 'Adaptability'},
-  },
-  Guzzlord: {
-    types: ['Dark', 'Dragon'],
-    bs: {hp: 223, at: 101, df: 53, sa: 97, sd: 53, sp: 43},
-    weightkg: 888,
-    abilities: {0: 'Beast Boost'},
-    gender: 'N',
-  },
-  'Hakamo-o': {
-    types: ['Dragon', 'Fighting'],
-    bs: {hp: 55, at: 75, df: 90, sa: 65, sd: 70, sp: 65},
-    weightkg: 47,
-    nfe: true,
-    abilities: {0: 'Bulletproof'},
-  },
-  Incineroar: {
-    types: ['Fire', 'Dark'],
-    bs: {hp: 95, at: 115, df: 90, sa: 80, sd: 90, sp: 60},
-    weightkg: 83,
-    abilities: {0: 'Blaze'},
-  },
-  'Jangmo-o': {
-    types: ['Dragon'],
-    bs: {hp: 45, at: 55, df: 65, sa: 45, sd: 45, sp: 45},
-    weightkg: 29.7,
-    nfe: true,
-    abilities: {0: 'Bulletproof'},
-  },
-  Justyke: {
-    types: ['Steel', 'Ground'],
-    bs: {hp: 72, at: 70, df: 56, sa: 83, sd: 68, sp: 30},
-    weightkg: 36.5,
-    nfe: true,
-    abilities: {0: 'Levitate'},
-    gender: 'N',
-  },
-  Jumbao: {
-    types: ['Grass', 'Fairy'],
-    bs: {hp: 92, at: 63, df: 97, sa: 124, sd: 104, sp: 96},
-    weightkg: 200,
-    abilities: {0: 'Trace'},
-  },
-  Kartana: {
-    types: ['Grass', 'Steel'],
-    bs: {hp: 59, at: 181, df: 131, sa: 59, sd: 31, sp: 109},
-    weightkg: 0.1,
-    abilities: {0: 'Beast Boost'},
-    gender: 'N',
-  },
-  Komala: {
-    types: ['Normal'],
-    bs: {hp: 65, at: 115, df: 65, sa: 75, sd: 95, sp: 65},
-    weightkg: 19.9,
-    abilities: {0: 'Comatose'},
-  },
-  'Kommo-o': {
-    types: ['Dragon', 'Fighting'],
-    bs: {hp: 75, at: 110, df: 125, sa: 100, sd: 105, sp: 85},
-    weightkg: 78.2,
-    otherFormes: ['Kommo-o-Totem'],
-    abilities: {0: 'Bulletproof'},
-  },
-  'Kommo-o-Totem': {
-    types: ['Dragon', 'Fighting'],
-    bs: {hp: 75, at: 110, df: 125, sa: 100, sd: 105, sp: 85},
-    weightkg: 207.5,
-    abilities: {0: 'Overcoat'},
-    baseSpecies: 'Kommo-o',
-  },
-  Litten: {
-    types: ['Fire'],
-    bs: {hp: 45, at: 65, df: 40, sa: 60, sd: 40, sp: 70},
-    weightkg: 4.3,
-    nfe: true,
-    abilities: {0: 'Blaze'},
-  },
-  Lunala: {
-    types: ['Psychic', 'Ghost'],
-    bs: {hp: 137, at: 113, df: 89, sa: 137, sd: 107, sp: 97},
-    weightkg: 120,
-    abilities: {0: 'Shadow Shield'},
-    gender: 'N',
-  },
-  Lurantis: {
-    types: ['Grass'],
-    bs: {hp: 70, at: 105, df: 90, sa: 80, sd: 90, sp: 45},
-    weightkg: 18.5,
-    otherFormes: ['Lurantis-Totem'],
-    abilities: {0: 'Leaf Guard'},
-  },
-  'Lurantis-Totem': {
-    types: ['Grass'],
-    bs: {hp: 70, at: 105, df: 90, sa: 80, sd: 90, sp: 45},
-    weightkg: 58,
-    abilities: {0: 'Leaf Guard'},
-    baseSpecies: 'Lurantis',
-  },
-  Lycanroc: {
-    types: ['Rock'],
-    bs: {hp: 75, at: 115, df: 65, sa: 55, sd: 65, sp: 112},
-    weightkg: 25,
-    otherFormes: ['Lycanroc-Dusk', 'Lycanroc-Midnight'],
-    abilities: {0: 'Keen Eye'},
-  },
-  'Lycanroc-Dusk': {
-    types: ['Rock'],
-    bs: {hp: 75, at: 117, df: 65, sa: 55, sd: 65, sp: 110},
-    weightkg: 25,
-    abilities: {0: 'Tough Claws'},
-    baseSpecies: 'Lycanroc',
-  },
-  'Lycanroc-Midnight': {
-    types: ['Rock'],
-    bs: {hp: 85, at: 115, df: 75, sa: 55, sd: 75, sp: 82},
-    weightkg: 25,
-    baseSpecies: 'Lycanroc',
-    abilities: {0: 'Keen Eye'},
-  },
-  Magearna: {
-    types: ['Steel', 'Fairy'],
-    bs: {hp: 80, at: 95, df: 115, sa: 130, sd: 115, sp: 65},
-    weightkg: 80.5,
-    gender: 'N',
-    abilities: {0: 'Soul-Heart'},
-  },
-  Mareanie: {
-    types: ['Poison', 'Water'],
-    bs: {hp: 50, at: 53, df: 62, sa: 43, sd: 52, sp: 45},
-    weightkg: 8,
-    nfe: true,
-    abilities: {0: 'Merciless'},
-  },
-  Marshadow: {
-    types: ['Fighting', 'Ghost'],
-    bs: {hp: 90, at: 125, df: 80, sa: 90, sd: 90, sp: 125},
-    weightkg: 22.2,
-    gender: 'N',
-    abilities: {0: 'Technician'},
-  },
-  Melmetal: {
-    types: ['Steel'],
-    bs: {hp: 135, at: 143, df: 143, sa: 80, sd: 65, sp: 34},
-    weightkg: 800,
-    gender: 'N',
-    abilities: {0: 'Iron Fist'},
-  },
-  // Meltan does NOT benefit from Eviolite and should not have nfe: true (credit: Anubis)
-  // https://smogon.com/forums/threads/sword-shield-battle-mechanics-research.3655528/post-8295399
-  Meltan: {
-    types: ['Steel'],
-    bs: {hp: 46, at: 65, df: 65, sa: 55, sd: 35, sp: 34},
-    weightkg: 8,
-    gender: 'N',
-    abilities: {0: 'Magnet Pull'},
-  },
-  Mimikyu: {
-    types: ['Ghost', 'Fairy'],
-    bs: {hp: 55, at: 90, df: 80, sa: 50, sd: 105, sp: 96},
-    weightkg: 0.7,
-    otherFormes: ['Mimikyu-Busted', 'Mimikyu-Busted-Totem', 'Mimikyu-Totem'],
-    abilities: {0: 'Disguise'},
-  },
-  'Mimikyu-Busted': {
-    types: ['Ghost', 'Fairy'],
-    bs: {hp: 55, at: 90, df: 80, sa: 50, sd: 105, sp: 96},
-    weightkg: 0.7,
-    baseSpecies: 'Mimikyu',
-    abilities: {0: 'Disguise'},
-  },
-  'Mimikyu-Busted-Totem': {
-    types: ['Ghost', 'Fairy'],
-    bs: {hp: 55, at: 90, df: 80, sa: 50, sd: 105, sp: 96},
-    weightkg: 2.8,
-    baseSpecies: 'Mimikyu',
-    abilities: {0: 'Disguise'},
-  },
-  'Mimikyu-Totem': {
-    types: ['Ghost', 'Fairy'],
-    bs: {hp: 55, at: 90, df: 80, sa: 50, sd: 105, sp: 96},
-    weightkg: 2.8,
-    baseSpecies: 'Mimikyu',
-    abilities: {0: 'Disguise'},
-  },
-  Minior: {
-    types: ['Rock', 'Flying'],
-    bs: {hp: 60, at: 100, df: 60, sa: 100, sd: 60, sp: 120},
-    weightkg: 0.3,
-    otherFormes: ['Minior-Meteor'],
-    gender: 'N',
-    abilities: {0: 'Shields Down'},
-  },
-  'Minior-Meteor': {
-    types: ['Rock', 'Flying'],
-    bs: {hp: 60, at: 60, df: 100, sa: 60, sd: 100, sp: 60},
-    weightkg: 40,
-    gender: 'N',
-    baseSpecies: 'Minior',
-    abilities: {0: 'Shields Down'},
-  },
-  Morelull: {
-    types: ['Grass', 'Fairy'],
-    bs: {hp: 40, at: 35, df: 55, sa: 65, sd: 75, sp: 15},
-    weightkg: 1.5,
-    nfe: true,
-    abilities: {0: 'Illuminate'},
-  },
-  Mudbray: {
-    types: ['Ground'],
-    bs: {hp: 70, at: 100, df: 70, sa: 45, sd: 55, sp: 45},
-    weightkg: 110,
-    nfe: true,
-    abilities: {0: 'Own Tempo'},
-  },
-  Mudsdale: {
-    types: ['Ground'],
-    bs: {hp: 100, at: 125, df: 100, sa: 55, sd: 85, sp: 35},
-    weightkg: 920,
-    abilities: {0: 'Own Tempo'},
-  },
-  Mumbao: {
-    types: ['Grass', 'Fairy'],
-    bs: {hp: 55, at: 30, df: 64, sa: 87, sd: 73, sp: 66},
-    weightkg: 83,
-    nfe: true,
-    abilities: {0: 'Trace'},
-  },
-  Naganadel: {
-    types: ['Poison', 'Dragon'],
-    bs: {hp: 73, at: 73, df: 73, sa: 127, sd: 73, sp: 121},
-    weightkg: 150,
-    abilities: {0: 'Beast Boost'},
-    gender: 'N',
-  },
-  Necrozma: {
-    types: ['Psychic'],
-    bs: {hp: 97, at: 107, df: 101, sa: 127, sd: 89, sp: 79},
-    weightkg: 230,
-    abilities: {0: 'Prism Armor'},
-    otherFormes: ['Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Necrozma-Ultra'],
-    gender: 'N',
-  },
-  'Necrozma-Dawn-Wings': {
-    types: ['Psychic', 'Ghost'],
-    bs: {hp: 97, at: 113, df: 109, sa: 157, sd: 127, sp: 77},
-    weightkg: 350,
-    abilities: {0: 'Prism Armor'},
-    baseSpecies: 'Necrozma',
-    gender: 'N',
-  },
-  'Necrozma-Dusk-Mane': {
-    types: ['Psychic', 'Steel'],
-    bs: {hp: 97, at: 157, df: 127, sa: 113, sd: 109, sp: 77},
-    weightkg: 460,
-    abilities: {0: 'Prism Armor'},
-    baseSpecies: 'Necrozma',
-    gender: 'N',
-  },
-  'Necrozma-Ultra': {
-    types: ['Psychic', 'Dragon'],
-    bs: {hp: 97, at: 167, df: 97, sa: 167, sd: 97, sp: 129},
-    weightkg: 230,
-    abilities: {0: 'Neuroforce'},
-    baseSpecies: 'Necrozma',
-    gender: 'N',
-  },
-  Nihilego: {
-    types: ['Rock', 'Poison'],
-    bs: {hp: 109, at: 53, df: 47, sa: 127, sd: 131, sp: 103},
-    weightkg: 55.5,
-    abilities: {0: 'Beast Boost'},
-    gender: 'N',
-  },
-  Oranguru: {
-    types: ['Normal', 'Psychic'],
-    bs: {hp: 90, at: 60, df: 80, sa: 90, sd: 110, sp: 60},
-    weightkg: 76,
-    abilities: {0: 'Inner Focus'},
-  },
-  Oricorio: {
-    types: ['Fire', 'Flying'],
-    bs: {hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93},
-    weightkg: 3.4,
-    abilities: {0: 'Dancer'},
-    otherFormes: ['Oricorio-Pa\'u', 'Oricorio-Pom-Pom', 'Oricorio-Sensu'],
-  },
-  'Oricorio-Pa\'u': {
-    types: ['Psychic', 'Flying'],
-    bs: {hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93},
-    weightkg: 3.4,
-    abilities: {0: 'Dancer'},
-    baseSpecies: 'Oricorio',
-  },
-  'Oricorio-Pom-Pom': {
-    types: ['Electric', 'Flying'],
-    bs: {hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93},
-    weightkg: 3.4,
-    abilities: {0: 'Dancer'},
-    baseSpecies: 'Oricorio',
-  },
-  'Oricorio-Sensu': {
-    types: ['Ghost', 'Flying'],
-    bs: {hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93},
-    weightkg: 3.4,
-    abilities: {0: 'Dancer'},
-    baseSpecies: 'Oricorio',
-  },
-  Pajantom: {
-    types: ['Dragon', 'Ghost'],
-    bs: {hp: 84, at: 133, df: 71, sa: 51, sd: 111, sp: 101},
-    weightkg: 3.1,
-    abilities: {0: 'Comatose'},
-  },
-  Palossand: {
-    types: ['Ghost', 'Ground'],
-    bs: {hp: 85, at: 75, df: 110, sa: 100, sd: 75, sp: 35},
-    weightkg: 250,
-    abilities: {0: 'Water Compaction'},
-  },
-  Passimian: {
-    types: ['Fighting'],
-    bs: {hp: 100, at: 120, df: 90, sa: 40, sd: 60, sp: 80},
-    weightkg: 82.8,
-    abilities: {0: 'Receiver'},
-  },
-  Pheromosa: {
-    types: ['Bug', 'Fighting'],
-    bs: {hp: 71, at: 137, df: 37, sa: 137, sd: 37, sp: 151},
-    weightkg: 25,
-    abilities: {0: 'Beast Boost'},
-    gender: 'N',
-  },
-  'Pikachu-Alola': {
-    types: ['Electric'],
-    bs: {hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90},
-    weightkg: 6,
-    abilities: {0: 'Static'},
-    baseSpecies: 'Pikachu',
-  },
-  'Pikachu-Hoenn': {
-    types: ['Electric'],
-    bs: {hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90},
-    weightkg: 6,
-    abilities: {0: 'Static'},
-    baseSpecies: 'Pikachu',
-  },
-  'Pikachu-Kalos': {
-    types: ['Electric'],
-    bs: {hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90},
-    weightkg: 6,
-    abilities: {0: 'Static'},
-    baseSpecies: 'Pikachu',
-  },
-  'Pikachu-Original': {
-    types: ['Electric'],
-    bs: {hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90},
-    weightkg: 6,
-    abilities: {0: 'Static'},
-    baseSpecies: 'Pikachu',
-  },
-  'Pikachu-Partner': {
-    types: ['Electric'],
-    bs: {hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90},
-    weightkg: 6,
-    abilities: {0: 'Static'},
-    baseSpecies: 'Pikachu',
-  },
-  'Pikachu-Sinnoh': {
-    types: ['Electric'],
-    bs: {hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90},
-    weightkg: 6,
-    abilities: {0: 'Static'},
-    baseSpecies: 'Pikachu',
-  },
-  'Pikachu-Starter': {
-    types: ['Electric'],
-    bs: {hp: 45, at: 80, df: 50, sa: 75, sd: 60, sp: 120},
-    weightkg: 6,
-    abilities: {0: 'Static'},
-    baseSpecies: 'Pikachu',
-  },
-  'Pikachu-Unova': {
-    types: ['Electric'],
-    bs: {hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90},
-    weightkg: 6,
-    abilities: {0: 'Static'},
-    baseSpecies: 'Pikachu',
-  },
-  Pikipek: {
-    types: ['Normal', 'Flying'],
-    bs: {hp: 35, at: 75, df: 30, sa: 30, sd: 30, sp: 65},
-    weightkg: 1.2,
-    nfe: true,
-    abilities: {0: 'Keen Eye'},
-  },
-  Poipole: {
-    types: ['Poison'],
-    bs: {hp: 67, at: 73, df: 67, sa: 73, sd: 67, sp: 73},
-    weightkg: 1.8,
-    abilities: {0: 'Beast Boost'},
-    nfe: true,
-    gender: 'N',
-  },
-  Popplio: {
-    types: ['Water'],
-    bs: {hp: 50, at: 54, df: 54, sa: 66, sd: 56, sp: 40},
-    weightkg: 7.5,
-    nfe: true,
-    abilities: {0: 'Torrent'},
-  },
-  Primarina: {
-    types: ['Water', 'Fairy'],
-    bs: {hp: 80, at: 74, df: 74, sa: 126, sd: 116, sp: 60},
-    weightkg: 44,
-    abilities: {0: 'Torrent'},
-  },
-  Pyukumuku: {
-    types: ['Water'],
-    bs: {hp: 55, at: 60, df: 130, sa: 30, sd: 130, sp: 5},
-    weightkg: 1.2,
-    abilities: {0: 'Innards Out'},
-  },
-  Ribombee: {
-    types: ['Bug', 'Fairy'],
-    bs: {hp: 60, at: 55, df: 60, sa: 95, sd: 70, sp: 124},
-    weightkg: 0.5,
-    otherFormes: ['Ribombee-Totem'],
-    abilities: {0: 'Honey Gather'},
-  },
-  'Ribombee-Totem': {
-    types: ['Bug', 'Fairy'],
-    bs: {hp: 60, at: 55, df: 60, sa: 95, sd: 70, sp: 124},
-    weightkg: 2,
-    abilities: {0: 'Sweet Veil'},
-    baseSpecies: 'Ribombee',
-  },
-  Rockruff: {
-    types: ['Rock'],
-    bs: {hp: 45, at: 65, df: 40, sa: 30, sd: 40, sp: 60},
-    weightkg: 9.2,
-    nfe: true,
-    abilities: {0: 'Keen Eye'},
-  },
-  Rowlet: {
-    types: ['Grass', 'Flying'],
-    bs: {hp: 68, at: 55, df: 55, sa: 50, sd: 50, sp: 42},
-    weightkg: 1.5,
-    nfe: true,
-    abilities: {0: 'Overgrow'},
-  },
-  Salandit: {
-    types: ['Poison', 'Fire'],
-    bs: {hp: 48, at: 44, df: 40, sa: 71, sd: 40, sp: 77},
-    weightkg: 4.8,
-    nfe: true,
-    abilities: {0: 'Corrosion'},
-  },
-  Salazzle: {
-    types: ['Poison', 'Fire'],
-    bs: {hp: 68, at: 64, df: 60, sa: 111, sd: 60, sp: 117},
-    weightkg: 22.2,
-    otherFormes: ['Salazzle-Totem'],
-    abilities: {0: 'Corrosion'},
-  },
-  'Salazzle-Totem': {
-    types: ['Poison', 'Fire'],
-    bs: {hp: 68, at: 64, df: 60, sa: 111, sd: 60, sp: 117},
-    weightkg: 81,
-    abilities: {0: 'Corrosion'},
-    baseSpecies: 'Salazzle',
-  },
-  Sandygast: {
-    types: ['Ghost', 'Ground'],
-    bs: {hp: 55, at: 55, df: 80, sa: 70, sd: 45, sp: 15},
-    weightkg: 70,
-    nfe: true,
-    abilities: {0: 'Water Compaction'},
-  },
-  Shiinotic: {
-    types: ['Grass', 'Fairy'],
-    bs: {hp: 60, at: 45, df: 80, sa: 90, sd: 100, sp: 30},
-    weightkg: 11.5,
-    abilities: {0: 'Illuminate'},
-  },
-  Silvally: {
-    types: ['Normal'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    gender: 'N',
-    otherFormes: [
-      'Silvally-Bug',
-      'Silvally-Dark',
-      'Silvally-Dragon',
-      'Silvally-Electric',
-      'Silvally-Fairy',
-      'Silvally-Fighting',
-      'Silvally-Fire',
-      'Silvally-Flying',
-      'Silvally-Ghost',
-      'Silvally-Grass',
-      'Silvally-Ground',
-      'Silvally-Ice',
-      'Silvally-Poison',
-      'Silvally-Psychic',
-      'Silvally-Rock',
-      'Silvally-Steel',
-      'Silvally-Water',
-    ],
-  },
-  'Silvally-Bug': {
-    types: ['Bug'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Dark': {
-    types: ['Dark'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Dragon': {
-    types: ['Dragon'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Electric': {
-    types: ['Electric'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Fairy': {
-    types: ['Fairy'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Fighting': {
-    types: ['Fighting'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Fire': {
-    types: ['Fire'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Flying': {
-    types: ['Flying'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Ghost': {
-    types: ['Ghost'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Grass': {
-    types: ['Grass'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Ground': {
-    types: ['Ground'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Ice': {
-    types: ['Ice'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Poison': {
-    types: ['Poison'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Psychic': {
-    types: ['Psychic'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Rock': {
-    types: ['Rock'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Steel': {
-    types: ['Steel'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  'Silvally-Water': {
-    types: ['Water'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95},
-    weightkg: 100.5,
-    abilities: {0: 'RKS System'},
-    baseSpecies: 'Silvally',
-    gender: 'N',
-  },
-  Smogecko: {
-    types: ['Fire'],
-    bs: {hp: 48, at: 66, df: 43, sa: 58, sd: 48, sp: 56},
-    weightkg: 8.5,
-    nfe: true,
-    abilities: {0: 'Blaze'},
-  },
-  Smoguana: {
-    types: ['Fire', 'Ground'],
-    bs: {hp: 68, at: 86, df: 53, sa: 68, sd: 68, sp: 76},
-    weightkg: 22.2,
-    nfe: true,
-    abilities: {0: 'Blaze'},
-  },
-  Smokomodo: {
-    types: ['Fire', 'Ground'],
-    bs: {hp: 88, at: 116, df: 67, sa: 88, sd: 78, sp: 97},
-    weightkg: 205,
-    abilities: {0: 'Blaze'},
-  },
-  Snaelstrom: {
-    types: ['Water', 'Bug'],
-    bs: {hp: 91, at: 94, df: 110, sa: 80, sd: 97, sp: 63},
-    weightkg: 120,
-    abilities: {0: 'Torrent'},
-  },
-  Solgaleo: {
-    types: ['Psychic', 'Steel'],
-    bs: {hp: 137, at: 137, df: 107, sa: 113, sd: 89, sp: 97},
-    weightkg: 230,
-    abilities: {0: 'Full Metal Body'},
-    gender: 'N',
-  },
-  Stakataka: {
-    types: ['Rock', 'Steel'],
-    bs: {hp: 61, at: 131, df: 211, sa: 53, sd: 101, sp: 13},
-    weightkg: 820,
-    abilities: {0: 'Beast Boost'},
-    gender: 'N',
-  },
-  Steenee: {
-    types: ['Grass'],
-    bs: {hp: 52, at: 40, df: 48, sa: 40, sd: 48, sp: 62},
-    weightkg: 8.2,
-    nfe: true,
-    abilities: {0: 'Leaf Guard'},
-  },
-  Stufful: {
-    types: ['Normal', 'Fighting'],
-    bs: {hp: 70, at: 75, df: 50, sa: 45, sd: 50, sp: 50},
-    weightkg: 6.8,
-    abilities: {0: 'Fluffy'},
-    nfe: true,
-  },
-  Swirlpool: {
-    types: ['Water'],
-    bs: {hp: 61, at: 49, df: 70, sa: 50, sd: 62, sp: 28},
-    weightkg: 7,
-    nfe: true,
-    abilities: {0: 'Torrent'},
-  },
-  'Tapu Bulu': {
-    types: ['Grass', 'Fairy'],
-    bs: {hp: 70, at: 130, df: 115, sa: 85, sd: 95, sp: 75},
-    weightkg: 45.5,
-    abilities: {0: 'Grassy Surge'},
-    gender: 'N',
-  },
-  'Tapu Fini': {
-    types: ['Water', 'Fairy'],
-    bs: {hp: 70, at: 75, df: 115, sa: 95, sd: 130, sp: 85},
-    weightkg: 21.2,
-    abilities: {0: 'Misty Surge'},
-    gender: 'N',
-  },
-  'Tapu Koko': {
-    types: ['Electric', 'Fairy'],
-    bs: {hp: 70, at: 115, df: 85, sa: 95, sd: 75, sp: 130},
-    weightkg: 20.5,
-    abilities: {0: 'Electric Surge'},
-    gender: 'N',
-  },
-  'Tapu Lele': {
-    types: ['Psychic', 'Fairy'],
-    bs: {hp: 70, at: 85, df: 75, sa: 130, sd: 115, sp: 95},
-    weightkg: 18.6,
-    abilities: {0: 'Psychic Surge'},
-    gender: 'N',
-  },
-  Togedemaru: {
-    types: ['Electric', 'Steel'],
-    bs: {hp: 65, at: 98, df: 63, sa: 40, sd: 73, sp: 96},
-    weightkg: 3.3,
-    abilities: {0: 'Iron Barbs'},
-    otherFormes: ['Togedemaru-Totem'],
-  },
-  'Togedemaru-Totem': {
-    types: ['Electric', 'Steel'],
-    bs: {hp: 65, at: 98, df: 63, sa: 40, sd: 73, sp: 96},
-    weightkg: 13,
-    abilities: {0: 'Sturdy'},
-    baseSpecies: 'Togedemaru',
-  },
-  Torracat: {
-    types: ['Fire'],
-    bs: {hp: 65, at: 85, df: 50, sa: 80, sd: 50, sp: 90},
-    weightkg: 25,
-    nfe: true,
-    abilities: {0: 'Blaze'},
-  },
-  Toucannon: {
-    types: ['Normal', 'Flying'],
-    bs: {hp: 80, at: 120, df: 75, sa: 75, sd: 75, sp: 60},
-    weightkg: 26,
-    abilities: {0: 'Keen Eye'},
-  },
-  Toxapex: {
-    types: ['Poison', 'Water'],
-    bs: {hp: 50, at: 63, df: 152, sa: 53, sd: 142, sp: 35},
-    weightkg: 14.5,
-    abilities: {0: 'Merciless'},
-  },
-  Trumbeak: {
-    types: ['Normal', 'Flying'],
-    bs: {hp: 55, at: 85, df: 50, sa: 40, sd: 50, sp: 75},
-    weightkg: 14.8,
-    nfe: true,
-    abilities: {0: 'Keen Eye'},
-  },
-  Tsareena: {
-    types: ['Grass'],
-    bs: {hp: 72, at: 120, df: 98, sa: 50, sd: 98, sp: 72},
-    weightkg: 21.4,
-    abilities: {0: 'Leaf Guard'},
-  },
-  Turtonator: {
-    types: ['Fire', 'Dragon'],
-    bs: {hp: 60, at: 78, df: 135, sa: 91, sd: 85, sp: 36},
-    weightkg: 212,
-    abilities: {0: 'Shell Armor'},
-  },
-  'Type: Null': {
-    types: ['Normal'],
-    bs: {hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 59},
-    weightkg: 120.5,
-    abilities: {0: 'Battle Armor'},
-    nfe: true,
-    gender: 'N',
-  },
-  Vikavolt: {
-    types: ['Bug', 'Electric'],
-    bs: {hp: 77, at: 70, df: 90, sa: 145, sd: 75, sp: 43},
-    weightkg: 45,
-    abilities: {0: 'Levitate'},
-    otherFormes: ['Vikavolt-Totem'],
+      types: ['Normal'],
+      bs: { hp: 100, at: 125, df: 75, sa: 50, sd: 75, sp: 90 }
+  },
+  'Grubbin': {
+      types: ['Bug'],
+      bs: { hp: 47, at: 72, df: 55, sa: 60, sd: 55, sp: 46 }
+  },
+  'Charjabug': {
+      types: ['Bug', 'Electric'],
+      bs: { hp: 62, at: 82, df: 110, sa: 75, sd: 90, sp: 36 }
+  },
+  'Vikavolt': {
+      types: ['Bug', 'Electric'],
+      bs: { hp: 72, at: 70, df: 90, sa: 145, sd: 75, sp: 123 }
   },
   'Vikavolt-Totem': {
-    types: ['Bug', 'Electric'],
-    bs: {hp: 77, at: 70, df: 90, sa: 145, sd: 75, sp: 43},
-    weightkg: 147.5,
-    abilities: {0: 'Levitate'},
-    baseSpecies: 'Vikavolt',
+      types: ['Bug', 'Electric'],
+      bs: { hp: 92, at: 100, df: 90, sa: 145, sd: 75, sp: 123 }
   },
-  Wimpod: {
-    types: ['Bug', 'Water'],
-    bs: {hp: 25, at: 35, df: 40, sa: 20, sd: 30, sp: 80},
-    weightkg: 12,
-    abilities: {0: 'Wimp Out'},
-    nfe: true,
+  'Crabrawler': {
+      types: ['Fighting', 'Water'],
+      bs: { hp: 72, at: 114, df: 107, sa: 32, sd: 87, sp: 68 }
   },
-  Wishiwashi: {
-    types: ['Water'],
-    bs: {hp: 45, at: 20, df: 20, sa: 25, sd: 25, sp: 40},
-    weightkg: 0.3,
-    otherFormes: ['Wishiwashi-School'],
-    abilities: {0: 'Schooling'},
+  'Crabominable': {
+      types: ['Fighting', 'Ice'],
+      bs: { hp: 97, at: 134, df: 117, sa: 42, sd: 97, sp: 63 }
+  },
+  'Oricorio': {
+      types: ['Fire', 'Flying'],
+      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 }
+  },
+  'Oricorio-Pom-Pom': {
+      types: ['Electric', 'Flying'],
+      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 }
+  },
+  'Oricorio-Pa\'u': {
+      types: ['Psychic', 'Flying'],
+      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 }
+  },
+  'Oricorio-Sensu': {
+      types: ['Ghost', 'Flying'],
+      bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 }
+  },
+  'Cutiefly': {
+      types: ['Bug', 'Fairy'],
+      bs: { hp: 40, at: 45, df: 40, sa: 66, sd: 50, sp: 109 }
+  },
+  'Ribombee': {
+      types: ['Bug', 'Fairy'],
+      bs: { hp: 60, at: 55, df: 60, sa: 111, sd: 95, sp: 134 }
+  },
+  'Ribombee-Totem': {
+      types: ['Bug', 'Fairy'],
+      bs: { hp: 85, at: 55, df: 60, sa: 116, sd: 100, sp: 134 }
+  },
+  'Rockruff': {
+      types: ['Rock', 'Normal'],
+      bs: { hp: 50, at: 75, df: 65, sa: 30, sd: 50, sp: 80 }
+  },
+  'Lycanroc': {
+      types: ['Rock', 'Normal'],
+      bs: { hp: 75, at: 120, df: 73, sa: 55, sd: 65, sp: 127 }
+  },
+  'Lycanroc-Midnight': {
+      types: ['Rock', 'Dark'],
+      bs: { hp: 75, at: 120, df: 93, sa: 55, sd: 75, sp: 97 }
+  },
+  'Lycanroc-Dusk': {
+      types: ['Rock', 'Fighting'],
+      bs: { hp: 75, at: 120, df: 83, sa: 55, sd: 70, sp: 112 }
+  },
+  'Wishiwashi': {
+      types: ['Water'],
+      bs: { hp: 30, at: 20, df: 25, sa: 20, sd: 25, sp: 90 }
   },
   'Wishiwashi-School': {
-    types: ['Water'],
-    bs: {hp: 45, at: 140, df: 130, sa: 140, sd: 135, sp: 30},
-    weightkg: 78.6,
-    baseSpecies: 'Wishiwashi',
-    abilities: {0: 'Schooling'},
+      types: ['Water'],
+      bs: { hp: 150, at: 140, df: 100, sa: 140, sd: 100, sp: 30 }
   },
-  Xurkitree: {
-    types: ['Electric'],
-    bs: {hp: 83, at: 89, df: 71, sa: 173, sd: 71, sp: 83},
-    weightkg: 100,
-    abilities: {0: 'Beast Boost'},
-    gender: 'N',
+  'Mareanie': {
+      types: ['Poison', 'Water'],
+      bs: { hp: 50, at: 43, df: 92, sa: 63, sd: 82, sp: 30 }
   },
-  Yungoos: {
-    types: ['Normal'],
-    bs: {hp: 48, at: 70, df: 30, sa: 30, sd: 30, sp: 45},
-    weightkg: 6,
-    nfe: true,
-    abilities: {0: 'Stakeout'},
+  'Toxapex': {
+      types: ['Poison', 'Water'],
+      bs: { hp: 60, at: 53, df: 152, sa: 93, sd: 142, sp: 35 }
   },
-  Zeraora: {
-    types: ['Electric'],
-    bs: {hp: 88, at: 112, df: 75, sa: 102, sd: 80, sp: 143},
-    weightkg: 44.5,
-    abilities: {0: 'Volt Absorb'},
-    gender: 'N',
+  'Mudbray': {
+      types: ['Ground'],
+      bs: { hp: 70, at: 100, df: 85, sa: 45, sd: 65, sp: 45 }
   },
+  'Mudsdale': {
+      types: ['Ground'],
+      bs: { hp: 115, at: 130, df: 115, sa: 55, sd: 85, sp: 35 }
+  },
+  'Dewpider': {
+      types: ['Water', 'Bug'],
+      bs: { hp: 44, at: 45, df: 67, sa: 60, sd: 107, sp: 27 }
+  },
+  'Araquanid': {
+      types: ['Water', 'Bug'],
+      bs: { hp: 94, at: 70, df: 92, sa: 80, sd: 132, sp: 67 }
+  },
+  'Araquanid-Totem': {
+      types: ['Water', 'Bug'],
+      bs: { hp: 124, at: 70, df: 92, sa: 80, sd: 132, sp: 52 }
+  },
+  'Fomantis': {
+      types: ['Grass'],
+      bs: { hp: 45, at: 65, df: 55, sa: 65, sd: 55, sp: 65 }
+  },
+  'Lurantis': {
+      types: ['Grass'],
+      bs: { hp: 70, at: 110, df: 75, sa: 100, sd: 75, sp: 105 }
+  },
+  'Lurantis-Totem': {
+      types: ['Grass'],
+      bs: { hp: 95, at: 110, df: 75, sa: 100, sd: 75, sp: 95 }
+  },
+  'Morelull': {
+      types: ['Poison', 'Fairy'],
+      bs: { hp: 45, at: 35, df: 65, sa: 75, sd: 95, sp: 15 }
+  },
+  'Shiinotic': {
+      types: ['Poison', 'Fairy'],
+      bs: { hp: 85, at: 45, df: 95, sa: 115, sd: 145, sp: 30 }
+  },
+  'Salandit': {
+      types: ['Poison', 'Fire'],
+      bs: { hp: 48, at: 44, df: 40, sa: 91, sd: 53, sp: 94 }
+  },
+  'Salazzle': {
+      types: ['Poison', 'Fire'],
+      bs: { hp: 73, at: 64, df: 60, sa: 121, sd: 83, sp: 124 }
+  },
+  'Salazzle-Totem': {
+      types: ['Poison', 'Fire'],
+      bs: { hp: 98, at: 64, df: 60, sa: 121, sd: 83, sp: 124 }
+  },
+  'Stufful': {
+      types: ['Normal', 'Fighting'],
+      bs: { hp: 60, at: 80, df: 65, sa: 45, sd: 65, sp: 55 }
+  },
+  'Bewear': {
+      types: ['Normal', 'Fighting'],
+      bs: { hp: 120, at: 130, df: 85, sa: 55, sd: 85, sp: 60 }
+  },
+  'Bounsweet': {
+      types: ['Grass'],
+      bs: { hp: 42, at: 30, df: 83, sa: 30, sd: 83, sp: 32 }
+  },
+  'Steenee': {
+      types: ['Grass'],
+      bs: { hp: 62, at: 70, df: 88, sa: 40, sd: 88, sp: 72 }
+  },
+  'Tsareena': {
+      types: ['Grass', 'Fighting'],
+      bs: { hp: 77, at: 125, df: 98, sa: 50, sd: 98, sp: 102 }
+  },
+  'Comfey': {
+      types: ['Fairy'],
+      bs: { hp: 66, at: 42, df: 90, sa: 92, sd: 135, sp: 100 }
+  },
+  'Oranguru': {
+      types: ['Normal', 'Psychic'],
+      bs: { hp: 90, at: 60, df: 85, sa: 125, sd: 125, sp: 50 }
+  },
+  'Passimian': {
+      types: ['Fighting', 'Normal'],
+      bs: { hp: 100, at: 130, df: 90, sa: 40, sd: 70, sp: 105 }
+  },
+  'Wimpod': {
+      types: ['Bug', 'Water'],
+      bs: { hp: 45, at: 45, df: 95, sa: 25, sd: 45, sp: 95 }
+  },
+  'Golisopod': {
+      types: ['Bug', 'Water'],
+      bs: { hp: 90, at: 140, df: 140, sa: 30, sd: 90, sp: 60 }
+  },
+  'Sandygast': {
+      types: ['Ghost', 'Ground'],
+      bs: { hp: 55, at: 30, df: 85, sa: 80, sd: 85, sp: 15 }
+  },
+  'Palossand': {
+      types: ['Ghost', 'Ground'],
+      bs: { hp: 100, at: 60, df: 115, sa: 110, sd: 115, sp: 25 }
+  },
+  'Pyukumuku': {
+      types: ['Water', 'Poison'],
+      bs: { hp: 65, at: 65, df: 150, sa: 65, sd: 150, sp: 5 }
+  },
+  'Type: Null': {
+      types: ['Normal', 'Steel'],
+      bs: { hp: 95, at: 115, df: 125, sa: 60, sd: 95, sp: 60 }
+  },
+  'Silvally': {
+      types: ['Normal'],
+      bs: { hp: 95, at: 115, df: 80, sa: 115, sd: 80, sp: 115 }
+  },
+  'Minior-Meteor': {
+      types: ['Rock', 'Flying'],
+      bs: { hp: 60, at: 60, df: 150, sa: 60, sd: 150, sp: 60 }
+  },
+  'Minior-Pink': {
+      types: ['Rock', 'Psychic'],
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+  },
+  'Minior-Orange': {
+      types: ['Rock', 'Fire'],
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+  },
+  'Minior-Yellow': {
+      types: ['Rock', 'Electric'],
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+  },
+  'Minior-Green': {
+      types: ['Rock', 'Grass'],
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+  },
+  'Minior-Blue': {
+      types: ['Rock', 'Ice'],
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+  },
+  'Minior-Indigo': {
+      types: ['Rock', 'Water'],
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+  },
+  'Minior-Violet': {
+      types: ['Rock', 'Dragon'],
+      bs: { hp: 60, at: 60, df: 60, sa: 150, sd: 60, sp: 150 }
+  },
+  'Komala': {
+      types: ['Normal', 'Grass'],
+      bs: { hp: 75, at: 115, df: 115, sa: 60, sd: 95, sp: 65 }
+  },
+  'Turtonator': {
+      types: ['Fire', 'Dragon'],
+      bs: { hp: 100, at: 78, df: 140, sa: 136, sd: 100, sp: 21 }
+  },
+  'Togedemaru': {
+      types: ['Electric', 'Steel'],
+      bs: { hp: 65, at: 98, df: 118, sa: 40, sd: 93, sp: 101 }
+  },
+  'Togedemaru-Totem': {
+      types: ['Electric', 'Steel'],
+      bs: { hp: 100, at: 108, df: 118, sa: 40, sd: 93, sp: 91 }
+  },
+  'Mimikyu': {
+      types: ['Ghost', 'Fairy'],
+      bs: { hp: 55, at: 95, df: 55, sa: 95, sd: 119, sp: 106 }
+  },
+  'Mimikyu-Totem': {
+      types: ['Ghost', 'Fairy'],
+      bs: { hp: 80, at: 100, df: 55, sa: 100, sd: 119, sp: 96 }
+  },
+  'Bruxish': {
+      types: ['Water', 'Psychic'],
+      bs: { hp: 68, at: 115, df: 70, sa: 100, sd: 70, sp: 112 }
+  },
+  'Drampa': {
+      types: ['Normal', 'Dragon'],
+      bs: { hp: 128, at: 60, df: 95, sa: 145, sd: 111, sp: 36 }
+  },
+  'Dhelmise': {
+      types: ['Ghost', 'Grass'],
+      bs: { hp: 125, at: 144, df: 125, sa: 46, sd: 95, sp: 40 }
+  },
+  'Jangmo-o': {
+      types: ['Dragon'],
+      bs: { hp: 45, at: 60, df: 85, sa: 45, sd: 60, sp: 65 }
+  },
+  'Hakamo-o': {
+      types: ['Dragon', 'Steel'],
+      bs: { hp: 70, at: 95, df: 95, sa: 55, sd: 70, sp: 95 }
+  },
+  'Kommo-o': {
+      types: ['Dragon', 'Steel'],
+      bs: { hp: 90, at: 110, df: 125, sa: 110, sd: 80, sp: 85 }
+  },
+  'Kommo-o-Totem': {
+      types: ['Dragon', 'Steel'],
+      bs: { hp: 125, at: 120, df: 125, sa: 110, sd: 80, sp: 65 }
+  },
+  'Tapu Koko': {
+      types: ['Electric', 'Fairy'],
+      bs: { hp: 70, at: 115, df: 95, sa: 100, sd: 85, sp: 135 }
+  },
+  'Tapu Lele': {
+      types: ['Psychic', 'Fairy'],
+      bs: { hp: 70, at: 85, df: 100, sa: 135, sd: 115, sp: 95 }
+  },
+  'Tapu Bulu': {
+      types: ['Ground', 'Fairy'],
+      bs: { hp: 100, at: 135, df: 115, sa: 70, sd: 95, sp: 85 }
+  },
+  'Tapu Fini': {
+      types: ['Water', 'Fairy'],
+      bs: { hp: 100, at: 70, df: 115, sa: 95, sd: 135, sp: 85 }
+  },
+  'Nihilego': {
+      types: ['Ice', 'Poison'],
+      bs: { hp: 71, at: 47, df: 53, sa: 151, sd: 151, sp: 127 }
+  },
+  'Buzzwole': {
+      types: ['Bug', 'Fighting'],
+      bs: { hp: 107, at: 151, df: 139, sa: 53, sd: 71, sp: 79 }
+  },
+  'Pheromosa': {
+      types: ['Bug', 'Ice'],
+      bs: { hp: 83, at: 139, df: 37, sa: 137, sd: 37, sp: 167 }
+  },
+  'Xurkitree': {
+      types: ['Electric', 'Grass'],
+      bs: { hp: 113, at: 89, df: 71, sa: 173, sd: 101, sp: 53 }
+  },
+  'Celesteela': {
+      types: ['Steel', 'Flying'],
+      bs: { hp: 137, at: 73, df: 103, sa: 137, sd: 103, sp: 47 }
+  },
+  'Kartana': {
+      types: ['Grass', 'Steel'],
+      bs: { hp: 47, at: 181, df: 113, sa: 61, sd: 47, sp: 151 }
+  },
+  'Guzzlord': {
+      types: ['Dark', 'Dragon'],
+      bs: { hp: 199, at: 79, df: 79, sa: 151, sd: 79, sp: 13 }
+  },
+  'Poipole': {
+      types: ['Poison', 'Psychic'],
+      bs: { hp: 67, at: 51, df: 73, sa: 113, sd: 73, sp: 103 }
+  },
+  'Naganadel': {
+      types: ['Poison', 'Psychic'],
+      bs: { hp: 73, at: 127, df: 73, sa: 127, sd: 73, sp: 127 }
+  },
+  'Stakataka': {
+      types: ['Rock', 'Psychic'],
+      bs: { hp: 131, at: 131, df: 211, sa: 13, sd: 101, sp: 13 }
+  },
+  'Blacephalon': {
+      types: ['Fire', 'Ghost'],
+      bs: { hp: 73, at: 73, df: 53, sa: 167, sd: 107, sp: 127 }
+  },
+  'Magearna': {
+      types: ['Steel', 'Fairy'],
+      bs: { hp: 80, at: 65, df: 130, sa: 130, sd: 130, sp: 65 }
+  },
+  'Marshadow': {
+      types: ['Ghost', 'Fighting'],
+      bs: { hp: 60, at: 125, df: 60, sa: 125, sd: 90, sp: 140 }
+  },
+  'Zeraora': {
+      types: ['Electric', 'Fighting'],
+      bs: { hp: 73, at: 122, df: 70, sa: 117, sd: 70, sp: 148 }
+  },
+  'Cosmog': {
+      types: ['Psychic'],
+      bs: { hp: 43, at: 29, df: 31, sa: 29, sd: 31, sp: 37 }
+  },
+  'Cosmoem': {
+      types: ['Psychic'],
+      bs: { hp: 43, at: 29, df: 181, sa: 29, sd: 181, sp: 37 }
+  },
+  'Necrozma': {
+      types: ['Psychic', 'Dark'],
+      bs: { hp: 103, at: 127, df: 101, sa: 131, sd: 101, sp: 97 }
+  },
+  'Solgaleo': {
+      types: ['Psychic', 'Steel'],
+      bs: { hp: 139, at: 157, df: 127, sa: 113, sd: 127, sp: 97 }
+  },
+  'Lunala': {
+      types: ['Psychic', 'Ghost'],
+      bs: { hp: 139, at: 113, df: 103, sa: 157, sd: 151, sp: 97 }
+  },
+  'Necrozma-Dusk-Mane': {
+      types: ['Psychic', 'Steel'],
+      bs: { hp: 139, at: 157, df: 139, sa: 149, sd: 139, sp: 97 }
+  },
+  'Necrozma-Dawn-Wings': {
+      types: ['Psychic', 'Ghost'],
+      bs: { hp: 139, at: 139, df: 131, sa: 157, sd: 157, sp: 97 }
+  },
+  'Necrozma-Ultra': {
+      types: ['Psychic', 'Dragon'],
+      bs: { hp: 139, at: 199, df: 103, sa: 199, sd: 103, sp: 137 }
+  }
 };
 
 const SM: {[name: string]: SpeciesData} = extend(true, {}, XY, SM_PATCH);
@@ -11853,8 +11222,6 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
 
 const SS: {[name: string]: SpeciesData} = extend(true, {}, SM, SS_PATCH);
 
-delete SS['Pikachu-Starter'];
-delete SS['Eevee-Starter'];
 
 const PLA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Arcanine: {otherFormes: ['Arcanine-Hisui']},
