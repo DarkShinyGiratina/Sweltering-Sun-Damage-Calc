@@ -7060,6 +7060,396 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       types: ['Psychic', 'Fighting'],
       bs: { hp: 100, at: 190, df: 90, sa: 160, sd: 130, sp: 150 }
   },
+  'Chikorita': {
+		types: ['Grass'],
+		bs: { hp: 47, at: 47, df: 65, sa: 53, sd: 65, sp: 43 }
+  },
+  'Bayleef': {
+      types: ['Grass'],
+      bs: { hp: 67, at: 67, df: 85, sa: 73, sd: 90, sp: 53 }
+  },
+  'Meganium': {
+      types: ['Grass', 'Fairy'],
+      bs: { hp: 112, at: 82, df: 100, sa: 93, sd: 115, sp: 48 }
+  },
+  'Cyndaquil': {
+      types: ['Fire'],
+      bs: { hp: 43, at: 54, df: 43, sa: 70, sd: 43, sp: 67 }
+  },
+  'Quilava': {
+      types: ['Fire'],
+      bs: { hp: 58, at: 69, df: 58, sa: 99, sd: 58, sp: 93 }
+  },
+  'Typhlosion': {
+      types: ['Fire'],
+      bs: { hp: 78, at: 94, df: 73, sa: 129, sd: 73, sp: 103 }
+  },
+  'Totodile': {
+      types: ['Water'],
+      bs: { hp: 50, at: 70, df: 65, sa: 35, sd: 48, sp: 52 }
+  },
+  'Croconaw': {
+      types: ['Water'],
+      bs: { hp: 65, at: 100, df: 85, sa: 50, sd: 63, sp: 72 }
+  },
+  'Feraligatr': {
+      types: ['Water', 'Dark'],
+      bs: { hp: 85, at: 125, df: 100, sa: 60, sd: 83, sp: 97 }
+  },
+  'Sentret': {
+      types: ['Normal'],
+      bs: { hp: 45, at: 55, df: 45, sa: 45, sd: 45, sp: 95 }
+  },
+  'Furret': {
+      types: ['Normal'],
+      bs: { hp: 85, at: 80, df: 65, sa: 60, sd: 75, sp: 115 }
+  },
+  'Hoothoot': {
+      types: ['Psychic', 'Flying'],
+      bs: { hp: 46, at: 30, df: 56, sa: 66, sd: 76, sp: 51 }
+  },
+  'Noctowl': {
+      types: ['Psychic', 'Flying'],
+      bs: { hp: 76, at: 50, df: 76, sa: 106, sd: 11, sp: 96 }
+  },
+  'Ledyba': {
+      types: ['Bug', 'Flying'],
+      bs: { hp: 40, at: 20, df: 50, sa: 60, sd: 95, sp: 65 }
+  },
+  'Ledian': {
+      types: ['Bug', 'Psychic'],
+      bs: { hp: 65, at: 70, df: 50, sa: 110, sd: 120, sp: 110 }
+  },
+  'Spinarak': {
+      types: ['Bug', 'Dark'],
+      bs: { hp: 40, at: 66, df: 55, sa: 35, sd: 55, sp: 79 }
+  },
+  'Ariados': {
+      types: ['Bug', 'Dark'],
+      bs: { hp: 70, at: 111, df: 80, sa: 40, sd: 80, sp: 99 }
+  },
+  'Chinchou': {
+      types: ['Water', 'Electric'],
+      bs: { hp: 55, at: 38, df: 55, sa: 85, sd: 95, sp: 42 }
+  },
+  'Lanturn': {
+      types: ['Water', 'Electric'],
+      bs: { hp: 80, at: 58, df: 80, sa: 115, sd: 125, sp: 67 }
+  },
+  'Togepi': {
+      types: ['Fairy'],
+      bs: { hp: 40, at: 25, df: 65, sa: 65, sd: 90, sp: 25 }
+  },
+  'Togetic': {
+		types: ['Fairy', 'Flying'],
+		bs: { hp: 60, at: 40, df: 85, sa: 90, sd: 110, sp: 55 }
+  },
+  'Togekiss': {
+      types: ['Fairy', 'Flying'],
+      bs: { hp: 85, at: 50, df: 85, sa: 120, sd: 120, sp: 90 }
+  },
+  'Natu': {
+      types: ['Psychic', 'Flying'],
+      bs: { hp: 40, at: 35, df: 55, sa: 80, sd: 90, sp: 50 }
+  },
+  'Xatu': {
+      types: ['Psychic', 'Flying'],
+      bs: { hp: 70, at: 55, df: 90, sa: 115, sd: 125, sp: 70 }
+  },
+  'Mareep': {
+      types: ['Electric'],
+      bs: { hp: 50, at: 40, df: 50, sa: 70, sd: 65, sp: 45 }
+  },
+  'Flaaffy': {
+		types: ['Electric'],
+		bs: { hp: 65, at: 65, df: 65, sa: 90, sd: 85, sp: 50 }
+  },
+  'Ampharos': {
+      types: ['Electric'],
+      bs: { hp: 90, at: 75, df: 85, sa: 115, sd: 115, sp: 55 }
+  },
+  'Ampharos-Mega': {
+      types: ['Electric', 'Dragon'],
+      bs: { hp: 90, at: 95, df: 85, sa: 165, sd: 145, sp: 55 }
+  },
+  'Azurill': {
+      types: ['Water', 'Fairy'],
+      bs: { hp: 35, at: 20, df: 35, sa: 35, sd: 70, sp: 55 }
+  },
+  'Marill': {
+      types: ['Water', 'Fairy'],
+      bs: { hp: 65, at: 35, df: 60, sa: 60, sd: 80, sp: 55 }
+  },
+  'Azumarill': {
+      types: ['Water', 'Fairy'],
+      bs: { hp: 100, at: 50, df: 90, sa: 80, sd: 100, sp: 60 }
+  },
+  'Bonsly': {
+      types: ['Rock'],
+      bs: { hp: 50, at: 65, df: 95, sa: 25, sd: 65, sp: 50 }
+  },
+  'Sudowoodo': {
+      types: ['Rock'],
+      bs: { hp: 70, at: 105, df: 115, sa: 30, sd: 85, sp: 75 }
+  },
+  'Hoppip': {
+      types: ['Grass', 'Flying'],
+      bs: { hp: 40, at: 35, df: 40, sa: 55, sd: 55, sp: 75 }
+  },
+  'Skiploom': {
+      types: ['Grass', 'Flying'],
+      bs: { hp: 55, at: 45, df: 65, sa: 75, sd: 75, sp: 95 }
+  },
+  'Jumpluff': {
+      types: ['Grass', 'Flying'],
+      bs: { hp: 75, at: 55, df: 80, sa: 95, sd: 95, sp: 125 }
+  },
+  'Aipom': {
+      types: ['Normal'],
+      bs: { hp: 50, at: 74, df: 50, sa: 40, sd: 50, sp: 106 }
+  },
+  'Ambipom': {
+      types: ['Normal'],
+      bs: { hp: 75, at: 109, df: 70, sa: 60, sd: 70, sp: 116 }
+  },
+  'Sunkern': {
+      types: ['Grass'],
+      bs: { hp: 40, at: 30, df: 55, sa: 80, sd: 65, sp: 30 }
+  },
+  'Sunflora': {
+      types: ['Grass'],
+      bs: { hp: 75, at: 75, df: 75, sa: 115, sd: 95, sp: 45 }
+  },
+  'Yanma': {
+      types: ['Bug', 'Flying'],
+      bs: { hp: 51, at: 65, df: 41, sa: 96, sd: 41, sp: 126 }
+  },
+  'Yanmega': {
+      types: ['Bug', 'Dragon'],
+      bs: { hp: 86, at: 95, df: 66, sa: 126, sd: 56, sp: 146 }
+  },
+  'Wooper': {
+      types: ['Water', 'Ground'],
+      bs: { hp: 55, at: 50, df: 65, sa: 50, sd: 65, sp: 15 }
+  },
+  'Quagsire': {
+      types: ['Water', 'Ground'],
+      bs: { hp: 95, at: 85, df: 95, sa: 85, sd: 95, sp: 25 }
+  },
+  'Murkrow': {
+      types: ['Dark', 'Flying'],
+      bs: { hp: 51, at: 85, df: 46, sa: 81, sd: 46, sp: 106 }
+  },
+  'Honchkrow': {
+      types: ['Dark', 'Flying'],
+      bs: { hp: 71, at: 125, df: 71, sa: 96, sd: 71, sp: 101 }
+  },
+  'Misdreavus': {
+      types: ['Ghost', 'Fairy'],
+      bs: { hp: 50, at: 35, df: 50, sa: 100, sd: 100, sp: 100 }
+  },
+  'Mismagius': {
+      types: ['Ghost', 'Psychic'],
+      bs: { hp: 65, at: 45, df: 65, sa: 120, sd: 120, sp: 120 }
+  },
+  'Unown': {
+      types: ['Psychic'],
+      bs: { hp: 1, at: 54, df: 1, sa: 72, sd: 1, sp: 72 }
+  },
+  'Wynaut': {
+      types: ['Psychic'],
+      bs: { hp: 80, at: 23, df: 93, sa: 23, sd: 93, sp: 23 }
+  },
+  'Wobbuffet': {
+      types: ['Psychic'],
+      bs: { hp: 180, at: 33, df: 118, sa: 33, sd: 118, sp: 33 }
+  },
+  'Griafarig': {
+      types: ['Normal', 'Dark'],
+      bs: { hp: 70, at: 95, df: 80, sa: 110, sd: 80, sp: 100 }
+  },
+  'Pineco': {
+      types: ['Bug'],
+      bs: { hp: 50, at: 60, df: 95, sa: 60, sd: 70, sp: 15 }
+  },
+  'Forretress': {
+      types: ['Bug', 'Steel'],
+      bs: { hp: 75, at: 90, df: 140, sa: 90, sd: 100, sp: 40 }
+  },
+  'Dunsparce': {
+      types: ['Ground', 'Fairy'],
+      bs: { hp: 80, at: 90, df: 115, sa: 85, sd: 110, sp: 45 }
+  },
+  'Gligar': {
+      types: ['Poison', 'Flying'],
+      bs: { hp: 65, at: 95, df: 115, sa: 35, sd: 65, sp: 105 }
+  },
+  'Gliscor': {
+      types: ['Poison', 'Dark'],
+      bs: { hp: 80, at: 120, df: 125, sa: 45, sd: 75, sp: 105 }
+  },
+  'Snubbull': {
+		types: ['Fairy'],
+		bs: { hp: 60, at: 80, df: 60, sa: 40, sd: 60, sp: 50 }
+  },
+  'Granbull': {
+      types: ['Fairy', 'Fighting'],
+      bs: { hp: 90, at: 130, df: 95, sa: 60, sd: 80, sp: 70 }
+  },
+  'Qwilfish': {
+      types: ['Water', 'Poison'],
+      bs: { hp: 65, at: 95, df: 95, sa: 95, sd: 80, sp: 95 }
+  },
+  'Shuckle': {
+      types: ['Bug', 'Rock'],
+      bs: { hp: 45, at: 10, df: 230, sa: 10, sd: 230, sp: 10 }
+  },
+  'Heracross': {
+      types: ['Bug', 'Fighting'],
+      bs: { hp: 80, at: 130, df: 113, sa: 40, sd: 80, sp: 92 }
+  },
+  'Heracross-Mega': {
+      types: ['Bug', 'Fighting'],
+      bs: { hp: 80, at: 190, df: 148, sa: 40, sd: 110, sp: 67 }
+  },
+  'Sneasel': {
+      types: ['Dark', 'Ice'],
+      bs: { hp: 55, at: 105, df: 55, sa: 42, sd: 55, sp: 118 }
+  },
+  'Weavile': {
+      types: ['Dark', 'Ice'],
+      bs: { hp: 70, at: 120, df: 65, sa: 62, sd: 65, sp: 133 }
+  },
+  'Teddiursa': {
+      types: ['Normal'],
+      bs: { hp: 57, at: 80, df: 60, sa: 50, sd: 60, sp: 63 }
+  },
+  'Ursaring': {
+      types: ['Normal'],
+      bs: { hp: 97, at: 135, df: 80, sa: 60, sd: 80, sp: 83 }
+  },
+  'Slugma': {
+      types: ['Fire'],
+      bs: { hp: 40, at: 40, df: 60, sa: 95, sd: 95, sp: 20 }
+  },
+  'Magcargo': {
+      types: ['Fire', 'Rock'],
+      bs: { hp: 70, at: 50, df: 120, sa: 115, sd: 115, sp: 30 }
+  },
+  'Swinub': {
+      types: ['Ice', 'Ground'],
+      bs: { hp: 60, at: 65, df: 60, sa: 50, sd: 50, sp: 50 }
+  },
+  'Piloswine': {
+      types: ['Ice', 'Ground'],
+      bs: { hp: 100, at: 105, df: 80, sa: 60, sd: 60, sp: 50 }
+  },
+  'Mamoswine': {
+      types: ['Ice', 'Ground'],
+      bs: { hp: 120, at: 145, df: 90, sa: 70, sd: 70, sp: 80 }
+  },
+  'Corsola': {
+      types: ['Water', 'Rock'],
+      bs: { hp: 65, at: 55, df: 125, sa: 95, sd: 125, sp: 35 }
+  },
+  'Remoraid': {
+      types: ['Water'],
+      bs: { hp: 35, at: 65, df: 40, sa: 95, sd: 40, sp: 95 }
+  },
+  'Octillery': {
+      types: ['Water'],
+      bs: { hp: 75, at: 115, df: 80, sa: 125, sd: 100, sp: 40 }
+  },
+  'Delibird': {
+      types: ['Ice', 'Fairy'],
+      bs: { hp: 70, at: 75, df: 70, sa: 90, sd: 85, sp: 90 }
+  },
+  'Mantyke': {
+      types: ['Water', 'Flying'],
+      bs: { hp: 50, at: 20, df: 60, sa: 65, sd: 120, sp: 55 }
+  },
+  'Mantine': {
+      types: ['Water', 'Flying'],
+      bs: { hp: 115, at: 40, df: 85, sa: 90, sd: 140, sp: 80 }
+  },
+  'Skarmory': {
+      types: ['Steel', 'Flying'],
+      bs: { hp: 70, at: 116, df: 116, sa: 40, sd: 70, sp: 123 }
+  },
+  'Houndour': {
+      types: ['Dark', 'Fire'],
+      bs: { hp: 50, at: 65, df: 40, sa: 85, sd: 50, sp: 80 }
+  },
+  'Houndoom': {
+      types: ['Dark', 'Fire'],
+      bs: { hp: 75, at: 95, df: 60, sa: 120, sd: 80, sp: 105 }
+  },
+  'Houndoom-Mega': {
+      types: ['Dark', 'Fire'],
+      bs: { hp: 75, at: 110, df: 90, sa: 155, sd: 90, sp: 115 }
+  },
+  'Phanpy': {
+      types: ['Ground'],
+      bs: { hp: 60, at: 90, df: 90, sa: 40, sd: 65, sp: 45 }
+  },
+  'Donphan': {
+      types: ['Ground'],
+      bs: { hp: 100, at: 120, df: 120, sa: 60, sd: 80, sp: 70 }
+  },
+  'Stantler': {
+      types: ['Normal', 'Psychic'],
+      bs: { hp: 83, at: 105, df: 73, sa: 95, sd: 73, sp: 106 }
+  },
+  'Smeargle': {
+      types: ['Normal'],
+      bs: { hp: 70, at: 70, df: 70, sa: 70, sd: 70, sp: 95 }
+  },
+  'Miltank': {
+      types: ['Normal'],
+      bs: { hp: 105, at: 100, df: 105, sa: 40, sd: 105, sp: 80 }
+  },
+  'Raikou': {
+      types: ['Electric', 'Dark'],
+      bs: { hp: 80, at: 117, df: 75, sa: 117, sd: 75, sp: 136 }
+  },
+  'Entei': {
+      types: ['Fire', 'Ground'],
+      bs: { hp: 80, at: 127, df: 85, sa: 117, sd: 85, sp: 106 }
+  },
+  'Suicune': {
+      types: ['Water', 'Ice'],
+      bs: { hp: 80, at: 75, df: 85, sa: 117, sd: 127, sp: 116 }
+  },
+  'Larvitar': {
+      types: ['Rock', 'Ground'],
+      bs: { hp: 50, at: 79, df: 90, sa: 45, sd: 50, sp: 46 }
+  },
+  'Pupitar': {
+      types: ['Rock', 'Ground'],
+      bs: { hp: 70, at: 94, df: 115, sa: 65, sd: 85, sp: 51 }
+  },
+  'Tyranitar': {
+      types: ['Rock', 'Dark'],
+      bs: { hp: 110, at: 134, df: 115, sa: 95, sd: 85, sp: 61 }
+  },
+  'Tyranitar-Mega': {
+      types: ['Rock', 'Dark'],
+      bs: { hp: 110, at: 164, df: 150, sa: 120, sd: 95, sp: 61 }
+  },
+  'Celebi': {
+      types: ['Grass', 'Psychic'],
+      bs: { hp: 60, at: 60, df: 70, sa: 125, sd: 150, sp: 105 }
+  },
+  'Lugia': {
+      types: ['Psychic', 'Flying'],
+      bs: { hp: 106, at: 110, df: 110, sa: 130, sd: 154, sp: 90 }
+  },
+  'Ho-Oh': {
+      types: ['Fairy', 'Flying'],
+      bs: { hp: 106, at: 130, df: 90, sa: 130, sd: 154, sp: 90 }
+  },
+
+
 
 
 
