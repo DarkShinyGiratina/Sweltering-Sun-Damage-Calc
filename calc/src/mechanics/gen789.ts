@@ -107,7 +107,10 @@ export function calculateSMSSSV(
     'Full Metal Body',
     'Neutralizing Gas',
     'Prism Armor',
-    'Shadow Shield'
+    'Shadow Shield',
+    'Energy Shield',
+    'Resilient',
+    'Birds\' Eye View'
   );
 
   const attackerIgnoresAbility = attacker.hasAbility('Mold Breaker', 'Teravolt', 'Turboblaze');
@@ -359,7 +362,7 @@ export function calculateSMSSSV(
 
   const fixedDamage = handleFixedDamageMoves(attacker, move);
   if (fixedDamage) {
-    if (attacker.hasAbility('Parental Bond')) {
+    if (attacker.hasAbility('Parental Bond') || attacker.hasAbility('Expertise')) {
       result.damage = [fixedDamage, fixedDamage];
       desc.attackerAbility = attacker.ability;
     } else {
@@ -459,7 +462,7 @@ export function calculateSMSSSV(
     baseDamage = pokeRound(OF32(baseDamage * 3072) / 4096);
   }
 
-  if (attacker.hasAbility('Parental Bond (Child)')) {
+  if (attacker.hasAbility('Parental Bond (Child)') || attacker.hasAbility('Expertise (Second Hit)')) {
     baseDamage = pokeRound(OF32(baseDamage * 1024) / 4096);
   }
 
@@ -502,7 +505,7 @@ export function calculateSMSSSV(
   let stabMod = 4096;
   if (attacker.hasOriginalType(move.type)) {
     stabMod += 2048;
-  } else if (attacker.hasAbility('Protean', 'Libero') && !attacker.teraType) {
+  } else if (attacker.hasAbility('Protean', 'Libero', 'Versatility') && !attacker.teraType) {
     stabMod += 2048;
     desc.attackerAbility = attacker.ability;
   }
@@ -546,6 +549,14 @@ export function calculateSMSSSV(
   if (attacker.hasAbility('Parental Bond') && move.hits === 1 && !isSpread) {
     const child = attacker.clone();
     child.ability = 'Parental Bond (Child)' as AbilityName;
+    checkMultihitBoost(gen, child, defender, move, field, desc);
+    childDamage = calculateSMSSSV(gen, child, defender, move, field).damage as number[];
+    desc.attackerAbility = attacker.ability;
+  }
+
+  if (attacker.hasAbility('Expertise') && move.hits === 1 && !isSpread) {
+    const child = attacker.clone();
+    child.ability = 'Expertise (Second Hit)' as AbilityName;
     checkMultihitBoost(gen, child, defender, move, field, desc);
     childDamage = calculateSMSSSV(gen, child, defender, move, field).damage as number[];
     desc.attackerAbility = attacker.ability;
@@ -692,7 +703,7 @@ export function calculateBasePowerSMSSSV(
     desc.moveBP = basePower;
     break;
   case 'Assurance':
-    basePower = move.bp * (defender.hasAbility('Parental Bond (Child)') ? 2 : 1);
+    basePower = move.bp * (defender.hasAbility('Parental Bond (Child)') || defender.hasAbility('Expertise (Second Hit)') ? 2 : 1);
     // NOTE: desc.attackerAbility = 'Parental Bond' will already reflect this boost
     break;
   case 'Wake-Up Slap':
@@ -1033,7 +1044,8 @@ export function calculateBPModsSMSSSV(
   }
 
   if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage)) ||
-      (attacker.hasAbility('Iron Fist') && move.flags.punch)
+      (attacker.hasAbility('Iron Fist') && move.flags.punch) ||
+      (attacker.hasAbility('Amplifier') && move.flags.sound)
   ) {
     bpMods.push(4915);
     desc.attackerAbility = attacker.ability;
@@ -1190,7 +1202,7 @@ export function calculateAtModsSMSSSV(
        (attacker.hasAbility('Blaze') && move.hasType('Fire')) ||
        (attacker.hasAbility('Torrent') && move.hasType('Water')) ||
        (attacker.hasAbility('Swarm') && move.hasType('Bug')))) ||
-    (move.category === 'Special' && attacker.abilityOn && attacker.hasAbility('Plus', 'Minus'))
+    (move.category === 'Special' && attacker.abilityOn && attacker.hasAbility('Plus', 'Minus', 'Interstellar', 'Evoboost'))
   ) {
     atMods.push(6144);
     desc.attackerAbility = attacker.ability;
@@ -1209,7 +1221,7 @@ export function calculateAtModsSMSSSV(
     atMods.push(8192);
     desc.attackerAbility = attacker.ability;
   } else if (
-    (attacker.hasAbility('Water Bubble') && move.hasType('Water')) ||
+    (attacker.hasAbility('Water Bubble', 'Liquid Veil') && move.hasType('Water')) ||
     (attacker.hasAbility('Huge Power', 'Pure Power') && move.category === 'Physical')
   ) {
     atMods.push(8192);
@@ -1217,7 +1229,7 @@ export function calculateAtModsSMSSSV(
   }
 
   if ((defender.hasAbility('Thick Fat') && move.hasType('Fire', 'Ice')) ||
-      (defender.hasAbility('Water Bubble') && move.hasType('Fire')) ||
+      (defender.hasAbility('Water Bubble', 'Liquid Veil') && move.hasType('Fire')) ||
      (defender.hasAbility('Purifying Salt') && move.hasType('Ghost'))) {
     atMods.push(2048);
     desc.defenderAbility = defender.ability;
@@ -1365,7 +1377,7 @@ export function calculateDfModsSMSSSV(
     desc.weather = field.weather;
     desc.isFlowerGiftDefender = true;
   } else if (
-    defender.hasAbility('Grass Pelt') &&
+    defender.hasAbility('Grass Pelt', 'Grassy Guard') &&
     field.hasTerrain('Grassy') &&
     hitsPhysical
   ) {
@@ -1452,7 +1464,7 @@ export function calculateFinalModsSMSSSV(
   if (attacker.hasAbility('Neuroforce') && typeEffectiveness > 1) {
     finalMods.push(5120);
     desc.attackerAbility = attacker.ability;
-  } else if (attacker.hasAbility('Sniper') && isCritical) {
+  } else if ((attacker.hasAbility('Sniper') || attacker.hasAbility('Ruthless')) && isCritical) {
     finalMods.push(6144);
     desc.attackerAbility = attacker.ability;
   } else if (attacker.hasAbility('Tinted Lens') && typeEffectiveness < 1) {
@@ -1464,10 +1476,10 @@ export function calculateFinalModsSMSSSV(
     finalMods.push(8192);
   }
 
-  if (defender.hasAbility('Multiscale', 'Shadow Shield') &&
+  if (defender.hasAbility('Multiscale', 'Shadow Shield', 'Energy Shield') &&
       defender.curHP() === defender.maxHP() &&
       (!field.defenderSide.isSR && (!field.defenderSide.spikes || defender.hasType('Flying')) ||
-      defender.hasItem('Heavy-Duty Boots')) && !attacker.hasAbility('Parental Bond (Child)')
+      defender.hasItem('Heavy-Duty Boots')) && (!attacker.hasAbility('Parental Bond (Child)') && !attacker.hasAbility('Expertise (Second Hit)'))
   ) {
     finalMods.push(2048);
     desc.defenderAbility = defender.ability;
@@ -1484,7 +1496,7 @@ export function calculateFinalModsSMSSSV(
     desc.defenderAbility = defender.ability;
   }
 
-  if (defender.hasAbility('Solid Rock', 'Filter', 'Prism Armor') && typeEffectiveness > 1) {
+  if (defender.hasAbility('Solid Rock', 'Filter', 'Prism Armor', 'Resilient') && typeEffectiveness > 1) {
     finalMods.push(3072);
     desc.defenderAbility = defender.ability;
   }
