@@ -1076,6 +1076,15 @@ export function calculateBPModsSMSSSV(
   if (attacker.hasItem(`${move.type} Gem`)) {
     bpMods.push(5325);
     desc.attackerItem = attacker.item;
+  } else if ((attacker.hasItem('Dragon Fang') && move.hasType('Dragon')))  {
+    bpMods.push(5325);
+    desc.attackerItem = attacker.item;
+  } else if (
+    (attacker.hasItem('Adamant Orb') && attacker.named('Dialga') && move.hasType('Steel', 'Dragon')) ||
+    (attacker.hasItem('Lustrous Orb') && attacker.named('Palkia') && move.hasType('Water', 'Dragon'))
+  ) {
+    bpMods.push(6144);
+    desc.attackerItem = attacker.item;
   } else if (
     ((attacker.hasItem('Adamant Crystal') && attacker.named('Dialga-Origin')) ||
       (attacker.hasItem('Adamant Orb') && attacker.named('Dialga')) &&
@@ -1512,7 +1521,7 @@ export function calculateFinalModsSMSSSV(
   }
 
   if (attacker.hasItem('Expert Belt') && typeEffectiveness > 1 && !move.isZ) {
-    finalMods.push(4915);
+    finalMods.push(5120);
     desc.attackerItem = attacker.item;
   } else if (attacker.hasItem('Life Orb')) {
     finalMods.push(5324);
