@@ -1,6 +1,5 @@
 # Pokémon Damage Calculator
 
-![Test Status](https://github.com/DarkShinyGiratina/Sweltering-Sun-Damage-Calc/workflows/Tests/badge.svg)
 [![npm version](https://img.shields.io/npm/v/@smogon/calc.svg)](https://www.npmjs.com/package/@smogon/calc)&nbsp;
 
 Damage calculator for Pokemon Sweltering Sun, a ROM Hack by [Dooz](https://www.youtube.com/@doozsromhacks)
