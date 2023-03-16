@@ -402,7 +402,16 @@ const XY: TypeChart = extend(true, {}, GSC, {
   },
 });
 
-const SM = XY;
+const SM = extend(true, {}, XY, {
+  Bug: {
+    Fairy: 1,
+    Ghost: 1,
+    Fighting: 1
+  },
+  Ground: {Ice: 0.5},
+  Flying: {Ice: 0.5},
+  Dragon: {Ice: 0.5}
+});
 
 const SS = SM;
 
