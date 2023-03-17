@@ -161,7 +161,7 @@ function getZMoveName(moveName, moveType, item) {
         return 'Searing Sunraze Smash';
     if (moveName === 'Volt Tackle' && item === 'Pikanium Z')
         return 'Catastropika';
-    if (moveName === 'Nature\'s Madness' && item === 'Tapunium Z')
+    if (moveName === 'Cosmic Chaos' && item === 'Tapunium Z')
         return 'Guardian of Alola';
     if (moveName === 'Thunderbolt') {
         if (item === 'Aloraichium Z')

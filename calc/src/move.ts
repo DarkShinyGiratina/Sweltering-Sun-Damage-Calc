@@ -204,7 +204,7 @@ export function getZMoveName(moveName: string, moveType: I.TypeName, item?: stri
   if (moveName === 'Stone Edge' && item === 'Lycanium Z') return 'Splintered Stormshards';
   if (moveName === 'Sunsteel Strike' && item === 'Solganium Z') return 'Searing Sunraze Smash';
   if (moveName === 'Volt Tackle' && item === 'Pikanium Z') return 'Catastropika';
-  if (moveName === 'Nature\'s Madness' && item === 'Tapunium Z') return 'Guardian of Alola';
+  if (moveName === 'Cosmic Chaos' && item === 'Tapunium Z') return 'Guardian of Alola';
   if (moveName === 'Thunderbolt') {
     if (item === 'Aloraichium Z') return 'Stoked Sparksurfer';
     if (item === 'Pikashunium Z') return '10,000,000 Volt Thunderbolt';

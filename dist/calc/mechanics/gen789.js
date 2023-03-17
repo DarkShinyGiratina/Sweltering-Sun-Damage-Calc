@@ -266,7 +266,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         result.damage = zLostHP;
         return result;
     }
-    if (move.named('Nature\'s Madness')) {
+    if (move.named('Cosmic Chaos')) {
         var lostHP = field.defenderSide.isProtected ? 0 : Math.floor(defender.curHP() / 2);
         result.damage = lostHP;
         return result;
