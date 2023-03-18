@@ -152,7 +152,7 @@ export function calculateSMSSSV(
       : 'Normal';
     desc.weather = field.weather;
     desc.moveType = type;
-  } else if (move.named('Judgment') && attacker.item && attacker.item.includes('Plate')) {
+  } else if (move.named('Ancient Force') && attacker.item && attacker.item.includes('Plate')) {
     type = getItemBoostType(attacker.item)!;
   } else if (move.named('Techno Blast') && attacker.item && attacker.item.includes('Drive')) {
     type = getTechnoBlast(attacker.item)!;
@@ -202,7 +202,7 @@ export function calculateSMSSSV(
   let isNormalize = false;
   const noTypeChange = move.named(
     'Revelation Dance',
-    'Judgment',
+    'Ancient Force',
     'Nature Power',
     'Techno Blast',
     'Multi Attack',
