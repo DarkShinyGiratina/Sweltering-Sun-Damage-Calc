@@ -1064,7 +1064,7 @@ var DPP_PATCH = {
         bp: 40,
         type: 'Fighting',
         makesContact: true,
-        multihit: [2],
+        multihit: 2,
         category: 'Special'
     },
     'Giga Impact': {
