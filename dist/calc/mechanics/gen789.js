@@ -76,7 +76,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         desc.weather = field.weather;
         desc.moveType = type;
     }
-    else if (move.named('Judgment') && attacker.item && attacker.item.includes('Plate')) {
+    else if (move.named('Ancient Force') && attacker.item && attacker.item.includes('Plate')) {
         type = (0, items_1.getItemBoostType)(attacker.item);
     }
     else if (move.named('Techno Blast') && attacker.item && attacker.item.includes('Drive')) {
@@ -131,7 +131,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     var isGalvanize = false;
     var isLiquidVoice = false;
     var isNormalize = false;
-    var noTypeChange = move.named('Revelation Dance', 'Judgment', 'Nature Power', 'Techno Blast', 'Multi Attack', 'Natural Gift', 'Weather Ball', 'Terrain Pulse') || (move.named('Tera Blast') && attacker.teraType);
+    var noTypeChange = move.named('Revelation Dance', 'Ancient Force', 'Nature Power', 'Techno Blast', 'Multi Attack', 'Natural Gift', 'Weather Ball', 'Terrain Pulse') || (move.named('Tera Blast') && attacker.teraType);
     if (!move.isZ && !noTypeChange) {
         var normal = move.hasType('Normal');
         if ((isAerilate = attacker.hasAbility('Aerilate') && normal)) {
@@ -578,11 +578,11 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
                     desc.moveName = 'Thunderbolt';
                     break;
                 case 'Grassy':
-                    basePower = 90;
+                    basePower = 95;
                     desc.moveName = 'Energy Ball';
                     break;
                 case 'Misty':
-                    basePower = 95;
+                    basePower = 100;
                     desc.moveName = 'Moonblast';
                     break;
                 case 'Psychic':
@@ -590,7 +590,8 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
                     desc.moveName = 'Psychic';
                     break;
                 default:
-                    basePower = 80;
+                    basePower = 35;
+                    desc.hits = 3;
                     desc.moveName = 'Tri Attack';
             }
             break;

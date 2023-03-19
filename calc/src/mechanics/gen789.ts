@@ -773,11 +773,11 @@ export function calculateBasePowerSMSSSV(
       desc.moveName = 'Thunderbolt';
       break;
     case 'Grassy':
-      basePower = 90;
+      basePower = 95;
       desc.moveName = 'Energy Ball';
       break;
     case 'Misty':
-      basePower = 95;
+      basePower = 100;
       desc.moveName = 'Moonblast';
       break;
     case 'Psychic':
@@ -785,7 +785,8 @@ export function calculateBasePowerSMSSSV(
       desc.moveName = 'Psychic';
       break;
     default:
-      basePower = 80;
+      basePower = 35;
+      desc.hits = 3;
       desc.moveName = 'Tri Attack';
     }
     break;

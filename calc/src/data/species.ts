@@ -7003,7 +7003,8 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Porygon-Z': {
       types: ['Electric', 'Psychic'],
-      bs: { hp: 75, at: 80, df: 50, sa: 150, sd: 75, sp: 120 }
+      bs: { hp: 75, at: 80, df: 50, sa: 150, sd: 75, sp: 120 },
+      nfe: true
   },
   'Omanyte': {
       types: ['Rock', 'Water'],
@@ -8035,7 +8036,8 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Luvdisc': {
       types: ['Water', 'Fairy'],
-      bs: { hp: 55, at: 23, df: 65, sa: 75, sd: 115, sp: 102 }
+      bs: { hp: 55, at: 23, df: 65, sa: 75, sd: 115, sp: 102 },
+      nfe: true,
   },
   'Alomomola': {
       types: ['Water', 'Fairy'],
@@ -8455,7 +8457,8 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Phione': {
       types: ['Water'],
-      bs: { hp: 65, at: 50, df: 85, sa: 85, sd: 135, sp: 80 }
+      bs: { hp: 65, at: 50, df: 85, sa: 85, sd: 135, sp: 80 },
+      nfe: true
   },
   'Manaphy': {
       types: ['Water', 'Psychic'],
@@ -9452,7 +9455,8 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Carbink': {
       types: ['Rock', 'Fairy'],
-      bs: { hp: 50, at: 30, df: 150, sa: 90, sd: 150, sp: 30 }
+      bs: { hp: 50, at: 30, df: 150, sa: 90, sd: 150, sp: 30 },
+      nfe: true
   },
   'Diancie': {
       types: ['Rock', 'Fairy'],
