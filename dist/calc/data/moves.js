@@ -230,7 +230,7 @@ var GSC_PATCH = {
     'Sonic Boom': { bp: 0 },
     'Super Fang': { bp: 0 },
     'Dual Wingbeat': { bp: 45 },
-    Aeroblast: { bp: 65, type: 'Flying' },
+    Aeroblast: { bp: 65, type: 'Flying', isSound: true },
     Attract: { bp: 0, category: 'Status', type: 'Normal' },
     'Beat Up': { bp: 10, type: 'Dark' },
     'Belly Drum': { bp: 0, category: 'Status', type: 'Normal' },
@@ -1411,6 +1411,7 @@ var BW_PATCH = {
     },
     Synchronoise: {
         bp: 120,
+        isSound: true,
         type: 'Normal',
         target: 'allAdjacent',
         category: 'Special',
@@ -1878,7 +1879,7 @@ var XY_PATCH = {
     },
     'Aromatic Mist': { bp: 0, type: 'Fairy' },
     'Baby-Doll Eyes': { bp: 0, type: 'Fairy', priority: 1 },
-    Belch: { bp: 120, type: 'Poison', category: 'Special', secondaries: true },
+    Belch: { bp: 120, type: 'Poison', category: 'Special', secondaries: true, isSound: true },
     Boomburst: {
         bp: 140,
         type: 'Normal',
