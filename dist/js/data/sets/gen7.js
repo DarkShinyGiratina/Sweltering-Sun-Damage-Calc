@@ -5276,8 +5276,8 @@ var SETDEX_SM = {
           "level": 100,
           "ability": "Multiscale",
           "item": "Weakness Policy",
-          "nature": "Jolly",
-          "moves": ["Dragon Rush", "Gunk Shot", "Drain Punch", "Dragon Dance"],
+          "nature": "Adamant",
+          "moves": ["Dragon Rush", "Gunk Shot", "Drain Punch", "Rock Polish"],
           "evs": {
               "at": 252,
               "sp": 252
