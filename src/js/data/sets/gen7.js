@@ -736,7 +736,7 @@ var SETDEX_SM = {
           "ability": "Technician",
           "item": "Silk Scarf",
           "nature": "Jolly",
-          "moves": ["Power-up Punch", "Double Slap", "Fake Out", "Knock Off"],
+          "moves": ["Power-Up Punch", "Double Slap", "Fake Out", "Knock Off"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -949,7 +949,7 @@ var SETDEX_SM = {
           "ability": "Huge Power",
           "item": "Assault Vest",
           "nature": "Adamant",
-          "moves": ["First Impression", "U-Turn", "Aqua Jet", "Creeping Strike"],
+          "moves": ["First Impression", "U-turn", "Aqua Jet", "Creeping Strike"],
           "evs": {
               "at": 252,
               "hp": 252
@@ -1099,7 +1099,7 @@ var SETDEX_SM = {
           "ability": "Technician",
           "item": "Babiri Berry",
           "nature": "Adamant",
-          "moves": ["Covet", "Steel Wing", "Power-up Punch", "Ice Shard"],
+          "moves": ["Covet", "Steel Wing", "Power-Up Punch", "Ice Shard"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -1164,7 +1164,7 @@ var SETDEX_SM = {
           "ability": "Poison Touch",
           "item": "Eviolite",
           "nature": "Adamant",
-          "moves": ["Poison Fang", "U-Turn", "Taunt", "Toxic Spikes"],
+          "moves": ["Poison Fang", "U-turn", "Taunt", "Toxic Spikes"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -1295,7 +1295,7 @@ var SETDEX_SM = {
           "ability": "Ruthless",
           "item": "Scope Lens",
           "nature": "Adamant",
-          "moves": ["Cross Chop", "Night Slash", "Psycho Cut", "U-Turn"],
+          "moves": ["Cross Chop", "Night Slash", "Psycho Cut", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -1319,7 +1319,7 @@ var SETDEX_SM = {
           "ability": "Sand Stream",
           "item": "Assault Vest",
           "nature": "Careful",
-          "moves": ["Rock Slide", "Brick Break", "U-Turn", "Knock Off"],
+          "moves": ["Rock Slide", "Brick Break", "U-turn", "Knock Off"],
           "evs": {
               "at": 252,
               "hp": 252
@@ -1332,7 +1332,7 @@ var SETDEX_SM = {
           "ability": "Sand Rush",
           "item": "Eviolite",
           "nature": "Careful",
-          "moves": ["Smack Down", "Stomping Tantrum", "Sedimend", "U-Turn"],
+          "moves": ["Smack Down", "Stomping Tantrum", "Sedimend", "U-turn"],
           "evs": {
               "at": 252,
               "sd": 252
@@ -1356,7 +1356,7 @@ var SETDEX_SM = {
           "ability": "Ruthless",
           "item": "Scope Lens",
           "nature": "Careful",
-          "moves": ["First Impression", "Jagged Edge", "Razor Shell", "U-Turn"],
+          "moves": ["First Impression", "Jagged Edge", "Razor Shell", "U-turn"],
           "evs": {
               "at": 252,
               "hp": 252
@@ -1367,7 +1367,7 @@ var SETDEX_SM = {
           "ability": "Ruthless",
           "item": "Assault Vest",
           "nature": "Careful",
-          "moves": ["First Impression", "Stone Edge", "Surging Strikes", "U-Turn"],
+          "moves": ["First Impression", "Stone Edge", "Surging Strikes", "U-turn"],
           "evs": {
               "at": 252,
               "hp": 252
@@ -1428,7 +1428,7 @@ var SETDEX_SM = {
           "ability": "Hustle",
           "item": "Rockium Z",
           "nature": "Jolly",
-          "moves": ["Rock Slide", "Retaliate", "Fire Fang", "U-Turn"],
+          "moves": ["Rock Slide", "Retaliate", "Fire Fang", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -1489,7 +1489,7 @@ var SETDEX_SM = {
           "ability": "Expertise",
           "item": "Life Orb",
           "nature": "Jolly",
-          "moves": ["Retaliate", "Brick Break", "Shadow Punch", "U-Turn"],
+          "moves": ["Retaliate", "Brick Break", "Shadow Punch", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -1537,7 +1537,7 @@ var SETDEX_SM = {
           "ability": "Instinct",
           "item": "Firium Z",
           "nature": "Naive",
-          "moves": ["Flamethrower", "Thunder Punch", "Grass Knot", "U-Turn"],
+          "moves": ["Flamethrower", "Thunder Punch", "Grass Knot", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -1561,7 +1561,7 @@ var SETDEX_SM = {
           "ability": "Instinct",
           "item": "Waterium Z",
           "nature": "Naive",
-          "moves": ["Surf", "Ice Punch", "Grass Knot", "U-Turn"],
+          "moves": ["Surf", "Ice Punch", "Grass Knot", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -1585,7 +1585,7 @@ var SETDEX_SM = {
           "ability": "Instinct",
           "item": "Grassium Z",
           "nature": "Naive",
-          "moves": ["Energy Ball", "Brick Break", "Rock Slide", "U-Turn"],
+          "moves": ["Energy Ball", "Brick Break", "Rock Slide", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -1692,7 +1692,7 @@ var SETDEX_SM = {
           "ability": "Ruthless",
           "item": "Focus Sash",
           "nature": "Adamant",
-          "moves": ["First Impression", "Liquidation", "Pursuit", "U-Turn"],
+          "moves": ["First Impression", "Liquidation", "Pursuit", "U-turn"],
           "evs": {
               "at": 252,
               "hp": 252
@@ -1703,7 +1703,7 @@ var SETDEX_SM = {
           "ability": "Ruthless",
           "item": "Razor Claw",
           "nature": "Adamant",
-          "moves": ["First Impression", "Razor Shell", "Jagged Edge", "U-Turn"],
+          "moves": ["First Impression", "Razor Shell", "Jagged Edge", "U-turn"],
           "evs": {
               "at": 252,
               "hp": 252
@@ -1714,7 +1714,7 @@ var SETDEX_SM = {
           "ability": "Swift Swim",
           "item": "Assault Vest",
           "nature": "Adamant",
-          "moves": ["Wave Crash", "U-Turn", "Rock Slide", "Zen Headbutt"],
+          "moves": ["Wave Crash", "U-turn", "Rock Slide", "Zen Headbutt"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -1725,7 +1725,7 @@ var SETDEX_SM = {
           "ability": "Ruthless",
           "item": "Assault Vest",
           "nature": "Adamant",
-          "moves": ["First Impression", "Surging Strikes", "Stone Edge", "U-Turn"],
+          "moves": ["First Impression", "Surging Strikes", "Stone Edge", "U-turn"],
           "evs": {
               "at": 252,
               "hp": 252
@@ -1736,7 +1736,7 @@ var SETDEX_SM = {
           "ability": "Ruthless",
           "item": "Focus Sash",
           "nature": "Adamant",
-          "moves": ["First Impression", "Surging Strikes", "Stone Edge", "U-Turn"],
+          "moves": ["First Impression", "Surging Strikes", "Stone Edge", "U-turn"],
           "evs": {
               "at": 252,
               "hp": 252
@@ -1747,7 +1747,7 @@ var SETDEX_SM = {
           "ability": "Ruthless",
           "item": "Focus Sash",
           "nature": "Adamant",
-          "moves": ["First Impression", "Surging Strikes", "Stone Edge", "U-Turn"],
+          "moves": ["First Impression", "Surging Strikes", "Stone Edge", "U-turn"],
           "evs": {
               "at": 252,
               "hp": 252
@@ -1760,7 +1760,7 @@ var SETDEX_SM = {
           "ability": "Tinted Lens",
           "item": "Life Orb",
           "nature": "Rash",
-          "moves": ["Bug Buzz", "Dragon Breath", "Energy Ball", "U-Turn"],
+          "moves": ["Bug Buzz", "Dragon Breath", "Energy Ball", "U-turn"],
           "evs": {
               "sa": 252,
               "sp": 252
@@ -2017,7 +2017,7 @@ var SETDEX_SM = {
           "ability": "Technician",
           "item": "Focus Sash",
           "nature": "Adamant",
-          "moves": ["First Impression", "Pummel", "Sticky Web", "U-Turn"],
+          "moves": ["First Impression", "Pummel", "Sticky Web", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -2030,7 +2030,7 @@ var SETDEX_SM = {
           "ability": "Ruthless",
           "item": "Life Orb",
           "nature": "Jolly",
-          "moves": ["First Impression", "Pursuit", "Sticky Web", "U-Turn"],
+          "moves": ["First Impression", "Pursuit", "Sticky Web", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -2043,7 +2043,7 @@ var SETDEX_SM = {
           "ability": "Ruthless",
           "item": "Scope Lens",
           "nature": "Jolly",
-          "moves": ["First Impression", "Cross Chop", "Night Slash", "U-Turn"],
+          "moves": ["First Impression", "Cross Chop", "Night Slash", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -2054,7 +2054,7 @@ var SETDEX_SM = {
           "ability": "Guts",
           "item": "Flame Orb",
           "nature": "Jolly",
-          "moves": ["First Impression", "Take Down", "Rock Slide", "U-Turn"],
+          "moves": ["First Impression", "Take Down", "Rock Slide", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -2067,7 +2067,7 @@ var SETDEX_SM = {
           "ability": "Hustle",
           "item": "Coba Berry",
           "nature": "Jolly",
-          "moves": ["First Impression", "Seismic Fist", "Rock Slide", "U-Turn"],
+          "moves": ["First Impression", "Seismic Fist", "Rock Slide", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -2078,7 +2078,7 @@ var SETDEX_SM = {
           "ability": "Hustle",
           "item": "Coba Berry",
           "nature": "Adamant",
-          "moves": ["First Impression", "Headlong Rush", "Stone Edge", "U-Turn"],
+          "moves": ["First Impression", "Headlong Rush", "Stone Edge", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -2091,7 +2091,7 @@ var SETDEX_SM = {
           "ability": "Hustle",
           "item": "Buginium Z",
           "nature": "Jolly",
-          "moves": ["First Impression", "Smart Strike", "U-Turn", "Rock Slide"],
+          "moves": ["First Impression", "Smart Strike", "U-turn", "Rock Slide"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -2117,7 +2117,7 @@ var SETDEX_SM = {
           "ability": "Adaptability",
           "item": "Occa Berry",
           "nature": "Adamant",
-          "moves": ["First Impression", "Bulldoze", "Rock Slide", "U-Turn"],
+          "moves": ["First Impression", "Bulldoze", "Rock Slide", "U-turn"],
           "evs": {
               "at": 252,
               "hp": 252
@@ -2169,7 +2169,7 @@ var SETDEX_SM = {
           "ability": "Tinted Lens",
           "item": "Buginium Z",
           "nature": "Adamant",
-          "moves": ["Lunge", "Dual Wingbeat", "First Impression", "U-Turn"],
+          "moves": ["Lunge", "Dual Wingbeat", "First Impression", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -3143,7 +3143,7 @@ var SETDEX_SM = {
           "ability": "Hustle",
           "item": "Buginium Z",
           "nature": "Adamant",
-          "moves": ["First Impression", "Electro Assault", "Take Down", "U-Turn"],
+          "moves": ["First Impression", "Electro Assault", "Take Down", "U-turn"],
           "evs": {
               "sp": 252,
               "at": 252
@@ -3154,7 +3154,7 @@ var SETDEX_SM = {
           "ability": "Hustle",
           "item": "Buginium Z",
           "nature": "Adamant",
-          "moves": ["First Impression", "Electro Assault", "Take Down", "U-Turn"],
+          "moves": ["First Impression", "Electro Assault", "Take Down", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -3191,7 +3191,7 @@ var SETDEX_SM = {
           "ability": "Adaptability",
           "item": "Focus Sash",
           "nature": "Adamant",
-          "moves": ["First Impression", "Wicked Blow", "Yawn", "U-Turn"],
+          "moves": ["First Impression", "Wicked Blow", "Yawn", "U-turn"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -3400,7 +3400,7 @@ var SETDEX_SM = {
           "ability": "Tinted Lens",
           "item": "Life Orb",
           "nature": "Naive",
-          "moves": ["First Impression", "U-Turn", "Blizzard", "Focus Blast"],
+          "moves": ["First Impression", "U-turn", "Blizzard", "Focus Blast"],
           "evs": {
               "sa": 252,
               "at": 252
@@ -3411,7 +3411,7 @@ var SETDEX_SM = {
           "ability": "Tinted Lens",
           "item": "Icium Z",
           "nature": "Naive",
-          "moves": ["First Impression", "U-Turn", "Blizzard", "Focus Blast"],
+          "moves": ["First Impression", "U-turn", "Blizzard", "Focus Blast"],
           "evs": {
               "at": 252,
               "sa": 252
@@ -3841,7 +3841,7 @@ var SETDEX_SM = {
           "ability": "Expertise",
           "item": "Kangaskhanite",
           "nature": "Jolly",
-          "moves": ["Whiplash", "Hell Thrust", "Power-up Punch", "Zen Headbutt"],
+          "moves": ["Whiplash", "Hell Thrust", "Power-Up Punch", "Zen Headbutt"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -3880,7 +3880,7 @@ var SETDEX_SM = {
           "ability": "Technician",
           "item": "Life Orb",
           "nature": "Adamant",
-          "moves": ["First Impression", "U-Turn", "Bullet Speed", "Dual Wingbeat"],
+          "moves": ["First Impression", "U-turn", "Bullet Speed", "Dual Wingbeat"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -4363,7 +4363,7 @@ var SETDEX_SM = {
           "ability": "Tinted Lens",
           "item": "Steelium Z",
           "nature": "Adamant",
-          "moves": ["First Impression", "Triple Cannonade", "U-Turn", "Extreme Speed"],
+          "moves": ["First Impression", "Triple Cannonade", "U-turn", "Extreme Speed"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -4426,7 +4426,7 @@ var SETDEX_SM = {
           "ability": "Expertise",
           "item": "Red Card",
           "nature": "Adamant",
-          "moves": ["Spectral Thief", "Power-up Punch", "Destiny Bond", "Parting Shot"],
+          "moves": ["Spectral Thief", "Power-Up Punch", "Destiny Bond", "Parting Shot"],
           "evs": {
               "at": 252,
               "sp": 252
