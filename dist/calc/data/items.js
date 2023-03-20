@@ -484,6 +484,9 @@ var SM = XY.filter(function (i) { return i !== 'Old Amber'; }).concat([
     'Ultranecrozium Z',
     'Water Memory',
     'Waterium Z',
+    'Mega Stone I',
+    'Mega Stone II',
+    'Dark Stone'
 ]);
 var SS = SM.concat([
     'Berry Sweet',

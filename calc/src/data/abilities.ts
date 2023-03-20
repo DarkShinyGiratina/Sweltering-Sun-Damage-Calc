@@ -256,7 +256,8 @@ const SM = XY.concat([
   'Debug',
   'Database',
   'Interstellar',
-  'Evoboost'
+  'Evoboost',
+  'Distortion'
 ]);
 
 const SS = SM.concat([

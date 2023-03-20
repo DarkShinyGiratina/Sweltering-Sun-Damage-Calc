@@ -49,7 +49,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     }
     var defenderIgnoresAbility = defender.hasAbility('Full Metal Body', 'Neutralizing Gas', 'Prism Armor', 'Shadow Shield', 'Energy Shield', 'Resilient', 'Birds\' Eye View');
     var attackerIgnoresAbility = attacker.hasAbility('Mold Breaker', 'Teravolt', 'Turboblaze');
-    var moveIgnoresAbility = move.named('G-Max Drum Solo', 'G-Max Fire Ball', 'G-Max Hydrosnipe', 'Light That Burns the Sky', 'Menacing Moonraze Maelstrom', 'Moongeist Beam', 'Photon Geyser', 'Searing Sunraze Smash', 'Sunsteel Strike');
+    var moveIgnoresAbility = move.named('G-Max Drum Solo', 'G-Max Fire Ball', 'G-Max Hydrosnipe', 'Light That Burns the Sky', 'Menacing Moonraze Maelstrom', 'Moongeist Beam', 'Searing Sunraze Smash', 'Sunsteel Strike');
     if (!defenderIgnoresAbility && !defender.hasAbility('Poison Heal') &&
         (attackerIgnoresAbility || moveIgnoresAbility)) {
         if (attackerIgnoresAbility)
@@ -295,7 +295,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     }
     var attack = calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
     var attackSource = move.named('Foul Play') ? defender : attacker;
-    if (move.named('Photon Geyser', 'Light That Burns The Sky') ||
+    if (move.named('Twilight Cannon', 'Light That Burns The Sky') ||
         (move.named('Tera Blast') && attackSource.teraType)) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
@@ -608,7 +608,7 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             desc.moveBP = basePower;
             break;
         case 'Crush Grip':
-        case 'Wring Out':
+        case 'Brain Drain':
             basePower = 100 * Math.floor((defender.curHP() * 4096) / defender.maxHP());
             basePower = Math.floor(Math.floor((120 * basePower + 2048 - 1) / 4096) / 100) || 1;
             desc.moveBP = basePower;
@@ -723,7 +723,8 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
     var aura = "".concat(move.type, " Aura");
     var isAttackerAura = attacker.hasAbility(aura);
     var isDefenderAura = defender.hasAbility(aura);
-    var isUserAuraBreak = attacker.hasAbility('Aura Break') || defender.hasAbility('Aura Break');
+    var isUserAuraBreak = attacker.hasAbility('Aura Break') || defender.hasAbility('Aura Break') ||
+        attacker.hasAbility('Distortion') || defender.hasAbility('Distortion');
     var isFieldAuraBreak = field.isAuraBreak;
     var isFieldFairyAura = field.isFairyAura && move.type === 'Fairy';
     var isFieldDarkAura = field.isDarkAura && move.type === 'Dark';

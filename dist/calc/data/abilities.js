@@ -290,7 +290,8 @@ var SM = XY.concat([
     'Debug',
     'Database',
     'Interstellar',
-    'Evoboost'
+    'Evoboost',
+    'Distortion'
 ]);
 var SS = SM.concat([
     'As One (Glastrier)',

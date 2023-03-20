@@ -121,7 +121,6 @@ export function calculateSMSSSV(
     'Light That Burns the Sky',
     'Menacing Moonraze Maelstrom',
     'Moongeist Beam',
-    'Photon Geyser',
     'Searing Sunraze Smash',
     'Sunsteel Strike'
   );
@@ -431,7 +430,7 @@ export function calculateSMSSSV(
   // #region (Special) Attack
   const attack = calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
   const attackSource = move.named('Foul Play') ? defender : attacker;
-  if (move.named('Photon Geyser', 'Light That Burns The Sky') ||
+  if (move.named('Twilight Cannon', 'Light That Burns The Sky') ||
       (move.named('Tera Blast') && attackSource.teraType)) {
     move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
   }
@@ -805,7 +804,7 @@ export function calculateBasePowerSMSSSV(
     desc.moveBP = basePower;
     break;
   case 'Crush Grip':
-  case 'Wring Out':
+  case 'Brain Drain':
     basePower = 100 * Math.floor((defender.curHP() * 4096) / defender.maxHP());
     basePower = Math.floor(Math.floor((120 * basePower + 2048 - 1) / 4096) / 100) || 1;
     desc.moveBP = basePower;
@@ -985,7 +984,8 @@ export function calculateBPModsSMSSSV(
   const aura = `${move.type} Aura`;
   const isAttackerAura = attacker.hasAbility(aura);
   const isDefenderAura = defender.hasAbility(aura);
-  const isUserAuraBreak = attacker.hasAbility('Aura Break') || defender.hasAbility('Aura Break');
+  const isUserAuraBreak = attacker.hasAbility('Aura Break') || defender.hasAbility('Aura Break') || 
+                          attacker.hasAbility('Distortion') || defender.hasAbility('Distortion');
   const isFieldAuraBreak = field.isAuraBreak;
   const isFieldFairyAura = field.isFairyAura && move.type === 'Fairy';
   const isFieldDarkAura = field.isDarkAura && move.type === 'Dark';

@@ -430,6 +430,9 @@ const SM = XY.filter(i => i !== 'Old Amber').concat([
   'Ultranecrozium Z',
   'Water Memory',
   'Waterium Z',
+  'Mega Stone I',
+  'Mega Stone II',
+  'Dark Stone'
 ]);
 
 const SS = SM.concat([

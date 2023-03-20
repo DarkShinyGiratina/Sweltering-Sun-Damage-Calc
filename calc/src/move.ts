@@ -191,7 +191,7 @@ export function getZMoveName(moveName: string, moveType: I.TypeName, item?: stri
   if (moveName === 'Darkest Lariat' && item === 'Incinium Z') return 'Malicious Moonsault';
   if (moveName === 'Giga Impact' && item === 'Snorlium Z') return 'Pulverizing Pancake';
   if (moveName === 'Moongeist Beam' && item === 'Lunalium Z') return 'Menacing Moonraze Maelstrom';
-  if (moveName === 'Photon Geyser' && item === 'Ultranecrozium Z') {
+  if (moveName === 'Twilight Cannon' && item === 'Ultranecrozium Z') {
     return 'Light That Burns the Sky';
   }
   if (moveName === 'Play Rough' && item === 'Mimikium Z') return 'Let\'s Snuggle Forever';

@@ -141,7 +141,7 @@ function getZMoveName(moveName, moveType, item) {
         return 'Pulverizing Pancake';
     if (moveName === 'Moongeist Beam' && item === 'Lunalium Z')
         return 'Menacing Moonraze Maelstrom';
-    if (moveName === 'Photon Geyser' && item === 'Ultranecrozium Z') {
+    if (moveName === 'Twilight Cannon' && item === 'Ultranecrozium Z') {
         return 'Light That Burns the Sky';
     }
     if (moveName === 'Play Rough' && item === 'Mimikium Z')

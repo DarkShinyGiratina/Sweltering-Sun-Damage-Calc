@@ -2504,7 +2504,7 @@ var SM_PATCH = {
         isZ: true
     },
     'Malicious Moonsault': {
-        bp: 180,
+        bp: 250,
         type: 'Dark',
         makesContact: true,
         category: 'Physical',
@@ -2529,7 +2529,7 @@ var SM_PATCH = {
     },
     'Cosmic Chaos': { bp: 1, type: 'Psychic', category: 'Special', zp: 180 },
     'Never-Ending Nightmare': { bp: 1, type: 'Ghost', category: 'Physical', isZ: true },
-    'Oceanic Operetta': { bp: 195, type: 'Water', category: 'Special', isZ: true },
+    'Oceanic Operetta': { bp: 250, type: 'Water', category: 'Special', isZ: true },
     'Psychic Terrain': { bp: 0, type: 'Psychic' },
     'Pulverizing Pancake': {
         bp: 210,
@@ -2557,7 +2557,7 @@ var SM_PATCH = {
     },
     'Shattered Psyche': { bp: 1, type: 'Psychic', category: 'Physical', isZ: true },
     'Sedimend': { bp: 0, type: 'Ground' },
-    'Sinister Arrow Raid': { bp: 180, type: 'Ghost', category: 'Physical', isZ: true },
+    'Sinister Arrow Raid': { bp: 250, type: 'Ghost', category: 'Physical', isZ: true },
     'Sizzly Slide': {
         bp: 90,
         type: 'Fire',
