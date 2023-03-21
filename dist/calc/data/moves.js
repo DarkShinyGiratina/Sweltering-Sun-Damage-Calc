@@ -2389,7 +2389,6 @@ var SM_PATCH = {
     '10,000,000 Volt Thunderbolt': { bp: 195, type: 'Electric', category: 'Special', isZ: true },
     'Acid Downpour': { bp: 1, type: 'Poison', category: 'Physical', isZ: true },
     'All-Out Pummeling': { bp: 1, type: 'Fighting', category: 'Physical', isZ: true },
-    'Baddy Bad': { bp: 90, type: 'Dark', category: 'Special', zp: 175 },
     'Baneful Bunker': { bp: 0, type: 'Poison', priority: 4 },
     'Beak Blast': {
         bp: 150,
@@ -2399,22 +2398,7 @@ var SM_PATCH = {
         zp: 250
     },
     'Black Hole Eclipse': { bp: 1, type: 'Dark', category: 'Physical', isZ: true },
-    'Bloom Doom': { bp: 1, type: 'Grass', category: 'Physical', isZ: true },
-    'Bouncy Bubble': {
-        bp: 90,
-        type: 'Water',
-        drain: [1, 2],
-        category: 'Special',
-        zp: 175
-    },
     'Breakneck Blitz': { bp: 1, type: 'Normal', category: 'Physical', isZ: true },
-    'Buzzy Buzz': {
-        bp: 90,
-        type: 'Electric',
-        category: 'Special',
-        secondaries: true,
-        zp: 175
-    },
     Catastropika: {
         bp: 210,
         type: 'Electric',
@@ -2441,16 +2425,6 @@ var SM_PATCH = {
     },
     'Corkscrew Crash': { bp: 1, type: 'Steel', category: 'Physical', isZ: true },
     'Devastating Drake': { bp: 1, type: 'Dragon', category: 'Physical', isZ: true },
-    'Double Iron Bash': {
-        bp: 60,
-        type: 'Steel',
-        multihit: 2,
-        makesContact: true,
-        isPunch: true,
-        category: 'Physical',
-        secondaries: true,
-        zp: 180
-    },
     'Dragon Hammer': {
         bp: 110,
         type: 'Dragon',
@@ -2468,7 +2442,6 @@ var SM_PATCH = {
         zp: 210
     },
     'Floral Healing': { bp: 0, type: 'Grass' },
-    'Freezy Frost': { bp: 90, type: 'Ice', category: 'Special', zp: 175 },
     'Genesis Supernova': {
         bp: 185,
         type: 'Psychic',
@@ -2477,7 +2450,6 @@ var SM_PATCH = {
         isZ: true
     },
     'Gigavolt Havoc': { bp: 1, type: 'Electric', category: 'Physical', isZ: true },
-    'Glitzy Glow': { bp: 90, type: 'Psychic', category: 'Special', zp: 175 },
     'Guardian of Alola': { bp: 0, type: 'Fairy', category: 'Special', isZ: true },
     'Hydro Vortex': { bp: 1, type: 'Water', category: 'Physical', isZ: true },
     'Ice Hammer': {
@@ -2540,7 +2512,6 @@ var SM_PATCH = {
         isZ: true
     },
     'Revelation Dance': { bp: 90, type: 'Normal', category: 'Special', zp: 175, secondaries: true },
-    'Sappy Seed': { bp: 90, type: 'Grass', category: 'Physical', zp: 175 },
     'Savage Spin-Out': { bp: 1, type: 'Bug', category: 'Physical', isZ: true },
     'Searing Sunraze Smash': {
         bp: 200,
@@ -2559,14 +2530,6 @@ var SM_PATCH = {
     'Shattered Psyche': { bp: 1, type: 'Psychic', category: 'Physical', isZ: true },
     'Sedimend': { bp: 0, type: 'Ground' },
     'Sinister Arrow Raid': { bp: 250, type: 'Ghost', category: 'Physical', isZ: true },
-    'Sizzly Slide': {
-        bp: 90,
-        type: 'Fire',
-        makesContact: true,
-        category: 'Physical',
-        secondaries: true,
-        zp: 175
-    },
     'Solar Blade': {
         bp: 90,
         type: 'Grass',
@@ -2582,7 +2545,6 @@ var SM_PATCH = {
         category: 'Physical',
         isZ: true
     },
-    'Sparkly Swirl': { bp: 90, type: 'Fairy', category: 'Special', zp: 175 },
     'Splintered Stormshards': { bp: 190, type: 'Rock', category: 'Physical', isZ: true },
     Spotlight: { bp: 0, type: 'Normal', priority: 3 },
     'Stoked Sparksurfer': {
@@ -2605,15 +2567,6 @@ var SM_PATCH = {
     },
     'Toxic Thread': { bp: 0, type: 'Poison' },
     'Twinkle Tackle': { bp: 1, type: 'Fairy', category: 'Physical', isZ: true },
-    'Zippy Zap': {
-        bp: 50,
-        type: 'Electric',
-        willCrit: true,
-        priority: 2,
-        makesContact: true,
-        category: 'Physical',
-        zp: 100
-    },
     Accelerock: {
         bp: 45,
         type: 'Rock',
@@ -2675,14 +2628,6 @@ var SM_PATCH = {
         willCrit: true,
         zp: 175
     },
-    'Floaty Fall': {
-        bp: 90,
-        type: 'Flying',
-        makesContact: true,
-        category: 'Physical',
-        secondaries: true,
-        zp: 175
-    },
     'Gear Up': { bp: 0, type: 'Steel' },
     'High Horsepower': {
         bp: 95,
@@ -2716,7 +2661,6 @@ var SM_PATCH = {
         category: 'Special',
         zp: 210
     },
-    'Pika Papow': { bp: 0, type: 'Electric', category: 'Special', zp: 100 },
     'Plasma Shot': {
         bp: 130,
         type: 'Electric',
@@ -2790,14 +2734,6 @@ var SM_PATCH = {
         zp: 120,
         willCrit: true
     },
-    'Splishy Splash': {
-        bp: 90,
-        type: 'Water',
-        target: 'allAdjacentFoes',
-        category: 'Special',
-        secondaries: true,
-        zp: 175
-    },
     'Stomping Tantrum': {
         bp: 75,
         type: 'Ground',
@@ -2821,13 +2757,6 @@ var SM_PATCH = {
         category: 'Physical',
         secondaries: true,
         zp: 140
-    },
-    'Veevee Volley': {
-        bp: 0,
-        type: 'Normal',
-        makesContact: true,
-        category: 'Physical',
-        zp: 100
     },
     'Zing Zap': {
         bp: 85,
