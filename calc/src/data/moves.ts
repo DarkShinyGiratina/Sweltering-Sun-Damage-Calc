@@ -68,7 +68,7 @@ const RBY: {[name: string]: MoveData} = {
     'Dizzy Punches': { bp: 30, type: 'Psychic', multihit: 3 },
     'Double-Edge': { bp: 125, type: 'Normal', recoil: [25, 100] },
     'Double Kick': { bp: 30, type: 'Fighting', multihit: 2 },
-    'Double Slap': { bp: 30, type: 'Normal', multihit: [2] },
+    'Double Slap': { bp: 30, type: 'Normal', multihit: 2 },
     'Dragon Burst': { bp: 1, type: 'Dragon' },
     'Dream Eater': { bp: 100, type: 'Psychic', drain: [1, 1] },
     Earthquake: { bp: 100, type: 'Ground' },
