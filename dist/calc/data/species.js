@@ -6844,7 +6844,7 @@ var SM_PATCH = {
     },
     'Noctowl': {
         types: ['Psychic', 'Flying'],
-        bs: { hp: 76, at: 50, df: 76, sa: 106, sd: 11, sp: 96 }
+        bs: { hp: 76, at: 50, df: 76, sa: 106, sd: 111, sp: 96 }
     },
     'Ledyba': {
         types: ['Bug', 'Flying'],
