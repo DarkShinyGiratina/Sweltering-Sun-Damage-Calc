@@ -828,7 +828,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 	multihit: [2],
         category: 'Physical'
     },
-    Commotion: { bp: 60, type: 'Flying', isSound: true, category: 'Special' },
+    Commotion: { bp: 60, type: 'Normal', isSound: true, category: 'Special' },
     Copycat: { bp: 0, type: 'Normal' },
     'Crush Grip': {
         bp: 0,
