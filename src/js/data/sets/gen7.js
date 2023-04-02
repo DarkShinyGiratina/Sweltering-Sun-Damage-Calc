@@ -3711,7 +3711,7 @@ var SETDEX_SM = {
           "ability": "Regenerator",
           "item": "Focus Sash",
           "nature": "Bold",
-          "moves": ["Radiant Outburst", "Sludge Bomb", "Spore", "Parting Shot"],
+          "moves": ["Moonblast", "Sludge Bomb", "Spore", "Parting Shot"],
           "evs": {
               "hp": 252,
               "df": 252

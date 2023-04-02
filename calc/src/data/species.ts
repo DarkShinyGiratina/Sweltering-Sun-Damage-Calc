@@ -7097,7 +7097,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Phanpy': {
       types: ['Ground'],
-      bs: { hp: 60, at: 90, df: 90, sa: 40, sd: 65, sp: 45 }
+      bs: { hp: 60, at: 80, df: 80, sa: 40, sd: 65, sp: 45 }
   },
   'Donphan': {
       types: ['Ground'],

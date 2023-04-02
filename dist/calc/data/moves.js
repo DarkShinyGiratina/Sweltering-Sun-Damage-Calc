@@ -136,7 +136,7 @@ var RBY = {
     'Tri Attack': { bp: 35, type: 'Normal', multihit: 3 },
     'Poison Dart': { bp: 50, type: 'Poison' },
     Whirlwind: { bp: 0, category: 'Status', type: 'Flying' },
-    'Dual Wingbeat': { bp: 45, type: 'Flying', multihit: [2] },
+    'Dual Wingbeat': { bp: 45, type: 'Flying', multihit: 2 },
     Wrap: { bp: 60, type: 'Poison' },
     Growl: { bp: 0, category: 'Status', type: 'Normal' },
     Leer: { bp: 0, category: 'Status', type: 'Dark' },
@@ -320,7 +320,7 @@ var GSC_PATCH = {
     'Knockout Punch': { bp: 130, type: 'Fighting' },
     'False Strike': { bp: 45, type: 'Dragon' },
     'Flame Wheel': { bp: 60, type: 'Fire' },
-    'Iron Tail': { bp: 100, type: 'Steel' },
+    'Iron Tail': { bp: 110, type: 'Steel' },
     'Mach Punch': { bp: 45, type: 'Fighting', priority: 1 },
     Megahorn: { bp: 120, type: 'Bug' },
     'Laceration': { bp: 70, type: 'Steel' },
@@ -894,7 +894,7 @@ var DPP_PATCH = {
     'Me First': { bp: 0, type: 'Normal' },
     'Metal Burst': { bp: 0, type: 'Steel', category: 'Physical' },
     'Miracle Eye': { bp: 0, type: 'Psychic' },
-    'Natural Gift': { bp: 0, type: 'Normal', category: 'Physical' },
+    'Natural Gift': { bp: 0, type: 'Normal', category: 'Special' },
     Payback: {
         bp: 50,
         type: 'Dark',
@@ -1007,7 +1007,7 @@ var DPP_PATCH = {
         category: 'Physical'
     },
     'Seed Flare': { bp: 120, type: 'Grass', category: 'Special' },
-    'Subspace Tear': { bp: 80, type: 'Dragon', category: 'Special' },
+    'Subspace Tear': { bp: 80, type: 'Psychic', category: 'Special' },
     'Hocus-Pocus': {
         bp: 0,
         type: 'Psychic',
@@ -1326,7 +1326,7 @@ var BW_PATCH = {
         category: 'Physical'
     },
     Hex: { bp: 50, type: 'Ghost', category: 'Special' },
-    'Horn Leech': {
+    'Branch Leech': {
         bp: 75,
         type: 'Grass',
         drain: [1, 2],
@@ -2221,7 +2221,7 @@ var SM_PATCH = {
     'Hold Back': { zp: 100, secondaries: true },
     'Peck': { zp: 100 },
     'Horn Drill': { zp: 255 },
-    'Horn Leech': { zp: 140 },
+    'Branch Leech': { zp: 175, bp: 90 },
     'Hydro Cannon': { zp: 210 },
     'Hydro Pump': { zp: 195, bp: 120 },
     'Hyper Beam': { zp: 220 },
@@ -2267,7 +2267,7 @@ var SM_PATCH = {
     Nuzzle: { category: 'Status', bp: 0 },
     'Scum Show': { zp: 120 },
     Outrage: { zp: 190 },
-    Overheat: { zp: 195 },
+    Overheat: { zp: 195, secondaries: true },
     'Paleo Wave': { zp: 160 },
     'Parabolic Charge': { bp: 70, zp: 140 },
     Payback: { zp: 190, bp: 60, priority: -4 },
@@ -3783,7 +3783,7 @@ var SS_PATCH = {
     'Hold Back': { maxPower: 90 },
     'Peck': { maxPower: 120 },
     'Horn Drill': { maxPower: 130 },
-    'Horn Leech': { maxPower: 130 },
+    'Branch Leech': { maxPower: 130 },
     Howl: { isSound: true },
     Hurricane: { maxPower: 140 },
     'Hydro Cannon': { maxPower: 150 },
