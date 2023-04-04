@@ -2426,7 +2426,7 @@ var SETDEX_SM = {
           "ability": "Guts",
           "item": "Flame Orb",
           "nature": "Adamant",
-          "moves": ["Facade", "Aqua Tail", "Fake Out", "Parting Shot"],
+          "moves": ["Facade", "Aqua Tail", "Protect", "Parting Shot"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -3711,7 +3711,7 @@ var SETDEX_SM = {
           "ability": "Regenerator",
           "item": "Focus Sash",
           "nature": "Bold",
-          "moves": ["Moonblast", "Sludge Bomb", "Spore", "Parting Shot"],
+          "moves": ["Radiant Outburst", "Sludge Bomb", "Spore", "Parting Shot"],
           "evs": {
               "hp": 252,
               "df": 252
@@ -5276,8 +5276,8 @@ var SETDEX_SM = {
           "level": 100,
           "ability": "Multiscale",
           "item": "Weakness Policy",
-          "nature": "Adamant",
-          "moves": ["Dragon Rush", "Gunk Shot", "Drain Punch", "Rock Polish"],
+          "nature": "Jolly",
+          "moves": ["Dragon Rush", "Gunk Shot", "Drain Punch", "Dragon Dance"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -5994,6 +5994,19 @@ var SETDEX_SM = {
           "evs": {
               "sa": 252,
               "sp": 252
+          }
+      }
+  },
+  "Ribombee-Totem": {
+      "Totem Ribombee Fight": {
+          "level": 70,
+          "ability": "Serene Grace",
+          "item": "Focus Sash",
+          "nature": "Bold",
+          "moves": ["Bug Buzz", "Revelation Dance", "Focus Blast", "Protect"],
+          "evs": {
+              "hp": 252,
+              "df": 252
           }
       }
   }
