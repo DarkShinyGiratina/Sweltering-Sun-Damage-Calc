@@ -5966,7 +5966,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Raticate-Alola-Totem': {
       types: ['Normal', 'Dark'],
-      bs: { hp: 119, at: 114, df: 90, sa: 40, sd: 90, sp: 47 },
+      bs: { hp: 119, at: 114, df: 90, sa: 40, sd: 90, sp: 62 },
       baseSpecies: 'Raticate'
   },
   'Spearow': {
@@ -6041,7 +6041,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Nidorino': {
       types: ['Poison', 'Normal'],
-      bs: { hp: 60, at: 98, df: 86, sa: 50, sd: 65, sp: 96 }
+      bs: { hp: 60, at: 101, df: 83, sa: 50, sd: 65, sp: 96 }
   },
   'Nidoking': {
       types: ['Poison', 'Ground'],
@@ -6480,11 +6480,11 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Lickitung': {
       types: ['Normal', 'Poison'],
-      bs: { hp: 90, at: 75, df: 80, sa: 75, sd: 80, sp: 50 }
+      bs: { hp: 90, at: 85, df: 95, sa: 85, sd: 95, sp: 30 }
   },
   'Lickilicky': {
       types: ['Normal', 'Poison'],
-      bs: { hp: 120, at: 100, df: 100, sa: 100, sd: 100, sp: 30 }
+      bs: { hp: 125, at: 100, df: 100, sa: 100, sd: 100, sp: 50 }
   },
   'Koffing': {
       types: ['Poison'],
@@ -6881,7 +6881,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Azurill': {
       types: ['Water', 'Fairy'],
-      bs: { hp: 35, at: 20, df: 35, sa: 35, sd: 70, sp: 55 }
+      bs: { hp: 50, at: 20, df: 40, sa: 40, sd: 60, sp: 40 }
   },
   'Marill': {
       types: ['Water', 'Fairy'],
@@ -6921,7 +6921,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Sunkern': {
       types: ['Grass'],
-      bs: { hp: 40, at: 30, df: 55, sa: 80, sd: 65, sp: 30 }
+      bs: { hp: 40, at: 30, df: 65, sa: 80, sd: 65, sp: 30 }
   },
   'Sunflora': {
       types: ['Grass'],
@@ -6965,11 +6965,11 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Wynaut': {
       types: ['Psychic'],
-      bs: { hp: 80, at: 23, df: 93, sa: 23, sd: 93, sp: 23 }
+      bs: { hp: 95, at: 23, df: 93, sa: 23, sd: 93, sp: 23 }
   },
   'Wobbuffet': {
       types: ['Psychic'],
-      bs: { hp: 180, at: 33, df: 118, sa: 33, sd: 118, sp: 33 }
+      bs: { hp: 190, at: 33, df: 118, sa: 33, sd: 118, sp: 33 }
   },
   'Griafarig': {
       types: ['Normal', 'Dark'],
@@ -6985,7 +6985,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Dunsparce': {
       types: ['Ground', 'Fairy'],
-      bs: { hp: 80, at: 90, df: 115, sa: 85, sd: 110, sp: 45 }
+      bs: { hp: 100, at: 90, df: 105, sa: 85, sd: 100, sp: 45 }
   },
   'Gligar': {
       types: ['Poison', 'Flying'],
@@ -7145,7 +7145,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Celebi': {
       types: ['Grass', 'Psychic'],
-      bs: { hp: 60, at: 60, df: 70, sa: 125, sd: 150, sp: 105 }
+      bs: { hp: 65, at: 60, df: 80, sa: 135, sd: 150, sp: 110 }
   },
   'Lugia': {
       types: ['Psychic', 'Flying'],
@@ -7501,7 +7501,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Camerupt-Mega': {
       types: ['Fire', 'Ground'],
-      bs: { hp: 100, at: 145, df: 125, sa: 165, sd: 105, sp: 35 }
+      bs: { hp: 100, at: 145, df: 115, sa: 165, sd: 105, sp: 45 }
   },
   'Torkoal': {
       types: ['Fire'],
@@ -7617,19 +7617,19 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Castform': {
       types: ['Flying'],
-      bs: { hp: 70, at: 55, df: 70, sa: 110, sd: 110, sp: 100 }
+      bs: { hp: 70, at: 55, df: 70, sa: 110, sd: 110, sp: 110 }
   },
   'Castform-Sunny': {
       types: ['Fire', 'Flying'],
-      bs: { hp: 70, at: 55, df: 70, sa: 115, sd: 115, sp: 100 }
+      bs: { hp: 70, at: 55, df: 70, sa: 115, sd: 115, sp: 150 }
   },
   'Castform-Rainy': {
 		types: ['Water', 'Flying'],
-		bs: { hp: 70, at: 55, df: 70, sa: 115, sd: 115, sp: 100 }
+		bs: { hp: 70, at: 55, df: 70, sa: 115, sd: 115, sp: 150 }
   },
   'Castform-Snowy': {
       types: ['Ice', 'Flying'],
-      bs: { hp: 70, at: 55, df: 70, sa: 115, sd: 115, sp: 100 }
+      bs: { hp: 70, at: 55, df: 70, sa: 115, sd: 115, sp: 150 }
   },
   'Kecleon': {
       types: ['Normal'],
@@ -8187,7 +8187,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Regigigas': {
       types: ['Normal', 'Ground'],
-      bs: { hp: 185, at: 250, df: 110, sa: 100, sd: 110, sp: 45 }
+      bs: { hp: 195, at: 250, df: 110, sa: 100, sd: 110, sp: 35 }
   },
   'Giratina': {
       types: ['Ghost', 'Dragon'],
