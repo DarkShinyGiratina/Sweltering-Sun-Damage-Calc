@@ -7097,11 +7097,11 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Phanpy': {
       types: ['Ground'],
-      bs: { hp: 60, at: 80, df: 80, sa: 40, sd: 65, sp: 45 }
+      bs: { hp: 60, at: 85, df: 85, sa: 30, sd: 65, sp: 40 }
   },
   'Donphan': {
       types: ['Ground'],
-      bs: { hp: 100, at: 120, df: 120, sa: 60, sd: 80, sp: 70 }
+      bs: { hp: 100, at: 130, df: 130, sa: 40, sd: 80, sp: 70 }
   },
   'Stantler': {
       types: ['Normal', 'Psychic'],
@@ -7321,15 +7321,15 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Slakoth': {
       types: ['Normal'],
-      bs: { hp: 60, at: 75, df: 60, sa: 50, sd: 60, sp: 30 }
+      bs: { hp: 60, at: 80, df: 65, sa: 35, sd: 65, sp: 30 }
   },
   'Vigoroth': {
       types: ['Normal'],
-      bs: { hp: 75, at: 95, df: 65, sa: 55, sd: 65, sp: 100 }
+      bs: { hp: 80, at: 95, df: 70, sa: 40, sd: 70, sp: 100 }
   },
   'Slaking': {
       types: ['Normal'],
-      bs: { hp: 115, at: 160, df: 80, sa: 60, sd: 80, sp: 80 }
+      bs: { hp: 125, at: 160, df: 80, sa: 50, sd: 80, sp: 80 }
   },
   'Nincada': {
       types: ['Bug', 'Ground'],
@@ -7721,7 +7721,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Relicanth': {
       types: ['Water', 'Rock'],
-      bs: { hp: 85, at: 90, df: 145, sa: 45, sd: 130, sp: 30 }
+      bs: { hp: 100, at: 90, df: 145, sa: 45, sd: 115, sp: 30 }
   },
   'Luvdisc': {
       types: ['Water', 'Fairy'],
@@ -8159,7 +8159,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Shaymin-Sky': {
       types: ['Grass', 'Flying'],
-      bs: { hp: 65, at: 93, df: 70, sa: 125, sd: 115, sp: 132 }
+      bs: { hp: 65, at: 93, df: 70, sa: 125, sd: 110, sp: 137 }
   },
   'Uxie': {
       types: ['Psychic', 'Normal'],

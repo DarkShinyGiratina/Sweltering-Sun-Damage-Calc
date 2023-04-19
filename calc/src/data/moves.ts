@@ -2298,7 +2298,7 @@ const SM_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     'Poison Tail': { zp: 175 },
     Pummel: { zp: 140 },
     'Frost Flurry': { zp: 90 },
-    'Power Gem': { zp: 175, bp: 90, secondaries: true },
+    'Power Gem': { zp: 175, bp: 95, secondaries: true },
     'Power-Up Punch': { zp: 100 },
     'Power Whip': { zp: 190 },
     Present: { zp: 100 },
