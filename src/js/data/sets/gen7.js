@@ -1038,7 +1038,7 @@ var SETDEX_SM = {
           "level": 23,
           "ability": "Sweltering Sun",
           "item": "Shuca Berry",
-          "nature": "Jolly",
+          "nature": "Bold",
           "moves": ["Ignite", "Scorching Sands", "Hidden Power Grass", "Smog"],
           "evs": {
               "hp": 252,

@@ -1038,7 +1038,7 @@ var SETDEX_SM = {
           "level": 23,
           "ability": "Sweltering Sun",
           "item": "Shuca Berry",
-          "nature": "Jolly",
+          "nature": "Bold",
           "moves": ["Ignite", "Scorching Sands", "Hidden Power Grass", "Smog"],
           "evs": {
               "hp": 252,
@@ -4455,7 +4455,7 @@ var SETDEX_SM = {
           "ability": "Shadow Tag",
           "item": "Gengarite",
           "nature": "Modest",
-          "moves": ["Infernal Parade", "Sludge Wave", "Focus Blast", "Hypnosis"],
+          "moves": ["Shadow Ball", "Sludge Wave", "Focus Blast", "Heat Wave"],
           "evs": {
               "sa": 252,
               "sp": 252
@@ -4466,9 +4466,9 @@ var SETDEX_SM = {
       "Kahili (Elite Four)": {
           "level": 100,
           "ability": "Reckless",
-          "item": "Shell Bell",
+          "item": "Red Card",
           "nature": "Adamant",
-          "moves": ["Headlong Rush", "Divebomb", "Rock Climb", "High Jump Kick"],
+          "moves": ["Headlong Rush", "Divebomb", "Rock Climb", "Parting Shot"],
           "evs": {
               "at": 252,
               "sp": 252
@@ -4505,7 +4505,7 @@ var SETDEX_SM = {
           "ability": "Guarding Gale",
           "item": "Flyinium Z",
           "nature": "Timid",
-          "moves": ["Thunder", "Hurricane", "Focus Blast", "Parting Shot"],
+          "moves": ["Thunder", "Hurricane", "Heat Wave", "Parting Shot"],
           "evs": {
               "sa": 252,
               "sp": 252
@@ -4518,7 +4518,7 @@ var SETDEX_SM = {
           "ability": "Rapid Fire",
           "item": "Focus Sash",
           "nature": "Adamant",
-          "moves": ["Egg Cannon", "Fury Pecks", "Pummel", "Swords Dance"],
+          "moves": ["Egg Cannon", "Fury Pecks", "Burning Barrage", "Swords Dance"],
           "evs": {
               "hp": 252,
               "at": 252

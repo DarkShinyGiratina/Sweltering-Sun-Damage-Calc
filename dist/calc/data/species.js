@@ -7124,7 +7124,7 @@ var SM_PATCH = {
     },
     'Phanpy': {
         types: ['Ground'],
-        bs: { hp: 60, at: 85, df: 85, sa: 30, sd: 65, sp: 40 }
+        bs: { hp: 65, at: 85, df: 85, sa: 30, sd: 65, sp: 40 }
     },
     'Donphan': {
         types: ['Ground'],
