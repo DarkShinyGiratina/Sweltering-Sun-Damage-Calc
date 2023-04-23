@@ -3452,7 +3452,7 @@ var SETDEX_SM = {
           "moves": ["Revelation Dance", "Seed Flare", "Earth Power", "Quiver Dance"],
           "evs": {
               "sa": 252,
-              "at": 252
+              "sp": 252
           }
       },
       "Lusamine (Title Defense)": {
@@ -3463,7 +3463,7 @@ var SETDEX_SM = {
           "moves": ["Revelation Dance", "Seed Flare", "Earth Power", "Blossom Dance"],
           "evs": {
               "sa": 252,
-              "at": 252
+              "sp": 252
           }
       }
   },
