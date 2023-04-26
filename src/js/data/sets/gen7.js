@@ -2238,7 +2238,7 @@ var SETDEX_SM = {
           "moves": ["Psyshock", "Aura Sphere", "Influx", "Volt Switch"],
           "evs": {
               "sa": 252,
-              "sp": 252
+              "hp": 252
           }
       },
       "Faba Doubles (Aether Paradise)": {
