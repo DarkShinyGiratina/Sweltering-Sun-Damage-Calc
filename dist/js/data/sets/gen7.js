@@ -269,7 +269,7 @@ var SETDEX_SM = {
           "ability": "Tinted Lens",
           "item": "Quick Claw",
           "nature": "Calm",
-          "moves": ["Confusion", "Parabolic Charge", "Signal Beam", "Dazzling Gleam"],
+          "moves": ["Extrasensory", "Parabolic Charge", "Signal Beam", "Dazzling Gleam"],
           "evs": {
               "sa": 252,
               "hp": 252
