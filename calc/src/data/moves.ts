@@ -2177,7 +2177,7 @@ const SM_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     Endeavor: { zp: 180 },
     'Energy Ball': { zp: 175, bp: 95, secondaries:true },
     Eruption: { zp: 210 },
-    Explosion: { zp: 255, willCrit:true },
+    Explosion: { zp: 255, willCrit:true, category:'Special' },
     Extrasensory: { zp: 150, bp:75 },
     'Extreme Speed': { zp: 160 },
     Facade: { zp: 140 },
