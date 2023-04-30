@@ -2429,7 +2429,7 @@ var SETDEX_SM = {
           "ability": "Flare Boost",
           "item": "Flame Orb",
           "nature": "Timid",
-          "moves": ["Infernal Parade", "Aeroblast", "Flamethrower", "Aura Sphere"],
+          "moves": ["Shadow Ball", "Aeroblast", "Roost", "Aura Sphere"],
           "evs": {
               "sa": 252,
               "sp": 252
