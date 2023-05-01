@@ -617,7 +617,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     'Pin Missile': { category: 'Physical' },
     'Pendulum Wave': { category: 'Special' },
     Pursuit: { category: 'Physical' },
-    'Rapid SCoil:pin': { category: 'Physical' },
+    'Rapid Spin': { category: 'Physical' },
     'Razor Wind': { category: 'Special' },
     'Raging Fury': { category: 'Physical' },
     Reversal: { category: 'Physical' },
@@ -825,7 +825,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<MoveData>} = {
         bp: 35,
         type: 'Bug',
         makesContact: true,
-	multihit: [2],
+	      multihit: 2,
         category: 'Physical', secondaries:true
     },
     Commotion: { bp: 60, type: 'Normal', isSound: true, category: 'Special' },

@@ -2798,7 +2798,7 @@ var SETDEX_SM = {
           "ability": "Hustle",
           "item": "Darkinium Z",
           "nature": "Adamant",
-          "moves": ["Mach Punch", "Bullet Punch", "Roar", "Wake-up Slap"],
+          "moves": ["Mach Punch", "Bullet Punch", "Roar", "Wake-Up Slap"],
           "evs": {
               "hp": 252,
               "at": 252
