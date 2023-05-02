@@ -295,7 +295,7 @@ var SETDEX_SM = {
           "nature": "Calm",
           "moves": ["Extrasensory", "Dazzling Gleam", "Moonlight", "Recycle"],
           "evs": {
-              "sa": 252,
+              "df": 252,
               "hp": 252
           }
       }
