@@ -3407,7 +3407,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Steadfast'},
   },
   Roserade: {
-    types: ['Grass', 'Poison'],
+    types: ['Poison', 'Grass'],
     bs: {hp: 60, at: 70, df: 55, sa: 125, sd: 105, sp: 90},
     weightkg: 14.5,
     abilities: {0: 'Natural Cure'},
@@ -6116,7 +6116,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       bs: { hp: 85, at: 80, df: 95, sa: 115, sd: 110, sp: 50 }
   },
   'Bellossom': {
-      types: ['Grass', 'Fairy'],
+      types: ['Fairy', 'Grass'],
       bs: { hp: 65, at: 65, df: 95, sa: 105, sd: 115, sp: 95 }
   },
   'Paras': {
@@ -7516,7 +7516,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       bs: { hp: 95, at: 85, df: 85, sa: 100, sd: 120, sp: 50 }
   },
   'Spinda': {
-      types: ['Normal', 'Psychic'],
+      types: ['Psychic', 'Normal'],
       bs: { hp: 70, at: 80, df: 80, sa: 95, sd: 95, sp: 95 }
   },
   'Trapinch': {
@@ -7969,7 +7969,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       bs: { hp: 70, at: 60, df: 85, sa: 97, sd: 98, sp: 90 }
   },
   'Cherrim-Sunshine': {
-      types: ['Grass', 'Fire'],
+      types: ['Fire', 'Grass'],
       bs: { hp: 70, at: 70, df: 65, sa: 112, sd: 98, sp: 110 }
   },
   'Shellos': {
@@ -8467,7 +8467,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       bs: { hp: 105, at: 30, df: 125, sa: 180, sd: 165, sp: 10 }
   },
   'Maractus': {
-      types: ['Grass', 'Ground'],
+      types: ['Ground', 'Grass'],
       bs: { hp: 75, at: 86, df: 107, sa: 110, sd: 92, sp: 65 }
   },
   'Dwebble': {
@@ -8990,47 +8990,47 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       otherFormes: ['Furfrou-Kabuki', 'Furfrou-Pharaoh', 'Furfrou-Heart', 'Furfrou-La-Reine', 'Furfrou-Dandy', 'Furfrou-Debutante', 'Furfrou-Matron', 'Furfrou-Diamond', 'Furfrou-Star']
   },
   'Furfrou-Kabuki': {
-      types: ['Normal', 'Fighting'],
+      types: ['Fighting', 'Normal'],
       bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
       baseSpecies: 'Furfrou'
   },
   'Furfrou-Pharaoh': {
-      types: ['Normal', 'Dark'],
+      types: ['Dark', 'Normal'],
       bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
       baseSpecies: 'Furfrou'
   },
   'Furfrou-Heart': {
-      types: ['Normal', 'Fairy'],
+      types: ['Fairy', 'Normal'],
       bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
       baseSpecies: 'Furfrou'
   },
   'Furfrou-La-Reine': {
-      types: ['Normal', 'Water'],
+      types: ['Water', 'Normal'],
       bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
       baseSpecies: 'Furfrou'
   },
   'Furfrou-Dandy': {
-      types: ['Normal', 'Grass'],
+      types: ['Grass', 'Normal'],
       bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
       baseSpecies: 'Furfrou'
   },
   'Furfrou-Debutante': {
-      types: ['Normal', 'Electric'],
+      types: ['Electric', 'Normal'],
       bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
       baseSpecies: 'Furfrou'
   },
   'Furfrou-Matron': {
-      types: ['Normal', 'Poison'],
+      types: ['Poison', 'Normal'],
       bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
       baseSpecies: 'Furfrou'
   },
   'Furfrou-Diamond': {
-      types: ['Normal', 'Rock'],
+      types: ['Rock', 'Normal'],
       bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
       baseSpecies: 'Furfrou'
   },
   'Furfrou-Star': {
-      types: ['Normal', 'Ice'],
+      types: ['Ice', 'Normal'],
       bs: { hp: 75, at: 93, df: 70, sa: 80, sd: 95, sp: 102 },
       baseSpecies: 'Furfrou'
   },
@@ -9368,12 +9368,12 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       nfe: true
   },
   'Ribombee': {
-      types: ['Bug', 'Fairy'],
+      types: ['Fairy', 'Bug'],
       bs: { hp: 60, at: 55, df: 60, sa: 111, sd: 95, sp: 134 },
       otherFormes: ['Ribombee-Totem']
   },
   'Ribombee-Totem': {
-      types: ['Bug', 'Fairy'],
+      types: ['Fairy', 'Bug'],
       bs: { hp: 85, at: 55, df: 60, sa: 116, sd: 100, sp: 134 },
       baseSpecies: 'Ribombee'
   },
