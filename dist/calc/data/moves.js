@@ -2115,7 +2115,7 @@ var SM_PATCH = {
     Brine: { zp: 140, bp: 70 },
     'Bubble Shot': { zp: 90 },
     'Bug Biting': { zp: 140 },
-    'Bug Buzz': { zp: 180, bp: 95, secondaries: true },
+    'Bug Buzz': { zp: 180, bp: 95, secondaries: true, target: 'allAdjacentFoes' },
     Bulldoze: { zp: 120, secondaries: true },
     'Bullet Punch': { zp: 100 },
     'Bullet Seed': { zp: 140 },
