@@ -2416,7 +2416,7 @@ var SETDEX_SM = {
           "ability": "Guts",
           "item": "Flame Orb",
           "nature": "Adamant",
-          "moves": ["Facade", "Aqua Tail", "Protect", "Parting Shot"],
+          "moves": ["Facade", "Aqua Tail", "Fake Out", "Parting Shot"],
           "evs": {
               "at": 252,
               "sp": 252
