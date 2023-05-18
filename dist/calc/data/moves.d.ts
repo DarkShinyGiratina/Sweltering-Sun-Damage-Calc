@@ -1,4 +1,4 @@
-import * as I from '../data/interface';
+import * as I from "../data/interface";
 export interface MoveData {
     readonly name?: string;
     readonly type: I.TypeName;
@@ -16,8 +16,8 @@ export interface MoveData {
     readonly ignoreDefensive?: boolean;
     readonly overrideOffensiveStat?: I.StatIDExceptHP;
     readonly overrideDefensiveStat?: I.StatIDExceptHP;
-    readonly overrideOffensivePokemon?: 'target' | 'source';
-    readonly overrideDefensivePokemon?: 'target' | 'source';
+    readonly overrideOffensivePokemon?: "target" | "source";
+    readonly overrideDefensivePokemon?: "target" | "source";
     readonly breaksProtect?: boolean;
     readonly isZ?: boolean;
     readonly isMax?: boolean;
@@ -44,7 +44,7 @@ export declare class Moves implements I.Moves {
     [Symbol.iterator](): Generator<Move, void, unknown>;
 }
 declare class Move implements I.Move {
-    readonly kind: 'Move';
+    readonly kind: "Move";
     readonly id: I.ID;
     readonly name: I.MoveName;
     readonly basePower: number;
@@ -64,8 +64,8 @@ declare class Move implements I.Move {
     readonly ignoreDefensive?: boolean;
     readonly overrideOffensiveStat?: I.StatIDExceptHP;
     readonly overrideDefensiveStat?: I.StatIDExceptHP;
-    readonly overrideOffensivePokemon?: 'target' | 'source';
-    readonly overrideDefensivePokemon?: 'target' | 'source';
+    readonly overrideOffensivePokemon?: "target" | "source";
+    readonly overrideDefensivePokemon?: "target" | "source";
     readonly breaksProtect?: boolean;
     readonly isZ?: boolean;
     readonly zMove?: {
