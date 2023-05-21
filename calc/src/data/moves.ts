@@ -1939,6 +1939,7 @@ const XY_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Water",
     multihit: 3,
     breaksProtect: true,
+    makesContact: true,
     priority: 1,
     category: "Physical",
   },

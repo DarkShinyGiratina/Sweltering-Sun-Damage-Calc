@@ -1928,6 +1928,7 @@ var XY_PATCH = {
         type: "Water",
         multihit: 3,
         breaksProtect: true,
+        makesContact: true,
         priority: 1,
         category: "Physical"
     },
