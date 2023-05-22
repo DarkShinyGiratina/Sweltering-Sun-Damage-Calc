@@ -4502,7 +4502,7 @@ var SETDEX_SM = {
 	Silvally: {
 		"Gladion (Mount Lanakila)": {
 			level: 75,
-			ability: "Versatility",
+			ability: "Adaptability",
 			item: "Red Card",
 			nature: "Adamant",
 			moves: ["Extreme Speed", "Hell Thrust", "Earthquake", "Swords Dance"],

@@ -2214,7 +2214,7 @@ const SM_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Wake-Up Slap": { zp: 140, secondaries: true },
   "Brain Drain": { zp: 200 },
   Siphon: { zp: 100 },
-  "Acid Spray": { zp: 100 },
+  "Acid Spray": { zp: 100, target: "allAdjacentFoes" },
   "Sludge Shot": { zp: 90 },
   Acrobatics: { zp: 110 },
   "Aerial Ace": { zp: 110 },
