@@ -2121,7 +2121,7 @@ const SM_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Dragon Burst": { zp: 220 },
   "Egg Cannon": {
     zp: 180,
-    category: "Special",
+    category: "Physical",
     multihit: 3,
     willCrit: true,
     bp: 25,
