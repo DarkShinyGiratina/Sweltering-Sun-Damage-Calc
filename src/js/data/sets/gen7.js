@@ -4682,7 +4682,12 @@ var SETDEX_SM = {
 			ability: "Stormy Seas",
 			item: "Assault Vest",
 			nature: "Adamant",
-			moves: ["Shadow Sneak", "Power Whip", "Liquidation", "Anchor Shot"],
+			moves: [
+				"Shadow Sneak",
+				"Power Whip",
+				"Liquidation",
+				"First Impression",
+			],
 			evs: {
 				at: 252,
 				hp: 252,
