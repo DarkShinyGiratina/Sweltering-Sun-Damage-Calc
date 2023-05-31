@@ -8105,7 +8105,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Purugly: {
     types: ["Normal", "Dark"],
-    bs: { hp: 101, at: 112, df: 84, sa: 62, sd: 84, sp: 62 },
+    bs: { hp: 101, at: 112, df: 84, sa: 62, sd: 84, sp: 92 },
   },
   Stunky: {
     types: ["Poison", "Dark"],
