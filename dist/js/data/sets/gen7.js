@@ -2533,7 +2533,7 @@ var SETDEX_SM = {
 			moves: ["Shadow Ball", "Hurricane", "Heat Wave", "Nasty Plot"],
 			evs: {
 				sa: 252,
-				sp: 252,
+				hp: 252,
 			},
 		},
 	},
