@@ -4508,7 +4508,7 @@ var SETDEX_SM = {
 			moves: ["Extreme Speed", "Hell Thrust", "Earthquake", "Swords Dance"],
 			evs: {
 				at: 252,
-				hp: 252,
+				sp: 252,
 			},
 		},
 		"Gladion (Title Defense)": {
@@ -4519,7 +4519,7 @@ var SETDEX_SM = {
 			moves: ["Extreme Speed", "Hell Thrust", "Earthquake", "Swords Dance"],
 			evs: {
 				at: 252,
-				hp: 252,
+				sp: 252,
 			},
 		},
 	},
