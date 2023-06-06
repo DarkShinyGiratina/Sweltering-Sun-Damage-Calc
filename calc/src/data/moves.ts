@@ -2304,7 +2304,7 @@ const SM_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Pixie Dust": { zp: 90 },
   "Fake Out": { zp: 100 },
   "False Strike": { zp: 100, secondaries: true },
-  "Think Fast": { zp: 110 },
+  "Think Fast": { zp: 110, makesContact: true },
   "Finishing Blow": { bp: 35, zp: 120 },
   "Final Gambit": { zp: 255 },
   "Fire Blast": { zp: 195, bp: 120 },
