@@ -243,9 +243,9 @@ var SETDEX_SM = {
 		"Dulse (Seaward Cave)": {
 			level: 17,
 			ability: "Liquid Veil",
-			item: "Sitrus Berry",
+			item: "Quick Claw",
 			nature: "Calm",
-			moves: ["Confusion", "Sludge Fling", "Bubble Barrage", "Siphon"],
+			moves: ["Confusion", "Sludge Fling", "Water Pulse", "Siphon"],
 			evs: {
 				sa: 252,
 				hp: 252,
@@ -347,7 +347,7 @@ var SETDEX_SM = {
 			},
 		},
 		"Hau (Paniola Town)": {
-			level: 20,
+			level: 21,
 			ability: "Galvanize",
 			item: "Air Balloon",
 			nature: "Hasty",
@@ -382,7 +382,7 @@ var SETDEX_SM = {
 			},
 		},
 		"Hau (Paniola Town)": {
-			level: 20,
+			level: 21,
 			ability: "Amplifier",
 			item: "Flyinium Z",
 			nature: "Modest",
@@ -417,11 +417,11 @@ var SETDEX_SM = {
 			},
 		},
 		"Hau (Paniola Town)": {
-			level: 20,
+			level: 21,
 			ability: "Pure Power",
 			item: "Expert Belt",
 			nature: "Jolly",
-			moves: ["Drain Punch", "Think Fast", "Ice Punch", "Rock Tomb"],
+			moves: ["Drain Punch", "Think Fast", "Ice Punch", "Work Up"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -441,7 +441,7 @@ var SETDEX_SM = {
 			},
 		},
 		"Hau (Paniola Town)": {
-			level: 20,
+			level: 21,
 			ability: "Technician",
 			item: "Silk Scarf",
 			nature: "Jolly",
@@ -465,7 +465,7 @@ var SETDEX_SM = {
 			},
 		},
 		"Hau (Paniola Town)": {
-			level: 20,
+			level: 21,
 			ability: "Blaze",
 			item: "Liechi Berry",
 			nature: "Naive",
@@ -482,18 +482,18 @@ var SETDEX_SM = {
 			ability: "Competitive",
 			item: "Sitrus Berry",
 			nature: "Modest",
-			moves: ["Bubble Barrage", "Disarming Voice", "Wish", "Work Up"],
+			moves: ["Water Pulse", "Disarming Voice", "Wish", "Work Up"],
 			evs: {
 				sa: 252,
 				hp: 252,
 			},
 		},
 		"Hau (Paniola Town)": {
-			level: 20,
+			level: 21,
 			ability: "Competitive",
 			item: "Sitrus Berry",
 			nature: "Modest",
-			moves: ["Water Pledge", "Signal Beam", "Icy Wind", "Wish"],
+			moves: ["Water Pledge", "Signal Beam", "Icy Wind", "Work Up"],
 			evs: {
 				sa: 252,
 				hp: 252,
@@ -528,14 +528,14 @@ var SETDEX_SM = {
 			ability: "Torren",
 			item: "Petaya Berry",
 			nature: "Naive",
-			moves: ["Bubble Barrage", "Disarming Voice", "Endure", "Work Up"],
+			moves: ["Water Pulse", "Disarming Voice", "Endure", "Work Up"],
 			evs: {
 				at: 252,
 				sp: 252,
 			},
 		},
 		"Hau (Paniola Town)": {
-			level: 20,
+			level: 21,
 			ability: "Torrent",
 			item: "Liechi Berry",
 			nature: "Naive",
@@ -559,11 +559,11 @@ var SETDEX_SM = {
 			},
 		},
 		"Hau (Paniola Town)": {
-			level: 20,
+			level: 21,
 			ability: "Technician",
 			item: "Sitrus Berry",
 			nature: "Timid",
-			moves: ["Magical Leaf", "Air Cutter", "Ominous Wind", "Roost"],
+			moves: ["Magical Leaf", "Air Cutter", "Ominous Wind", "Work Up"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -605,7 +605,7 @@ var SETDEX_SM = {
 			},
 		},
 		"Hau (Paniola Town)": {
-			level: 20,
+			level: 21,
 			ability: "Overgrow",
 			item: "Liechi Berry",
 			nature: "Naive",
@@ -629,16 +629,11 @@ var SETDEX_SM = {
 			},
 		},
 		"Hau (Paniola Town)": {
-			level: 20,
+			level: 21,
 			ability: "Intimidate",
 			item: "Sitrus Berry",
 			nature: "Jolly",
-			moves: [
-				"Fire Fang",
-				"Thunder Fang",
-				"Stomping Tantrum",
-				"Morning Sun",
-			],
+			moves: ["Fire Fang", "Thunder Fang", "Stomping Tantrum", "Work Up"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -901,7 +896,7 @@ var SETDEX_SM = {
 	},
 	"Mime Jr.": {
 		"Trial Guide Bronson": {
-			level: 22,
+			level: 23,
 			ability: "Prankster",
 			item: "Red Card",
 			nature: "Modest",
@@ -914,7 +909,7 @@ var SETDEX_SM = {
 	},
 	Lampent: {
 		"Trial Guide Bronson": {
-			level: 22,
+			level: 23,
 			ability: "Levitate",
 			item: "Expert Belt",
 			nature: "Timid",
@@ -938,7 +933,7 @@ var SETDEX_SM = {
 	},
 	Dunsparce: {
 		"Trial Guide Bronson": {
-			level: 22,
+			level: 23,
 			ability: "Serene Grace",
 			item: "Sitrus Berry",
 			nature: "Modest",
@@ -951,7 +946,7 @@ var SETDEX_SM = {
 	},
 	Noctowl: {
 		"Trial Guide Bronson": {
-			level: 22,
+			level: 23,
 			ability: "Tinted Lens",
 			item: "Psychium Z",
 			nature: "Timid",
@@ -1032,7 +1027,7 @@ var SETDEX_SM = {
 			nature: "Naive",
 			moves: [
 				"Extrasensory",
-				"Sludge Fling",
+				"Venoshock",
 				"Giga Drain",
 				"Hidden Power Fire",
 			],
@@ -1186,10 +1181,10 @@ var SETDEX_SM = {
 	Nidorina: {
 		"Plumeria (Akala Outskirts)": {
 			level: 32,
-			ability: "Poison Touch",
+			ability: "Multiscale",
 			item: "Eviolite",
 			nature: "Adamant",
-			moves: ["Poison Fang", "U-turn", "Taunt", "Toxic Spikes"],
+			moves: ["Poison Fang", "Parting Shot", "Taunt", "Toxic Spikes"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -1464,7 +1459,7 @@ var SETDEX_SM = {
 			ability: "Hustle",
 			item: "Lycanium Z",
 			nature: "Jolly",
-			moves: ["Stone Edge", "Retaliate", "Headlong Rush", "Close Combat"],
+			moves: ["Stone Edge", "Retaliate", "Parting Shot", "Take Down"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -1549,7 +1544,7 @@ var SETDEX_SM = {
 			ability: "Aerilate",
 			item: "Yache Berry",
 			nature: "Modest",
-			moves: ["Boomburst", "Drakonic Wave", "Heat Wave", "Parting Shot"],
+			moves: ["Boomburst", "Drakonic Wave", "Flamethrower", "Parting Shot"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -1744,7 +1739,7 @@ var SETDEX_SM = {
 			ability: "Swift Swim",
 			item: "Assault Vest",
 			nature: "Adamant",
-			moves: ["Wave Crash", "U-turn", "Rock Slide", "Zen Headbutt"],
+			moves: ["Wave Crash", "Leech Life", "Rock Slide", "Zen Headbutt"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -1755,7 +1750,7 @@ var SETDEX_SM = {
 			ability: "Ruthless",
 			item: "Assault Vest",
 			nature: "Adamant",
-			moves: ["First Impression", "Surging Strikes", "Stone Edge", "U-turn"],
+			moves: ["First Impression", "Wave Crash", "Stone Edge", "U-turn"],
 			evs: {
 				at: 252,
 				hp: 252,
@@ -2218,7 +2213,7 @@ var SETDEX_SM = {
 			ability: "Simple",
 			item: "White Herb",
 			nature: "Adamant",
-			moves: ["Lunge", "Rock Slide", "Bulldoze", "Shell Smash"],
+			moves: ["Lunge", "Rock Slide", "Earth Power", "Shell Smash"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -2231,7 +2226,7 @@ var SETDEX_SM = {
 			ability: "Sheer Force",
 			item: "Life Orb",
 			nature: "Jolly",
-			moves: ["Lunge", "Gunk Shot", "Rock Slide", "Aqua Tail"],
+			moves: ["Lunge", "Gunk Shot", "Thunder Fang", "Ice Fang"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -2530,7 +2525,7 @@ var SETDEX_SM = {
 			ability: "Unburden",
 			item: "Quick Claw",
 			nature: "Modest",
-			moves: ["Shadow Ball", "Hurricane", "Heat Wave", "Nasty Plot"],
+			moves: ["Infernal Parade", "Hurricane", "Focus Blast", "Nasty Plot"],
 			evs: {
 				sa: 252,
 				hp: 252,
@@ -2817,7 +2812,7 @@ var SETDEX_SM = {
 		"Nanu (Grand Trial)": {
 			level: 49,
 			ability: "Ruthless",
-			item: "Focus Sash",
+			item: "Quick Claw",
 			nature: "Naive",
 			moves: ["Heat Wave", "Wicked Blow", "Taunt", "Parting Shot"],
 			evs: {
@@ -2872,7 +2867,7 @@ var SETDEX_SM = {
 		"Nanu (Grand Trial)": {
 			level: 49,
 			ability: "Ruthless",
-			item: "Black Glasses",
+			item: "Focus Sash",
 			nature: "Jolly",
 			moves: [
 				"Pursuit",
@@ -2961,7 +2956,7 @@ var SETDEX_SM = {
 	Alakazam: {
 		"Faba Singles (Aether Paradise)": {
 			level: 51,
-			ability: "Trace",
+			ability: "Magic Guard",
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Psyshock", "Aura Sphere", "Dazzling Gleam", "Nasty Plot"],
@@ -3287,7 +3282,12 @@ var SETDEX_SM = {
 			ability: "Levitate",
 			item: "Charti Berry",
 			nature: "Timid",
-			moves: ["Revelation Dance", "Fire Blast", "Giga Drain", "Earth Power"],
+			moves: [
+				"Revelation Dance",
+				"Fire Blast",
+				"Energy Ball",
+				"Earth Power",
+			],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -3342,7 +3342,7 @@ var SETDEX_SM = {
 			ability: "Aerilate",
 			item: "Pinsirite",
 			nature: "Jolly",
-			moves: ["Retaliate", "Lunge", "Earthquake", "Take Down"],
+			moves: ["Retaliate", "Lunge", "Stone Edge", "Storm Throw"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -3413,10 +3413,10 @@ var SETDEX_SM = {
 			level: 56,
 			ability: "Huge Power",
 			item: "Quick Claw",
-			nature: "Adamant",
-			moves: ["Acrobatics", "Heavy Slam", "Heat Crash", "Earthquake"],
+			nature: "Modest",
+			moves: ["Hurricane", "Flash Cannon", "Fire Blast", "Seed Flare"],
 			evs: {
-				at: 252,
+				sa: 252,
 				hp: 252,
 			},
 		},
@@ -3464,7 +3464,7 @@ var SETDEX_SM = {
 			ability: "Filter",
 			item: "Weakness Policy",
 			nature: "Adamant",
-			moves: ["Zen Headbutt", "Rock Slide", "Take Down", "Heavy Slam"],
+			moves: ["Zen Headbutt", "Rock Slide", "Take Down", "Earthquake"],
 			evs: {
 				at: 252,
 				hp: 252,
@@ -3474,10 +3474,10 @@ var SETDEX_SM = {
 	Mismagius: {
 		"Lusamine (Aether Paradise)": {
 			level: 57,
-			ability: "Levitate",
-			item: "Red Card",
+			ability: "Magic Guard",
+			item: "Life Orb",
 			nature: "Quick Claw",
-			moves: ["Infernal Parade", "Psystrike", "Taunt", "Parting Shot"],
+			moves: ["Infernal Parade", "Psystrike", "Focus Blast", "Hypnosis"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -3498,10 +3498,10 @@ var SETDEX_SM = {
 	Aromatisse: {
 		"Lusamine (Aether Paradise)": {
 			level: 57,
-			ability: "Fur Coat",
+			ability: "Prankster",
 			item: "Assault Vest",
 			nature: "Modest",
-			moves: ["Moonblast", "Sludge Bomb", "Aura Sphere", "Mystical Fire"],
+			moves: ["Moonblast", "Sludge Bomb", "Parting Shot", "Dreamy Kiss"],
 			evs: {
 				sa: 252,
 				hp: 252,
@@ -3523,7 +3523,7 @@ var SETDEX_SM = {
 		"Lusamine (Aether Paradise)": {
 			level: 57,
 			ability: "Tinted Lens",
-			item: "Life Orb",
+			item: "Icium Z",
 			nature: "Naive",
 			moves: ["Hell Thrust", "U-turn", "Blizzard", "Focus Blast"],
 			evs: {
@@ -3756,7 +3756,7 @@ var SETDEX_SM = {
 			ability: "Energy Shield",
 			item: "Colbur Berry",
 			nature: "Timid",
-			moves: ["Subspace Tear", "Shadow Ball", "Focus Blast", "Nasty Plot"],
+			moves: ["Subspace Tear", "Shadow Ball", "Aura Sphere", "Nasty Plot"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -3769,12 +3769,7 @@ var SETDEX_SM = {
 			ability: "Proficiency",
 			item: "Scope Lens",
 			nature: "Adamant",
-			moves: [
-				"Leaf Blade",
-				"Laceration",
-				"Sacred Sword",
-				"First Impression",
-			],
+			moves: ["Leaf Blade", "Laceration", "Sacred Sword", "Night Slash"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -3800,7 +3795,7 @@ var SETDEX_SM = {
 			ability: "Proficiency",
 			item: "Life Orb",
 			nature: "Timid",
-			moves: ["Psyshock", "Focus Blast", "Moonblast", "Blizzard"],
+			moves: ["Psystrike", "Focus Blast", "Moonblast", "Blizzard"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -3881,7 +3876,7 @@ var SETDEX_SM = {
 			ability: "Regenerator",
 			item: "Quick Claw",
 			nature: "Bold",
-			moves: ["Moonblast", "Psychic", "Spore", "Parting Shot"],
+			moves: ["Moonblast", "Sludge Bomb", "Spore", "Parting Shot"],
 			evs: {
 				hp: 252,
 				df: 252,
@@ -3895,7 +3890,7 @@ var SETDEX_SM = {
 			item: "Toxic Orb",
 			nature: "Jolly",
 			moves: [
-				"Meteor Mash",
+				"Play Rough",
 				"Knockout Punch",
 				"Zen Headbutt",
 				"Parting Shot",
@@ -3951,12 +3946,7 @@ var SETDEX_SM = {
 			ability: "Fairy Aura",
 			item: "Gardevoirite",
 			nature: "Timid",
-			moves: [
-				"Subspace Tear",
-				"Eternal Beam",
-				"Focus Blast",
-				"Mystical Fire",
-			],
+			moves: ["Psystrike", "Eternal Beam", "Focus Blast", "Mystical Fire"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -4057,12 +4047,12 @@ var SETDEX_SM = {
 	Leavanny: {
 		"Mallow (Mina's Trial)": {
 			level: 67,
-			ability: "Technician",
+			ability: "Tinted Lens",
 			item: "Life Orb",
-			nature: "Adamant",
-			moves: ["First Impression", "U-turn", "Bullet Speed", "Dual Wingbeat"],
+			nature: "Modest",
+			moves: ["Bug Buzz", "Seed Flare", "Earth Power", "Blossom Dance"],
 			evs: {
-				at: 252,
+				sa: 252,
 				sp: 252,
 			},
 		},
@@ -4215,7 +4205,7 @@ var SETDEX_SM = {
 		"Sophocles (Mina's Trial)": {
 			level: 69,
 			ability: "Galvanize",
-			item: "Air Balloon",
+			item: "Life Orb",
 			nature: "Modest",
 			moves: ["Hyper Beam", "Explosion", "Energy Ball", "Parting Shot"],
 			evs: {
@@ -4386,10 +4376,10 @@ var SETDEX_SM = {
 	Marowak: {
 		"Hapu (Grand Trial)": {
 			level: 73,
-			ability: "Technician",
+			ability: "Headstrong",
 			item: "Thick Club",
 			nature: "Jolly",
-			moves: ["Bonemerang", "Pummel", "Rock Blast", "First Impression"],
+			moves: ["Headlong Rush", "Submission", "Head Smash", "Brutal Swing"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -4439,9 +4429,9 @@ var SETDEX_SM = {
 			nature: "Adamant",
 			moves: [
 				"Precipice Blades",
-				"Stone Edge",
-				"Heat Crash",
-				"First Impression",
+				"Boulder Bash",
+				"Flare Blitz",
+				"Power Whip",
 			],
 			evs: {
 				at: 252,
@@ -4599,12 +4589,7 @@ var SETDEX_SM = {
 			ability: "Bulletproof",
 			item: "Aggronite",
 			nature: "Adamant",
-			moves: [
-				"Heavy Slam",
-				"Dragon Tail",
-				"Drain Punch",
-				"Precipice Blades",
-			],
+			moves: ["Iron Tail", "Dragon Tail", "Drain Punch", "Precipice Blades"],
 			evs: {
 				at: 252,
 				hp: 252,
@@ -4682,12 +4667,7 @@ var SETDEX_SM = {
 			ability: "Stormy Seas",
 			item: "Assault Vest",
 			nature: "Adamant",
-			moves: [
-				"Shadow Sneak",
-				"Power Whip",
-				"Liquidation",
-				"First Impression",
-			],
+			moves: ["Shadow Sneak", "Power Whip", "Wave Crash", "Anchor Shot"],
 			evs: {
 				at: 252,
 				hp: 252,
@@ -4699,8 +4679,8 @@ var SETDEX_SM = {
 			level: 100,
 			ability: "Shadow Tag",
 			item: "Gengarite",
-			nature: "Modest",
-			moves: ["Shadow Ball", "Sludge Wave", "Focus Blast", "Heat Wave"],
+			nature: "Timid",
+			moves: ["Infernal Parade", "Sludge Wave", "Focus Blast", "Hypnosis"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -4711,7 +4691,7 @@ var SETDEX_SM = {
 		"Kahili (Elite Four)": {
 			level: 100,
 			ability: "Reckless",
-			item: "Red Card",
+			item: "Quick Claw",
 			nature: "Adamant",
 			moves: ["Headlong Rush", "Divebomb", "Rock Climb", "Parting Shot"],
 			evs: {
@@ -4787,7 +4767,7 @@ var SETDEX_SM = {
 		"Hau (Champion)": {
 			level: 100,
 			ability: "Pixilate",
-			item: "Assault Vest",
+			item: "Quick Claw",
 			nature: "Modest",
 			moves: ["Boomburst", "Whirlpool", "Focus Blast", "Blizzard"],
 			evs: {
@@ -4811,7 +4791,7 @@ var SETDEX_SM = {
 		"Hau (Champion)": {
 			level: 100,
 			ability: "Tinted Lens",
-			item: "Tanga Berry",
+			item: "Quick Claw",
 			nature: "Timid",
 			moves: ["Shadow Ball", "Seed Flare", "Grass Whistle", "Nasty Plot"],
 			evs: {
@@ -4835,9 +4815,14 @@ var SETDEX_SM = {
 		"Hau (Champion)": {
 			level: 100,
 			ability: "Moxie",
-			item: "Chople Berry",
+			item: "Quick Claw",
 			nature: "Jolly",
-			moves: ["Wicked Blow", "Flame Wheel", "Megaton Kick", "Swords Dance"],
+			moves: [
+				"Brutal Swing",
+				"Blazing Assault",
+				"Megaton Kick",
+				"Swords Dance",
+			],
 			evs: {
 				at: 252,
 				sp: 252,

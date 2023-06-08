@@ -822,7 +822,7 @@ var RBY = {
     },
     Venonat: {
         types: ["Bug", "Poison"],
-        bs: { hp: 60, at: 55, df: 50, sp: 45, sl: 40 },
+        bs: { hp: 70, at: 50, df: 65, sp: 45, sl: 40 },
         weightkg: 30,
         nfe: true
     },
@@ -6143,7 +6143,7 @@ var SM_PATCH = {
     },
     Nidorina: {
         types: ["Poison", "Normal"],
-        bs: { hp: 60, at: 92, df: 92, sa: 50, sd: 75, sp: 86 }
+        bs: { hp: 69, at: 83, df: 92, sa: 50, sd: 75, sp: 86 }
     },
     Nidoqueen: {
         types: ["Poison", "Ground"],
@@ -6256,7 +6256,7 @@ var SM_PATCH = {
     },
     Dugtrio: {
         types: ["Ground"],
-        bs: { hp: 65, at: 105, df: 70, sa: 50, sd: 70, sp: 120 },
+        bs: { hp: 75, at: 105, df: 70, sa: 40, sd: 70, sp: 120 },
         otherFormes: ["Dugtrio-Alola"]
     },
     "Diglett-Alola": {
@@ -6762,7 +6762,7 @@ var SM_PATCH = {
     },
     Eevee: {
         types: ["Normal"],
-        bs: { hp: 50, at: 55, df: 50, sa: 55, sd: 65, sp: 75 }
+        bs: { hp: 55, at: 60, df: 55, sa: 60, sd: 65, sp: 75 }
     },
     Vaporeon: {
         types: ["Water"],
@@ -7043,11 +7043,11 @@ var SM_PATCH = {
     },
     Yanma: {
         types: ["Bug", "Flying"],
-        bs: { hp: 51, at: 65, df: 41, sa: 96, sd: 41, sp: 126 }
+        bs: { hp: 49, at: 65, df: 49, sa: 99, sd: 49, sp: 129 }
     },
     Yanmega: {
         types: ["Bug", "Dragon"],
-        bs: { hp: 86, at: 95, df: 66, sa: 126, sd: 56, sp: 146 }
+        bs: { hp: 89, at: 90, df: 59, sa: 129, sd: 59, sp: 149 }
     },
     Wooper: {
         types: ["Water", "Ground"],
