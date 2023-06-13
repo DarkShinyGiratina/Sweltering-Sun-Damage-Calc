@@ -1352,7 +1352,7 @@ var SETDEX_SM = {
 			ability: "Sand Rush",
 			item: "Eviolite",
 			nature: "Careful",
-			moves: ["Smack Down", "Stomping Tantrum", "Sedimend", "U-turn"],
+			moves: ["Smack Down", "Stomping Tantrum", "Sedimend", "Parting Shot"],
 			evs: {
 				at: 252,
 				sd: 252,
