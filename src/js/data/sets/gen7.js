@@ -3476,7 +3476,7 @@ var SETDEX_SM = {
 			level: 57,
 			ability: "Magic Guard",
 			item: "Life Orb",
-			nature: "Quick Claw",
+			nature: "Timid",
 			moves: ["Infernal Parade", "Psystrike", "Focus Blast", "Hypnosis"],
 			evs: {
 				sa: 252,
