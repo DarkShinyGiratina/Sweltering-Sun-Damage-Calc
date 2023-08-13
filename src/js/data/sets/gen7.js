@@ -2136,7 +2136,7 @@ var SETDEX_SM = {
 			level: 38,
 			ability: "Hustle",
 			item: "Coba Berry",
-			nature: "Jolly",
+			nature: "Adamant",
 			moves: ["First Impression", "Seismic Fist", "Rock Slide", "U-turn"],
 			evs: {
 				at: 252,
@@ -2160,7 +2160,7 @@ var SETDEX_SM = {
 			level: 38,
 			ability: "Hustle",
 			item: "Buginium Z",
-			nature: "Jolly",
+			nature: "Adamant",
 			moves: ["First Impression", "Smart Strike", "U-turn", "Rock Slide"],
 			evs: {
 				at: 252,
