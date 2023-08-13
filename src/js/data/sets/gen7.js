@@ -3780,7 +3780,7 @@ var SETDEX_SM = {
 		"Dulse (Vast Poni Canyon)": {
 			level: 60,
 			ability: "Dazzling",
-			item: "Red Card",
+			item: "Expert Belt",
 			nature: "Timid",
 			moves: ["Inferno", "Infernal Parade", "Energy Ball", "Focus Blast"],
 			evs: {
