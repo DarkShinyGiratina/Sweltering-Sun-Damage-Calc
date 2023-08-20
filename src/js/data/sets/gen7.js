@@ -3499,7 +3499,7 @@ var SETDEX_SM = {
 		"Lusamine (Aether Paradise)": {
 			level: 57,
 			ability: "Prankster",
-			item: "Assault Vest",
+			item: "Quick Claw",
 			nature: "Modest",
 			moves: ["Moonblast", "Sludge Bomb", "Parting Shot", "Dreamy Kiss"],
 			evs: {
@@ -3876,7 +3876,7 @@ var SETDEX_SM = {
 			ability: "Regenerator",
 			item: "Quick Claw",
 			nature: "Bold",
-			moves: ["Moonblast", "Sludge Bomb", "Spore", "Parting Shot"],
+			moves: ["Radiant Outburst", "Sludge Bomb", "Spore", "Parting Shot"],
 			evs: {
 				hp: 252,
 				df: 252,
@@ -4220,7 +4220,7 @@ var SETDEX_SM = {
 			ability: "Sturdy",
 			item: "Weakness Policy",
 			nature: "Timid",
-			moves: ["Power Gem", "Parabolic", "Energy Ball", "Shell Smash"],
+			moves: ["Power Gem", "Parabolic Charge", "Energy Ball", "Shell Smash"],
 			evs: {
 				sa: 252,
 				sp: 252,
