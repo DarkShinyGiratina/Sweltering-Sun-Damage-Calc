@@ -6136,15 +6136,15 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Cleffa: {
     types: ["Fairy"],
-    bs: { hp: 40, at: 40, df: 55, sa: 65, sd: 80, sp: 40 },
+    bs: { hp: 50, at: 40, df: 60, sa: 70, sd: 80, sp: 30 },
   },
   Clefairy: {
     types: ["Fairy"],
-    bs: { hp: 60, at: 55, df: 70, sa: 90, sd: 95, sp: 50 },
+    bs: { hp: 70, at: 70, df: 70, sa: 90, sd: 95, sp: 45 },
   },
   Clefable: {
     types: ["Fairy"],
-    bs: { hp: 80, at: 70, df: 85, sa: 115, sd: 125, sp: 60 },
+    bs: { hp: 85, at: 80, df: 85, sa: 115, sd: 125, sp: 60 },
   },
   Vulpix: {
     types: ["Fire"],
@@ -6332,11 +6332,11 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Bellsprout: {
     types: ["Grass", "Poison"],
-    bs: { hp: 50, at: 55, df: 35, sa: 75, sd: 35, sp: 60 },
+    bs: { hp: 50, at: 65, df: 35, sa: 75, sd: 35, sp: 65 },
   },
   Weepinbell: {
     types: ["Grass", "Poison"],
-    bs: { hp: 65, at: 75, df: 55, sa: 95, sd: 55, sp: 65 },
+    bs: { hp: 65, at: 80, df: 80, sa: 90, sd: 80, sp: 55 },
   },
   Victreebel: {
     types: ["Grass", "Poison"],
@@ -6788,7 +6788,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Omastar: {
     types: ["Rock", "Water"],
-    bs: { hp: 70, at: 60, df: 140, sa: 115, sd: 95, sp: 55 },
+    bs: { hp: 70, at: 60, df: 140, sa: 115, sd: 110, sp: 55 },
   },
   Kabuto: {
     types: ["Rock", "Water"],
@@ -6796,7 +6796,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Kabutops: {
     types: ["Rock", "Water"],
-    bs: { hp: 70, at: 127, df: 110, sa: 45, sd: 75, sp: 108 },
+    bs: { hp: 70, at: 132, df: 115, sa: 45, sd: 80, sp: 108 },
   },
   Aerodactyl: {
     types: ["Rock", "Flying"],
@@ -7332,7 +7332,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Lombre: {
     types: ["Water", "Grass"],
-    bs: { hp: 60, at: 80, df: 60, sa: 85, sd: 70, sp: 80 },
+    bs: { hp: 60, at: 90, df: 60, sa: 85, sd: 75, sp: 80 },
   },
   Ludicolo: {
     types: ["Water", "Grass"],
@@ -7344,7 +7344,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Nuzleaf: {
     types: ["Grass", "Dark"],
-    bs: { hp: 60, at: 80, df: 75, sa: 80, sd: 60, sp: 80 },
+    bs: { hp: 60, at: 90, df: 75, sa: 86, sd: 60, sp: 80 },
   },
   Shiftry: {
     types: ["Grass", "Dark"],
@@ -7364,7 +7364,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Pelipper: {
     types: ["Water", "Flying"],
-    bs: { hp: 85, at: 65, df: 105, sa: 95, sd: 95, sp: 70 },
+    bs: { hp: 80, at: 45, df: 100, sa: 95, sd: 95, sp: 65 },
   },
   Ralts: {
     types: ["Psychic", "Fairy"],
@@ -7680,19 +7680,19 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Lileep: {
     types: ["Rock", "Poison"],
-    bs: { hp: 56, at: 41, df: 92, sa: 61, sd: 92, sp: 23 },
+    bs: { hp: 66, at: 41, df: 97, sa: 76, sd: 97, sp: 23 },
   },
   Cradily: {
     types: ["Rock", "Poison"],
-    bs: { hp: 86, at: 86, df: 117, sa: 106, sd: 117, sp: 23 },
+    bs: { hp: 96, at: 81, df: 122, sa: 106, sd: 122, sp: 23 },
   },
   Anorith: {
     types: ["Rock", "Bug"],
-    bs: { hp: 46, at: 98, df: 70, sa: 30, sd: 50, sp: 76 },
+    bs: { hp: 46, at: 98, df: 90, sa: 30, sd: 60, sp: 76 },
   },
   Armaldo: {
     types: ["Rock", "Bug"],
-    bs: { hp: 86, at: 128, df: 125, sa: 50, sd: 90, sp: 66 },
+    bs: { hp: 96, at: 133, df: 125, sa: 40, sd: 90, sp: 66 },
   },
   Feebas: {
     types: ["Water"],
@@ -7748,7 +7748,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Tropius: {
     types: ["Grass", "Dragon"],
-    bs: { hp: 119, at: 113, df: 93, sa: 102, sd: 97, sp: 51 },
+    bs: { hp: 119, at: 108, df: 98, sa: 102, sd: 97, sp: 51 },
   },
   Chingling: {
     types: ["Psychic", "Normal"],
@@ -7997,7 +7997,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Rampardos: {
     types: ["Rock", "Dragon"],
-    bs: { hp: 102, at: 145, df: 115, sa: 35, sd: 60, sp: 93 },
+    bs: { hp: 102, at: 150, df: 115, sa: 35, sd: 55, sp: 93 },
   },
   Shieldon: {
     types: ["Rock", "Steel"],
@@ -8278,11 +8278,11 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Giratina: {
     types: ["Ghost", "Dragon"],
-    bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 66 },
+    bs: { hp: 120, at: 100, df: 140, sa: 100, sd: 140, sp: 66 },
   },
   "Giratina-Origin": {
     types: ["Ghost", "Dragon"],
-    bs: { hp: 120, at: 140, df: 70, sa: 140, sd: 70, sp: 126 },
+    bs: { hp: 120, at: 140, df: 60, sa: 140, sd: 60, sp: 146 },
   },
   Dialga: {
     types: ["Steel", "Dragon"],
@@ -9803,7 +9803,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Drampa: {
     types: ["Normal", "Dragon"],
-    bs: { hp: 128, at: 60, df: 95, sa: 145, sd: 111, sp: 36 },
+    bs: { hp: 138, at: 60, df: 95, sa: 145, sd: 101, sp: 36 },
     weightkg: 185,
   },
   Dhelmise: {

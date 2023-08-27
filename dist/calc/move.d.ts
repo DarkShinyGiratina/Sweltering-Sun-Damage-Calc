@@ -1,5 +1,5 @@
-import * as I from './data/interface';
-import { State } from './state';
+import * as I from "./data/interface";
+import { State } from "./state";
 export declare class Move implements State.Move {
     gen: I.Generation;
     name: I.MoveName;
@@ -30,8 +30,8 @@ export declare class Move implements State.Move {
     ignoreDefensive: boolean;
     overrideOffensiveStat?: I.StatIDExceptHP;
     overrideDefensiveStat?: I.StatIDExceptHP;
-    overrideOffensivePokemon?: 'target' | 'source';
-    overrideDefensivePokemon?: 'target' | 'source';
+    overrideOffensivePokemon?: "target" | "source";
+    overrideDefensivePokemon?: "target" | "source";
     breaksProtect: boolean;
     isZ: boolean;
     isMax: boolean;
@@ -41,7 +41,7 @@ export declare class Move implements State.Move {
         species?: I.SpeciesName;
     });
     named(...names: string[]): boolean;
-    hasType(...types: Array<(I.TypeName | undefined)>): boolean;
+    hasType(...types: Array<I.TypeName | undefined>): boolean;
     clone(): Move;
 }
 export declare function getZMoveName(moveName: string, moveType: I.TypeName, item?: string): string;
