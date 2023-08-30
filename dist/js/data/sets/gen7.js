@@ -334,7 +334,7 @@ var SETDEX_SM = {
 			nature: "Adamant",
 			moves: ["Hoodwink", "Fire Punch", "Drain Punch", "Trick"],
 			evs: {
-				sa: 252,
+				at: 252,
 				hp: 252,
 			},
 		},
@@ -6362,7 +6362,7 @@ var SETDEX_SM = {
 			},
 		},
 	},
-	"Oricorio-Baile": {
+	Oricorio: {
 		"Kahili (Elite Four)": {
 			level: 100,
 			ability: "Unburden",
