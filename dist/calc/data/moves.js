@@ -863,7 +863,8 @@ var DPP_PATCH = {
     Copycat: { bp: 0, type: "Normal" },
     "Crush Grip": {
         bp: 0,
-        type: "Normal",
+        type: "Ground",
+        willCrit: true,
         makesContact: true,
         category: "Physical"
     },
@@ -1636,7 +1637,7 @@ var BW_PATCH = {
     "Electro Outburst": { bp: 180, type: "Electric", category: "Special" },
     "Blazing Outburst": { bp: 180, type: "Fire", category: "Special" },
     "Gear Grind": {
-        bp: 60,
+        bp: 55,
         type: "Steel",
         multihit: 2,
         makesContact: true,
@@ -2601,11 +2602,12 @@ var SM_PATCH = {
     },
     "Floral Healing": { bp: 0, type: "Grass" },
     "Genesis Supernova": {
-        bp: 185,
+        bp: 250,
         type: "Psychic",
         category: "Special",
         secondaries: true,
-        isZ: true
+        isZ: true,
+        willCrit: true
     },
     "Gigavolt Havoc": {
         bp: 1,
