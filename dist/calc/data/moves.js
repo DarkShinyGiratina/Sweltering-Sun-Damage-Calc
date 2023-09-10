@@ -983,7 +983,8 @@ var DPP_PATCH = {
     "Chromosome Crush": {
         bp: 0,
         type: "Psychic",
-        category: "Special"
+        category: "Special",
+        willCrit: true
     },
     "Air Slash": { bp: 75, type: "Flying", category: "Special" },
     "Aura Sphere": { bp: 90, type: "Fighting", category: "Special" },

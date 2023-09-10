@@ -990,6 +990,7 @@ const DPP_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     bp: 0,
     type: "Psychic",
     category: "Special",
+    willCrit: true,
   },
   "Air Slash": { bp: 75, type: "Flying", category: "Special" },
   "Aura Sphere": { bp: 90, type: "Fighting", category: "Special" },
