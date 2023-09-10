@@ -6972,7 +6972,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Marill: {
     types: ["Water", "Fairy"],
-    bs: { hp: 65, at: 35, df: 60, sa: 60, sd: 80, sp: 55 },
+    bs: { hp: 65, at: 35, df: 60, sa: 60, sd: 80, sp: 50 },
   },
   Azumarill: {
     types: ["Water", "Fairy"],
@@ -8057,7 +8057,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   "Cherrim-Sunshine": {
     types: ["Fire", "Grass"],
-    bs: { hp: 70, at: 70, df: 65, sa: 112, sd: 98, sp: 120 },
+    bs: { hp: 70, at: 70, df: 65, sa: 112, sd: 98, sp: 135 },
   },
   Shellos: {
     types: ["Poison", "Ground"],
@@ -8831,7 +8831,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Bouffalant: {
     types: ["Normal"],
-    bs: { hp: 95, at: 145, df: 95, sa: 40, sd: 95, sp: 75 },
+    bs: { hp: 95, at: 150, df: 95, sa: 35, sd: 95, sp: 80 },
   },
   Rufflet: {
     types: ["Normal", "Flying"],

@@ -3390,11 +3390,11 @@ var SETDEX_SM = {
 		"Dulse (Aether Paradise)": {
 			level: 56,
 			ability: "Dazzling",
-			item: "Big Root",
+			item: "Grassium Z",
 			nature: "Modest",
-			moves: ["Parabolic Charge", "Giga Drain", "Hypnosis", "Calm Mind"],
+			moves: ["Parabolic Charge", "Giga Drain", "Hypnosis", "Ingrain"],
 			evs: {
-				sa: 252,
+				df: 252,
 				hp: 252,
 			},
 		},
@@ -4040,11 +4040,11 @@ var SETDEX_SM = {
 			level: 67,
 			ability: "Grassy Guard",
 			item: "Venusaurite",
-			nature: "Modest",
-			moves: ["Giga Drain", "Sludge Wave", "Earth Power", "Ingrain"],
+			nature: "Bold",
+			moves: ["Giga Drain", "Sludge Bomb", "Earth Power", "Ingrain"],
 			evs: {
 				hp: 252,
-				sa: 252,
+				df: 252,
 			},
 		},
 	},
@@ -5426,7 +5426,7 @@ var SETDEX_SM = {
 			ability: "Grassy Surge",
 			item: "Grassy Seed",
 			nature: "Calm",
-			moves: ["Extrasensory", "Thunderbolt", "Aura Sphere", "Yawn"],
+			moves: ["Extrasensory", "Thunderbolt", "Aura Sphere", "Rototiller"],
 			evs: {
 				hp: 252,
 				df: 252,

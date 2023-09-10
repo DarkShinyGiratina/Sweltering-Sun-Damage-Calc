@@ -980,11 +980,9 @@ var DPP_PATCH = {
         category: "Physical"
     },
     "Worry Seed": { bp: 0, type: "Grass" },
-    "Brain Drain": {
+    "Chromosome Crush": {
         bp: 0,
-        drain: [1, 2],
         type: "Psychic",
-        makesContact: true,
         category: "Special"
     },
     "Air Slash": { bp: 75, type: "Flying", category: "Special" },
@@ -2200,7 +2198,7 @@ var SM_PATCH = {
     Thunder: { zp: 195, bp: 120 },
     "Poison Dart": { zp: 100 },
     "Wake-Up Slap": { zp: 140, secondaries: true },
-    "Brain Drain": { zp: 200 },
+    "Chromosome Crush": { zp: 250 },
     Siphon: { zp: 100 },
     "Acid Spray": { zp: 100, target: "allAdjacentFoes" },
     "Sludge Shot": { zp: 90 },
@@ -2414,7 +2412,7 @@ var SM_PATCH = {
     "Power Gem": { zp: 175, bp: 95, secondaries: true },
     "Power-Up Punch": { zp: 100, secondaries: true },
     "Power Whip": { zp: 190, secondaries: true },
-    Present: { zp: 100 },
+    Present: { zp: 250 },
     Influx: { zp: 90 },
     Psychic: { zp: 175 },
     "Psycho Cut": { zp: 140 },
@@ -2952,7 +2950,7 @@ var SM_PATCH = {
     "Stomping Tantrum": {
         bp: 75,
         type: "Ground",
-        makesContact: true,
+        makesContact: false,
         category: "Physical",
         zp: 150
     },
@@ -4266,7 +4264,7 @@ var SS_PATCH = {
     "Wing Attack": { maxPower: 110 },
     "Wood Hammer": { maxPower: 140 },
     Wrap: { maxPower: 90 },
-    "Brain Drain": { maxPower: 140 },
+    "Chromosome Crush": { maxPower: 140 },
     "X-Scissor": { maxPower: 130 },
     "Zap Cannon": { maxPower: 140 },
     "Zen Headbutt": { maxPower: 130 },

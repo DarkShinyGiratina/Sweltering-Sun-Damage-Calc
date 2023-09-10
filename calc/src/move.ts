@@ -242,7 +242,7 @@ export function getZMoveName(
   }
   if (moveName === "Play Rough" && item === "Mimikium Z")
     return "Let's Snuggle Forever";
-  if (moveName === "Psychic" && item === "Mewnium Z")
+  if (moveName === "Chromosome Crush" && item === "Mewnium Z")
     return "Genesis Supernova";
   if (moveName === "Sparkling Aria" && item === "Primarium Z")
     return "Oceanic Operetta";
