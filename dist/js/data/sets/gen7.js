@@ -237,7 +237,12 @@ var SETDEX_SM = {
 			ability: "Energy Shield",
 			item: "Waterium Z",
 			nature: "Calm",
-			moves: ["Water Pledge", "Confusion", "Parabolic Charge", "Giga Drain"],
+			moves: [
+				"Water Pledge",
+				"Extrasensory",
+				"Parabolic Charge",
+				"Giga Drain",
+			],
 			evs: {
 				sa: 252,
 				sp: 252,

@@ -7544,7 +7544,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Roselia: {
     types: ["Grass", "Poison"],
-    bs: { hp: 50, at: 60, df: 50, sa: 100, sd: 90, sp: 90 },
+    bs: { hp: 50, at: 60, df: 50, sa: 100, sd: 95, sp: 90 },
   },
   Roserade: {
     types: ["Grass", "Poison"],
