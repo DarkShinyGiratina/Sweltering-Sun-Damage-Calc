@@ -7044,7 +7044,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Mismagius: {
     types: ["Ghost", "Psychic"],
-    bs: { hp: 65, at: 45, df: 65, sa: 125, sd: 125, sp: 120 },
+    bs: { hp: 65, at: 45, df: 65, sa: 125, sd: 125, sp: 125 },
   },
   Unown: {
     types: ["Psychic"],
