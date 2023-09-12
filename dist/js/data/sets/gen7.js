@@ -3395,7 +3395,7 @@ var SETDEX_SM = {
 			moves: ["Parabolic Charge", "Giga Drain", "Hypnosis", "Ingrain"],
 			evs: {
 				df: 252,
-				hp: 252,
+				sd: 252,
 			},
 		},
 		"Sophocles (Title Defense)": {
