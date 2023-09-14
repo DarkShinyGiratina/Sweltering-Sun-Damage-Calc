@@ -1003,7 +1003,7 @@ export function calculateBasePowerSMSSSV(
       desc.moveBP = basePower;
       break;
     case "Crush Grip":
-    case "Brain Drain":
+    case "Chromosome Crush":
       basePower =
         100 * Math.floor((defender.curHP() * 4096) / defender.maxHP());
       basePower =

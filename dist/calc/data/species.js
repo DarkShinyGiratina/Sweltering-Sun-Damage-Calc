@@ -6089,7 +6089,7 @@ var SM_PATCH = {
     },
     Fearow: {
         types: ["Normal", "Flying"],
-        bs: { hp: 75, at: 115, df: 75, sa: 61, sd: 61, sp: 113 }
+        bs: { hp: 75, at: 115, df: 75, sa: 41, sd: 61, sp: 113 }
     },
     Ekans: {
         types: ["Poison"],
@@ -6097,7 +6097,7 @@ var SM_PATCH = {
     },
     Arbok: {
         types: ["Poison", "Dark"],
-        bs: { hp: 100, at: 100, df: 80, sa: 85, sd: 80, sp: 80 }
+        bs: { hp: 105, at: 105, df: 80, sa: 85, sd: 80, sp: 80 }
     },
     Pichu: {
         types: ["Electric"],
@@ -6319,7 +6319,7 @@ var SM_PATCH = {
     },
     Poliwhirl: {
         types: ["Water"],
-        bs: { hp: 65, at: 80, df: 80, sa: 70, sd: 70, sp: 60 }
+        bs: { hp: 65, at: 80, df: 80, sa: 80, sd: 80, sp: 65 }
     },
     Poliwrath: {
         types: ["Water", "Fighting"],
@@ -7035,7 +7035,7 @@ var SM_PATCH = {
     },
     Sunkern: {
         types: ["Grass"],
-        bs: { hp: 40, at: 30, df: 65, sa: 80, sd: 65, sp: 30 }
+        bs: { hp: 40, at: 30, df: 70, sa: 80, sd: 80, sp: 30 }
     },
     Sunflora: {
         types: ["Grass"],
@@ -7583,7 +7583,7 @@ var SM_PATCH = {
     },
     Swalot: {
         types: ["Poison"],
-        bs: { hp: 133, at: 53, df: 88, sa: 108, sd: 118, sp: 25 }
+        bs: { hp: 148, at: 48, df: 88, sa: 108, sd: 118, sp: 25 }
     },
     Carvanha: {
         types: ["Water", "Dark"],
@@ -7687,7 +7687,7 @@ var SM_PATCH = {
     },
     Whiscash: {
         types: ["Water", "Ground"],
-        bs: { hp: 110, at: 101, df: 93, sa: 91, sd: 91, sp: 39 }
+        bs: { hp: 120, at: 101, df: 93, sa: 91, sd: 91, sp: 39 }
     },
     Corphish: {
         types: ["Water"],
@@ -7699,7 +7699,7 @@ var SM_PATCH = {
     },
     Baltoy: {
         types: ["Ground", "Psychic"],
-        bs: { hp: 50, at: 40, df: 65, sa: 90, sd: 90, sp: 65 }
+        bs: { hp: 50, at: 40, df: 95, sa: 95, sd: 95, sp: 65 }
     },
     Claydol: {
         types: ["Ground", "Psychic"],
@@ -8330,11 +8330,11 @@ var SM_PATCH = {
     },
     Servine: {
         types: ["Grass"],
-        bs: { hp: 62, at: 60, df: 60, sa: 80, sd: 80, sp: 93 }
+        bs: { hp: 62, at: 55, df: 65, sa: 80, sd: 80, sp: 93 }
     },
     Serperior: {
         types: ["Grass", "Dragon"],
-        bs: { hp: 102, at: 70, df: 80, sa: 90, sd: 95, sp: 113 }
+        bs: { hp: 102, at: 60, df: 80, sa: 90, sd: 95, sp: 123 }
     },
     Tepig: {
         types: ["Fire"],
@@ -8690,11 +8690,11 @@ var SM_PATCH = {
     },
     Vanillish: {
         types: ["Ice"],
-        bs: { hp: 56, at: 45, df: 75, sa: 95, sd: 85, sp: 84 }
+        bs: { hp: 61, at: 40, df: 75, sa: 95, sd: 85, sp: 84 }
     },
     Vanilluxe: {
         types: ["Ice"],
-        bs: { hp: 76, at: 60, df: 90, sa: 120, sd: 110, sp: 94 }
+        bs: { hp: 81, at: 50, df: 90, sa: 125, sd: 110, sp: 94 }
     },
     Deerling: {
         types: ["Grass", "Normal"],
@@ -9252,11 +9252,11 @@ var SM_PATCH = {
     },
     Amaura: {
         types: ["Rock", "Ice"],
-        bs: { hp: 77, at: 49, df: 72, sa: 93, sd: 88, sp: 46 }
+        bs: { hp: 77, at: 39, df: 77, sa: 93, sd: 93, sp: 46 }
     },
     Aurorus: {
         types: ["Rock", "Ice"],
-        bs: { hp: 123, at: 67, df: 92, sa: 123, sd: 112, sp: 58 }
+        bs: { hp: 123, at: 57, df: 92, sa: 133, sd: 112, sp: 58 }
     },
     Hawlucha: {
         types: ["Fighting", "Flying"],

@@ -3236,8 +3236,8 @@ var SETDEX_SM = {
 			nature: "Timid",
 			moves: [
 				"Revelation Dance",
-				"Fire Blast",
-				"Energy Ball",
+				"Fiery Dance",
+				"Quiver Dance",
 				"Earth Power",
 			],
 			evs: {
@@ -3280,8 +3280,8 @@ var SETDEX_SM = {
 			level: 55,
 			ability: "Unburden",
 			item: "Quick Claw",
-			nature: "Jolly",
-			moves: ["Lunge", "Iron Head", "Swords Dance", "Drill Run"],
+			nature: "Adamant",
+			moves: ["X-Scissor", "Laceration", "Swords Dance", "Drill Run"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -4307,17 +4307,6 @@ var SETDEX_SM = {
 		},
 	},
 	Seismitoad: {
-		"Hapu (Grand Trial)": {
-			level: 73,
-			ability: "Dry Skin",
-			item: "Rindo Berry",
-			nature: "Modest",
-			moves: ["Whirlpool", "Earth Power", "Blizzard", "Parting Shot"],
-			evs: {
-				sa: 252,
-				hp: 252,
-			},
-		},
 		"Hapu (Title Defense)": {
 			level: 100,
 			ability: "Dry Skin",
@@ -4379,17 +4368,6 @@ var SETDEX_SM = {
 		},
 	},
 	Rhyperior: {
-		"Hapu (Grand Trial)": {
-			level: 73,
-			ability: "Sand Stream",
-			item: "Assault Vest",
-			nature: "Adamant",
-			moves: ["Earthquake", "Boulder Bash", "Flare Blitz", "Power Whip"],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
-		},
 		"Hapu (Title Defense)": {
 			level: 100,
 			ability: "Sand Stream",
@@ -4417,7 +4395,7 @@ var SETDEX_SM = {
 				"Precipice Blades",
 				"Dragon Rush",
 				"Iron Tail",
-				"Close Combat",
+				"Swords Dance",
 			],
 			evs: {
 				at: 252,
@@ -6389,6 +6367,32 @@ var SETDEX_SM = {
 			evs: {
 				sa: 252,
 				sp: 252,
+			},
+		},
+	},
+	Heliolisk: {
+		"Hapu (Grand Trial)": {
+			level: 73,
+			ability: "Sweltering Sun",
+			item: "Focus Sash",
+			nature: "Timid",
+			moves: ["Plasma Shot", "Mud Bomb", "Solar Beam", "Weather Ball"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+		},
+	},
+	Steelix: {
+		"Hapu (Grand Trial)": {
+			level: 73,
+			ability: "Sand Stream",
+			item: "Passho Berry",
+			nature: "Adamant",
+			moves: ["Precipe Blades", "Iron Tail", "Stone Edge", "Parting Shot"],
+			evs: {
+				at: 252,
+				hp: 252,
 			},
 		},
 	},
