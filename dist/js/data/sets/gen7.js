@@ -1249,7 +1249,7 @@ var SETDEX_SM = {
 			ability: "Adaptability",
 			item: "Quick Claw",
 			nature: "Timid",
-			moves: ["Surf", "Toxic Spikes", "Taunt", "Parting Shot"],
+			moves: ["Torrential Pulse", "Toxic Spikes", "Taunt", "Parting Shot"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -2752,10 +2752,10 @@ var SETDEX_SM = {
 			level: 75,
 			ability: "Adaptability",
 			item: "Lucarionite",
-			nature: "Naive",
-			moves: ["Focus Blast", "Flash Cannon", "Dark Pulse", "Psychic"],
+			nature: "Jolly",
+			moves: ["Submission", "Iron Tail", "Rock Climb", "Swords Dance"],
 			evs: {
-				sa: 252,
+				at: 252,
 				sp: 252,
 			},
 		},
@@ -4504,7 +4504,7 @@ var SETDEX_SM = {
 		"Molayne (Elite Four)": {
 			level: 100,
 			ability: "Technician",
-			item: "Shuca Berry",
+			item: "Chople Berry",
 			nature: "Adamant",
 			moves: ["Gear Grind", "Stone Edge", "Drill Run", "Shift Gear"],
 			evs: {
