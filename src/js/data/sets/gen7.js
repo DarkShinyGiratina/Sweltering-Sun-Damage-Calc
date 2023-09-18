@@ -545,7 +545,7 @@ var SETDEX_SM = {
 			nature: "Naive",
 			moves: ["Water Pulse", "Disarming Voice", "Endure", "Work Up"],
 			evs: {
-				at: 252,
+				sa: 252,
 				sp: 252,
 			},
 		},
