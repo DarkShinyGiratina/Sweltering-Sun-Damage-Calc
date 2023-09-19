@@ -1416,7 +1416,7 @@ var SETDEX_SM = {
 			ability: "Sand Stream",
 			item: "Air Balloon",
 			nature: "Modest",
-			moves: ["Sludge Bomb", "Giga Drain", "Scald", "Parting Shot"],
+			moves: ["Sludge Bomb", "Energy Ball", "Scald", "Parting Shot"],
 			evs: {
 				sa: 252,
 				hp: 252,
