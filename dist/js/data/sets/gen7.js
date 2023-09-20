@@ -2249,7 +2249,7 @@ var SETDEX_SM = {
 			level: 41,
 			ability: "Tinted Lens",
 			item: "Choice Specs",
-			nature: "Modest",
+			nature: "Timid",
 			moves: ["Night Daze", "Electro Ball", "Shock Wave", "Volt Switch"],
 			evs: {
 				sa: 252,
