@@ -1327,7 +1327,7 @@ var BW_PATCH = {
     "Iron Tail": { secondaries: true },
     "Last Resort": { bp: 140 },
     "Pyro Plume": { secondaries: true },
-    Laceration: { secondaries: true },
+    Laceration: { secondaries: false },
     "Mud Shot": { secondaries: true },
     "Mud Fling": { secondaries: true },
     "Scum Shot": { secondaries: true },
