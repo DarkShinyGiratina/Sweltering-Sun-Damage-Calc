@@ -8080,7 +8080,7 @@ var SM_PATCH = {
     },
     Cherrim: {
         types: ["Grass"],
-        bs: { hp: 70, at: 60, df: 85, sa: 97, sd: 98, sp: 90 }
+        bs: { hp: 70, at: 55, df: 85, sa: 92, sd: 93, sp: 85 }
     },
     "Cherrim-Sunshine": {
         types: ["Fire", "Grass"],
