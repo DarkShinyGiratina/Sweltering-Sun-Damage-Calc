@@ -1150,7 +1150,7 @@ var SETDEX_SM = {
 			level: 27,
 			ability: "Stamina",
 			item: "Flyinium Z",
-			nature: "Adamant",
+			nature: "Jolly",
 			moves: ["Rage", "Steel Wing", "Pluck", "Roost"],
 			evs: {
 				at: 252,
