@@ -1744,7 +1744,7 @@ var SETDEX_SM = {
 			ability: "Swift Swim",
 			item: "Assault Vest",
 			nature: "Adamant",
-			moves: ["Wave Crash", "Leech Life", "Rock Slide", "Zen Headbutt"],
+			moves: ["Wave Crash", "U-turn", "Rock Slide", "Zen Headbutt"],
 			evs: {
 				at: 252,
 				sp: 252,
