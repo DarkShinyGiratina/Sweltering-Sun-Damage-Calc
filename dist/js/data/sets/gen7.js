@@ -2861,7 +2861,7 @@ var SETDEX_SM = {
 		"Nanu (Grand Trial)": {
 			level: 49,
 			ability: "Pixilate",
-			item: "Intimidate",
+			item: "Dazzling",
 			nature: "Jolly",
 			moves: ["Play Rough", "Hell Thrust", "Take Down", "Earthquake"],
 			evs: {
