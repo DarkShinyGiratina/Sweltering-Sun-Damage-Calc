@@ -2198,7 +2198,7 @@ var SETDEX_SM = {
 			ability: "Adaptability",
 			item: "Focus Sash",
 			nature: "Modest",
-			moves: ["Giga Drain", "Signal Beam", "Earth Power", "Grass Whistle"],
+			moves: ["Energy Ball", "Signal Beam", "Earth Power", "Grass Whistle"],
 			evs: {
 				sa: 252,
 				hp: 252,
