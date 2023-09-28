@@ -4393,8 +4393,8 @@ var SETDEX_SM = {
 			nature: "Jolly",
 			moves: [
 				"Precipice Blades",
-				"Dragon Rush",
-				"Iron Tail",
+				"Dragon Hammer",
+				"Stone Edge",
 				"Swords Dance",
 			],
 			evs: {
