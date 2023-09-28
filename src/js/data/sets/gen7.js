@@ -3368,7 +3368,7 @@ var SETDEX_SM = {
 	Celesteela: {
 		"Dulse (Aether Paradise)": {
 			level: 56,
-			ability: "Huge Power",
+			ability: "Speed Boost",
 			item: "Assault Vest",
 			nature: "Modest",
 			moves: ["Hurricane", "Flash Cannon", "Fire Blast", "Earth Power"],
