@@ -2441,7 +2441,7 @@ const SM_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Rock Blast": { isBullet: true, zp: 140 },
   "Rock Slide": { zp: 175, secondaries: true },
   "Boulder Bash": { zp: 170, bp: 85, type: "Rock", secondaries: true },
-  "Faerie Blow": { zp: 100 },
+  "Faerie Blow": { zp: 100, bp: 50 },
   "Rock Tomb": { zp: 120, secondaries: true },
   "Rock Wrecker": { zp: 210 },
   Rollout: { zp: 100 },
