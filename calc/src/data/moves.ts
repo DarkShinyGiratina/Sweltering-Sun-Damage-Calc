@@ -1940,7 +1940,6 @@ const XY_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     multihit: 3,
     breaksProtect: true,
     makesContact: true,
-    priority: 1,
     category: "Physical",
   },
   "Dragon Ascent": {

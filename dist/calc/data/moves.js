@@ -1929,7 +1929,6 @@ var XY_PATCH = {
         multihit: 3,
         breaksProtect: true,
         makesContact: true,
-        priority: 1,
         category: "Physical"
     },
     "Dragon Ascent": {
