@@ -2072,7 +2072,7 @@ const XY_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     bp: 90,
     type: "Grass",
     target: "allAdjacent",
-    category: "Physical",
+    category: "Special",
   },
   "Play Nice": { bp: 0, type: "Fairy" },
   "Play Rough": {

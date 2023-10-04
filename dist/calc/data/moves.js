@@ -2061,7 +2061,7 @@ var XY_PATCH = {
         bp: 90,
         type: "Grass",
         target: "allAdjacent",
-        category: "Physical"
+        category: "Special"
     },
     "Play Nice": { bp: 0, type: "Fairy" },
     "Play Rough": {
