@@ -540,7 +540,7 @@ var SETDEX_SM = {
 	Panpour: {
 		"Hau (Route 3)": {
 			level: 18,
-			ability: "Torren",
+			ability: "Torrent",
 			item: "Petaya Berry",
 			nature: "Naive",
 			moves: ["Water Pulse", "Disarming Voice", "Endure", "Work Up"],
@@ -4322,7 +4322,7 @@ var SETDEX_SM = {
 	Marowak: {
 		"Hapu (Grand Trial)": {
 			level: 73,
-			ability: "Headstrong",
+			ability: "Technician",
 			item: "Thick Club",
 			nature: "Adamant",
 			moves: ["Bone Rush", "Mach Punch", "Accelerock", "Swords Dance"],
