@@ -9463,7 +9463,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   Oricorio: {
     types: ["Fire", "Flying"],
     bs: { hp: 66, at: 70, df: 70, sa: 114, sd: 86, sp: 109 },
-    otherFormes: ["Oriocorio-Pom-Pom", "Oricorio-Pa'u", "Oricorio-Sensu"],
+    otherFormes: ["Oricorio-Pom-Pom", "Oricorio-Pa'u", "Oricorio-Sensu"],
     weightkg: 3.4,
   },
   "Oricorio-Pom-Pom": {
