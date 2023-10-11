@@ -6179,7 +6179,7 @@ var SM_PATCH = {
         otherFormes: ["Vulpix-Alola"]
     },
     Ninetales: {
-        types: ["Fire", "Fairy"],
+        types: ["Fairy", "Fire"],
         bs: { hp: 73, at: 57, df: 75, sa: 112, sd: 109, sp: 109 },
         otherFormes: ["Ninetales-Alola"]
     },
@@ -6189,7 +6189,7 @@ var SM_PATCH = {
         baseSpecies: "Vulpix"
     },
     "Ninetales-Alola": {
-        types: ["Ice", "Fairy"],
+        types: ["Fairy", "Ice"],
         bs: { hp: 73, at: 57, df: 75, sa: 109, sd: 112, sp: 109 },
         baseSpecies: "Ninetales"
     },
@@ -7574,7 +7574,7 @@ var SM_PATCH = {
         bs: { hp: 50, at: 60, df: 50, sa: 100, sd: 95, sp: 90 }
     },
     Roserade: {
-        types: ["Grass", "Poison"],
+        types: ["Poison", "Grass"],
         bs: { hp: 60, at: 95, df: 60, sa: 125, sd: 105, sp: 105 }
     },
     Gulpin: {
@@ -7907,7 +7907,7 @@ var SM_PATCH = {
         bs: { hp: 80, at: 140, df: 80, sa: 160, sd: 110, sp: 130 }
     },
     Jirachi: {
-        types: ["Steel", "Fairy"],
+        types: ["Fairy", "Steel"],
         bs: { hp: 60, at: 80, df: 120, sa: 100, sd: 140, sp: 100 }
     },
     Deoxys: {
@@ -8272,7 +8272,7 @@ var SM_PATCH = {
         bs: { hp: 65, at: 43, df: 90, sa: 115, sd: 125, sp: 62 }
     },
     "Shaymin-Sky": {
-        types: ["Grass", "Flying"],
+        types: ["Flying", "Grass"],
         bs: { hp: 65, at: 93, df: 70, sa: 125, sd: 110, sp: 137 }
     },
     Uxie: {
