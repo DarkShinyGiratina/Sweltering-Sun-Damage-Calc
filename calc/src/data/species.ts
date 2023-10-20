@@ -6057,12 +6057,12 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     baseSpecies: "Raticate",
   },
   Spearow: {
-    types: ["Normal", "Flying"],
-    bs: { hp: 45, at: 70, df: 45, sa: 31, sd: 41, sp: 93 },
+    types: ["Electric", "Flying"],
+    bs: { hp: 45, at: 75, df: 45, sa: 31, sd: 51, sp: 103 },
   },
   Fearow: {
-    types: ["Normal", "Flying"],
-    bs: { hp: 75, at: 115, df: 75, sa: 41, sd: 61, sp: 113 },
+    types: ["Electric", "Flying"],
+    bs: { hp: 75, at: 120, df: 75, sa: 41, sd: 81, sp: 133 },
   },
   Ekans: {
     types: ["Poison"],
@@ -6271,20 +6271,20 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     bs: { hp: 80, at: 82, df: 78, sa: 114, sd: 80, sp: 101 },
   },
   Mankey: {
-    types: ["Fighting"],
-    bs: { hp: 55, at: 85, df: 45, sa: 35, sd: 45, sp: 105 },
+    types: ["Fighting", "Electric"],
+    bs: { hp: 50, at: 85, df: 45, sa: 30, sd: 45, sp: 115 },
   },
   Primeape: {
-    types: ["Fighting"],
-    bs: { hp: 70, at: 135, df: 85, sa: 60, sd: 70, sp: 105 },
+    types: ["Fighting", "Electric"],
+    bs: { hp: 70, at: 130, df: 80, sa: 60, sd: 80, sp: 115 },
   },
   Growlithe: {
-    types: ["Fire"],
+    types: ["Fire", "Ice"],
     bs: { hp: 55, at: 75, df: 55, sa: 75, sd: 55, sp: 85 },
   },
   Arcanine: {
-    types: ["Fire"],
-    bs: { hp: 90, at: 110, df: 80, sa: 100, sd: 80, sp: 115 },
+    types: ["Fire", "Ice"],
+    bs: { hp: 90, at: 120, df: 80, sa: 90, sd: 80, sp: 115 },
   },
   Poliwag: {
     types: ["Water"],
@@ -6634,12 +6634,12 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     bs: { hp: 85, at: 95, df: 100, sa: 125, sd: 100, sp: 95 },
   },
   Goldeen: {
-    types: ["Water"],
-    bs: { hp: 50, at: 77, df: 60, sa: 35, sd: 75, sp: 73 },
+    types: ["Water", "Ghost"],
+    bs: { hp: 50, at: 72, df: 60, sa: 75, sd: 70, sp: 83 },
   },
   Seaking: {
-    types: ["Water"],
-    bs: { hp: 80, at: 112, df: 80, sa: 65, sd: 95, sp: 93 },
+    types: ["Water", "Ghost"],
+    bs: { hp: 80, at: 112, df: 65, sa: 90, sd: 90, sp: 98 },
   },
   Staryu: {
     types: ["Water", "Psychic"],
@@ -6967,16 +6967,16 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     bs: { hp: 90, at: 95, df: 85, sa: 165, sd: 145, sp: 55 },
   },
   Azurill: {
-    types: ["Water", "Fairy"],
-    bs: { hp: 50, at: 20, df: 40, sa: 40, sd: 60, sp: 40 },
+    types: ["Fire", "Fairy"],
+    bs: { hp: 50, at: 20, df: 50, sa: 65, sd: 65, sp: 50 },
   },
   Marill: {
-    types: ["Water", "Fairy"],
-    bs: { hp: 65, at: 35, df: 60, sa: 60, sd: 80, sp: 50 },
+    types: ["Fire", "Fairy"],
+    bs: { hp: 65, at: 35, df: 65, sa: 90, sd: 90, sp: 55 },
   },
   Azumarill: {
-    types: ["Water", "Fairy"],
-    bs: { hp: 100, at: 50, df: 90, sa: 80, sd: 100, sp: 60 },
+    types: ["Fire", "Fairy"],
+    bs: { hp: 100, at: 55, df: 85, sa: 115, sd: 100, sp: 60 },
   },
   Bonsly: {
     types: ["Rock"],
@@ -7011,8 +7011,8 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     bs: { hp: 40, at: 30, df: 70, sa: 80, sd: 80, sp: 30 },
   },
   Sunflora: {
-    types: ["Grass"],
-    bs: { hp: 75, at: 75, df: 75, sa: 115, sd: 95, sp: 45 },
+    types: ["Grass", "Fire"],
+    bs: { hp: 75, at: 45, df: 85, sa: 120, sd: 110, sp: 45 },
   },
   Yanma: {
     types: ["Bug", "Flying"],
@@ -7291,12 +7291,12 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     bs: { hp: 100, at: 170, df: 120, sa: 95, sd: 100, sp: 65 },
   },
   Poochyena: {
-    types: ["Dark"],
-    bs: { hp: 45, at: 75, df: 45, sa: 30, sd: 45, sp: 80 },
+    types: ["Dark", "Rock"],
+    bs: { hp: 45, at: 90, df: 70, sa: 30, sd: 45, sp: 90 },
   },
   Mightyena: {
-    types: ["Dark"],
-    bs: { hp: 70, at: 115, df: 70, sa: 60, sd: 60, sp: 105 },
+    types: ["Dark", "Rock"],
+    bs: { hp: 70, at: 125, df: 90, sa: 60, sd: 60, sp: 110 },
   },
   Zigzagoon: {
     types: ["Normal"],
@@ -7407,15 +7407,15 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     bs: { hp: 70, at: 130, df: 80, sa: 60, sd: 80, sp: 105 },
   },
   Slakoth: {
-    types: ["Normal"],
-    bs: { hp: 60, at: 80, df: 65, sa: 35, sd: 65, sp: 30 },
+    types: ["Normal", "Ice"],
+    bs: { hp: 65, at: 70, df: 70, sa: 30, sd: 70, sp: 30 },
   },
   Vigoroth: {
-    types: ["Normal"],
-    bs: { hp: 80, at: 95, df: 70, sa: 40, sd: 70, sp: 100 },
+    types: ["Normal", "Ice"],
+    bs: { hp: 80, at: 110, df: 70, sa: 40, sd: 70, sp: 110 },
   },
   Slaking: {
-    types: ["Normal"],
+    types: ["Normal", "Ice"],
     bs: { hp: 125, at: 160, df: 80, sa: 50, sd: 80, sp: 80 },
   },
   Nincada: {
@@ -7511,16 +7511,16 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     bs: { hp: 70, at: 100, df: 75, sa: 165, sd: 110, sp: 105 },
   },
   Electrike: {
-    types: ["Electric"],
-    bs: { hp: 40, at: 65, df: 40, sa: 85, sd: 40, sp: 100 },
+    types: ["Electric", "Fire"],
+    bs: { hp: 45, at: 45, df: 50, sa: 90, sd: 50, sp: 90 },
   },
   Manectric: {
-    types: ["Electric"],
-    bs: { hp: 70, at: 95, df: 65, sa: 115, sd: 65, sp: 115 },
+    types: ["Electric", "Fire"],
+    bs: { hp: 70, at: 95, df: 70, sa: 115, sd: 70, sp: 115 },
   },
   "Manectric-Mega": {
-    types: ["Electric"],
-    bs: { hp: 70, at: 115, df: 80, sa: 145, sd: 80, sp: 135 },
+    types: ["Electric", "Fire"],
+    bs: { hp: 70, at: 120, df: 80, sa: 145, sd: 80, sp: 140 },
   },
   Plusle: {
     types: ["Electric", "Fairy"],
@@ -7591,7 +7591,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     bs: { hp: 100, at: 145, df: 115, sa: 165, sd: 105, sp: 45 },
   },
   Torkoal: {
-    types: ["Fire"],
+    types: ["Fire", "Poison"],
     bs: { hp: 75, at: 60, df: 145, sa: 100, sd: 125, sp: 20 },
   },
   Spoink: {
