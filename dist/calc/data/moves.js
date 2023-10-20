@@ -1438,7 +1438,7 @@ var BW_PATCH = {
         ignoreDefensive: true
     },
     Scald: {
-        bp: 80,
+        bp: 60,
         type: "Water",
         category: "Special",
         secondaries: true
@@ -2091,7 +2091,7 @@ var SM_PATCH = {
     Aeroblast: { zp: 175, willCrit: true },
     "Triple Cannonade": { zp: 190, willCrit: true },
     Bide: { zp: 100 },
-    "Bone Club": { zp: 170, bp: 85, secondaries: true },
+    "Bone Club": { zp: 175, bp: 90, secondaries: true },
     Bonemerang: { zp: 190, secondaries: true, bp: 60 },
     "Bubble Barrage": { zp: 120 },
     Commotion: { zp: 170, bp: 85, secondaries: true, target: "allAdjacentFoes" },
@@ -2231,7 +2231,7 @@ var SM_PATCH = {
     Bounce: { zp: 150 },
     "Brave Bird": { zp: 195, secondaries: true },
     "Brick Break": { zp: 170 },
-    Brine: { zp: 140, bp: 70 },
+    Brine: { zp: 150, bp: 75 },
     "Bubble Shot": { zp: 90 },
     "Bug Biting": { zp: 140 },
     "Bug Buzz": { zp: 180, bp: 95, secondaries: true, target: "allAdjacentFoes" },
@@ -2439,7 +2439,7 @@ var SM_PATCH = {
         secondaries: true,
         category: "Special"
     },
-    Scald: { zp: 150, bp: 75 },
+    Scald: { zp: 120, bp: 60 },
     "Metal Claw": { zp: 120 },
     "Radiant Edge": { zp: 175, bp: 65, willCrit: true },
     "Seed Bomb": { zp: 160 },
@@ -2469,7 +2469,7 @@ var SM_PATCH = {
     "Dismal Cry": { zp: 120, secondaries: true },
     Snore: { zp: 120, secondaries: true, bp: 60 },
     Spark: { zp: 110 },
-    "Spew Out": { zp: 230, type: "Poison", secondaries: true },
+    "Spew Out": { zp: 230, type: "Poison", secondaries: true, willCrit: true },
     "Steel Wing": { zp: 120, secondaries: true },
     Stomp: { zp: 140 },
     "Stone Edge": { zp: 190, willCrit: true },
@@ -2706,11 +2706,11 @@ var SM_PATCH = {
         isZ: true
     },
     "Shadow Bone": {
-        bp: 85,
+        bp: 90,
         type: "Ghost",
         category: "Physical",
         secondaries: true,
-        zp: 160
+        zp: 175
     },
     "Shattered Psyche": {
         bp: 1,
@@ -2961,7 +2961,9 @@ var SM_PATCH = {
         makesContact: true,
         category: "Physical",
         zp: 190,
-        secondaries: true
+        secondaries: true,
+        willCrit: true,
+        recoil: [3, 10]
     },
     "Tearful Look": { bp: 0, type: "Normal" },
     "Trop Kick": {
