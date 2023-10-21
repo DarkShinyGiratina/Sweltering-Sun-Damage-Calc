@@ -197,7 +197,7 @@ var SETDEX_SM = {
 			item: "",
 			nature: "Bold",
 			moves: [
-				"Struggle Bug",
+				"String Shot",
 				"Sludge Fling",
 				"Poison Powder",
 				"Extrasensory",
