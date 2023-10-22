@@ -6243,7 +6243,7 @@ var SM_PATCH = {
     },
     Venonat: {
         types: ["Bug", "Poison"],
-        bs: { hp: 50, at: 45, df: 35, sa: 82, sd: 72, sp: 66 }
+        bs: { hp: 60, at: 45, df: 50, sa: 82, sd: 72, sp: 66 }
     },
     Venomoth: {
         types: ["Bug", "Poison"],
