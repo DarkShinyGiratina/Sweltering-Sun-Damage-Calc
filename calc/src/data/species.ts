@@ -9592,7 +9592,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   "Lurantis-Totem": {
     types: ["Grass"],
-    bs: { hp: 95, at: 110, df: 90, sa: 95, sd: 90, sp: 105 },
+    bs: { hp: 95, at: 110, df: 90, sa: 95, sd: 90, sp: 95 },
     baseSpecies: "Lurantis",
     weightkg: 58,
   },
