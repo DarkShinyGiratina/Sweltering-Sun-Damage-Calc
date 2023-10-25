@@ -3142,7 +3142,7 @@ var SETDEX_SM = {
 			ability: "Interstellar",
 			item: "Expert Belt",
 			nature: "Timid",
-			moves: ["Power Gem", "Energy Ball", "Aura Sphere", "Earth Power"],
+			moves: ["Power Gem", "Seed Flare", "Aura Sphere", "Earth Power"],
 			evs: {
 				sa: 252,
 				sp: 252,
