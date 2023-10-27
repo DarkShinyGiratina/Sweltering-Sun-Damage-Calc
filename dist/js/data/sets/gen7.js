@@ -1466,7 +1466,7 @@ var SETDEX_SM = {
 			level: 100,
 			ability: "Ruthless",
 			item: "Focus Sash",
-			nature: "Jolly",
+			nature: "Adamant",
 			moves: ["Stone Edge", "Pursuit", "Taunt", "Parting Shot"],
 			evs: {
 				at: 252,
