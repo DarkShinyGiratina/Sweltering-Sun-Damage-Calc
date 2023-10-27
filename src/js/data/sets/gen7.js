@@ -6336,7 +6336,7 @@ var SETDEX_SM = {
 			ability: "Sand Stream",
 			item: "Passho Berry",
 			nature: "Adamant",
-			moves: ["Precipe Blades", "Iron Tail", "Stone Edge", "Parting Shot"],
+			moves: ["Precipice Blades", "Iron Tail", "Stone Edge", "Parting Shot"],
 			evs: {
 				at: 252,
 				hp: 252,
