@@ -4578,15 +4578,15 @@ var SETDEX_SM = {
 			},
 		},
 	},
-	Dodrio: {
+	Articuno: {
 		"Kahili (Elite Four)": {
 			level: 100,
-			ability: "Reckless",
-			item: "Red Card",
-			nature: "Adamant",
-			moves: ["Headlong Rush", "Divebomb", "Rock Climb", "Parting Shot"],
+			ability: "Guarding Gale",
+			item: "Flyinium Z",
+			nature: "Timid",
+			moves: ["Blizzard", "Hurricane", "Rock Slide", "Parting Shot"],
 			evs: {
-				at: 252,
+				sa: 252,
 				sp: 252,
 			},
 		},
