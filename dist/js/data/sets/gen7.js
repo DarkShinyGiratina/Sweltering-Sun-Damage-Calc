@@ -2849,8 +2849,8 @@ var SETDEX_SM = {
 	"Absol-Mega": {
 		"Nanu (Grand Trial)": {
 			level: 49,
-			ability: "Pixilate",
-			item: "Dazzling",
+			ability: "Dazzling",
+			item: "Absolite",
 			nature: "Jolly",
 			moves: ["Play Rough", "Hell Thrust", "Take Down", "Earthquake"],
 			evs: {
