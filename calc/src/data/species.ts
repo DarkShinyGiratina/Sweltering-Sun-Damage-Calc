@@ -8611,7 +8611,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Zorua: {
     types: ["Dark"],
-    bs: { hp: 50, at: 65, df: 50, sa: 86, sd: 50, sp: 90 },
+    bs: { hp: 50, at: 65, df: 50, sa: 85, sd: 50, sp: 90 },
   },
   Zoroark: {
     types: ["Dark"],
