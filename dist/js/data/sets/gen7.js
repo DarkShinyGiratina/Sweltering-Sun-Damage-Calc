@@ -3983,7 +3983,7 @@ var SETDEX_SM = {
 			level: 67,
 			ability: "Tinted Lens",
 			item: "Grassium Z",
-			nature: "Modest",
+			nature: "Timid",
 			moves: ["Bug Buzz", "Seed Flare", "Earth Power", "Blossom Dance"],
 			evs: {
 				sa: 252,
