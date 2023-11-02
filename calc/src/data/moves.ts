@@ -2506,7 +2506,7 @@ const SM_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Thunder Punch": { zp: 160 },
   "Thunder Shock": { zp: 80 },
   "Tri Attack": { zp: 180, secondaries: true },
-  "Triple Kick": { zp: 190, willCrit: true, bp: 10, multihit: [1, 3] },
+  "Triple Kick": { zp: 190, willCrit: true, bp: 10, multihit: 3 },
   Twister: { zp: 100 },
   "U-turn": { zp: 150 },
   Uproar: { zp: 190, type: "Fighting", bp: 120 },
