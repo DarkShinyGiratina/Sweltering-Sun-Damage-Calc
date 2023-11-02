@@ -701,7 +701,7 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             desc.moveBP = basePower;
             break;
         case "Triple Kick":
-            basePower = move.hits === 2 ? 20 : move.hits === 3 ? 30 : 10;
+            basePower = move.hits === 2 ? 15 : move.hits === 3 ? 20 : 10;
             desc.moveBP = basePower;
             break;
         case "Crush Grip":
