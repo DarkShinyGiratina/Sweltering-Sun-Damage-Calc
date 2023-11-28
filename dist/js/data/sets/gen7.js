@@ -3047,7 +3047,7 @@ var SETDEX_SM = {
 	},
 	"Minior-Pink": {
 		"Faba Doubles (Aether Paradise)": {
-			level: 53,
+			level: 50,
 			ability: "Interstellar",
 			item: "Focus Sash",
 			nature: "Timid",
