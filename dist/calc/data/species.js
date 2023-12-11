@@ -6071,7 +6071,8 @@ var SM_PATCH = {
     "Rattata-Alola": {
         types: ["Normal", "Dark"],
         bs: { hp: 47, at: 69, df: 42, sa: 40, sd: 42, sp: 90 },
-        baseSpecies: "Rattata"
+        baseSpecies: "Rattata",
+        nfe: true
     },
     "Raticate-Alola": {
         types: ["Normal", "Dark"],
@@ -6130,7 +6131,8 @@ var SM_PATCH = {
     "Sandshrew-Alola": {
         types: ["Ice", "Steel"],
         bs: { hp: 50, at: 75, df: 110, sa: 10, sd: 70, sp: 40 },
-        baseSpecies: "Sandshrew"
+        baseSpecies: "Sandshrew",
+        nfe: true
     },
     "Sandslash-Alola": {
         types: ["Ice", "Steel"],
@@ -6186,7 +6188,8 @@ var SM_PATCH = {
     "Vulpix-Alola": {
         types: ["Ice", "Fairy"],
         bs: { hp: 45, at: 40, df: 45, sa: 85, sd: 78, sp: 77 },
-        baseSpecies: "Vulpix"
+        baseSpecies: "Vulpix",
+        nfe: true
     },
     "Ninetales-Alola": {
         types: ["Fairy", "Ice"],
@@ -6262,7 +6265,8 @@ var SM_PATCH = {
     "Diglett-Alola": {
         types: ["Ground", "Steel"],
         bs: { hp: 25, at: 65, df: 60, sa: 25, sd: 50, sp: 105 },
-        baseSpecies: "Diglett"
+        baseSpecies: "Diglett",
+        nfe: true
     },
     "Dugtrio-Alola": {
         types: ["Ground", "Steel"],
@@ -6282,7 +6286,8 @@ var SM_PATCH = {
     "Meowth-Alola": {
         types: ["Dark"],
         bs: { hp: 40, at: 60, df: 35, sa: 65, sd: 40, sp: 95 },
-        baseSpecies: "Meowth"
+        baseSpecies: "Meowth",
+        nfe: true
     },
     "Persian-Alola": {
         types: ["Dark"],
@@ -6400,7 +6405,8 @@ var SM_PATCH = {
     "Graveler-Alola": {
         types: ["Rock", "Electric"],
         bs: { hp: 70, at: 110, df: 115, sa: 35, sd: 60, sp: 60 },
-        baseSpecies: "Graveler"
+        baseSpecies: "Graveler",
+        nfe: true
     },
     "Golem-Alola": {
         types: ["Rock", "Electric"],
@@ -6476,7 +6482,8 @@ var SM_PATCH = {
     "Grimer-Alola": {
         types: ["Poison", "Dark"],
         bs: { hp: 60, at: 85, df: 60, sa: 70, sd: 80, sp: 15 },
-        baseSpecies: "Grimer"
+        baseSpecies: "Grimer",
+        nfe: true
     },
     "Muk-Alola": {
         types: ["Poison", "Dark"],
