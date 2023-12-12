@@ -1293,7 +1293,7 @@ const BW_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Seed Flare": { secondaries: true },
   "Signal Beam": { secondaries: true },
   "Silver Gale": { secondaries: true },
-  "Poison Dart": { secondaries: true },
+  "Poison Dart": { secondaries: false },
   "Acid Spray": { secondaries: true },
   "Ancient Power": { secondaries: true },
   Spook: { secondaries: true },
