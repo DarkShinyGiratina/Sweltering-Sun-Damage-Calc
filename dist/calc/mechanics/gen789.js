@@ -553,7 +553,6 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             desc.moveBP = basePower;
             break;
         case "Hex":
-        case "Infernal Parade":
             basePower =
                 move.bp * (defender.status || defender.hasAbility("Comatose") ? 2 : 1);
             desc.moveBP = basePower;

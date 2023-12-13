@@ -841,7 +841,6 @@ export function calculateBasePowerSMSSSV(
       desc.moveBP = basePower;
       break;
     case "Hex":
-    case "Infernal Parade":
       // Hex deals double damage to Pokemon with Comatose (ih8ih8sn0w)
       basePower =
         move.bp * (defender.status || defender.hasAbility("Comatose") ? 2 : 1);
