@@ -841,7 +841,6 @@ export function calculateBasePowerSMSSSV(
       desc.moveBP = basePower;
       break;
     case "Hex":
-    case "Infernal Parade":
       // Hex deals double damage to Pokemon with Comatose (ih8ih8sn0w)
       basePower =
         move.bp * (defender.status || defender.hasAbility("Comatose") ? 2 : 1);
@@ -999,11 +998,11 @@ export function calculateBasePowerSMSSSV(
       break;
     // Triple Kick's damage doubles after each consecutive hit (10, 20, 30), this is a hack
     case "Triple Kick":
-      basePower = move.hits === 2 ? 15 : move.hits === 3 ? 30 : 10;
+      basePower = move.hits === 2 ? 15 : move.hits === 3 ? 20 : 10;
       desc.moveBP = basePower;
       break;
     case "Crush Grip":
-    case "Brain Drain":
+    case "Chromosome Crush":
       basePower =
         100 * Math.floor((defender.curHP() * 4096) / defender.maxHP());
       basePower =

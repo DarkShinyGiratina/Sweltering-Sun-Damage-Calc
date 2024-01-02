@@ -120,7 +120,7 @@ var RBY = {
     "Seismic Toss": { bp: 1, type: "Fighting" },
     Detonate: { bp: 130, type: "Fire" },
     "Skull Bash": { bp: 90, type: "Normal", willCrit: true },
-    Slash: { bp: 70, type: "Normal" },
+    Slash: { bp: 80, type: "Normal" },
     "Sludge Fling": { bp: 65, type: "Poison" },
     "Soft-Boiled": { bp: 0, category: "Status", type: "Normal" },
     "Solar Beam": { bp: 90, type: "Grass" },
@@ -189,7 +189,7 @@ var RBY = {
     Confusion: { bp: 50, type: "Psychic" },
     "Creeping Strike": { bp: 50, type: "Bug" },
     "Hyper Speed": { bp: 0, category: "Status", type: "Normal" },
-    "Drill Peck": { bp: 70, type: "Flying" },
+    "Drill Peck": { bp: 80, type: "Flying" },
     Ignite: { bp: 45, type: "Fire" },
     "Fire Punch": { bp: 80, type: "Fire" },
     Harden: { bp: 0, category: "Status", type: "Normal" },
@@ -240,7 +240,7 @@ var GSC_PATCH = {
     "Beat Up": { bp: 10, type: "Dark" },
     "Belly Drum": { bp: 0, category: "Status", type: "Normal" },
     Accustom: { bp: 0, category: "Status", type: "Normal" },
-    "Cross Chop": { bp: 70, type: "Fighting" },
+    "Cross Chop": { bp: 80, type: "Fighting" },
     Conjure: { bp: 0, category: "Status", type: "???" },
     "Destiny Bond": { bp: 0, category: "Status", type: "Ghost" },
     Detect: { bp: 0, category: "Status", type: "Fighting", priority: 2 },
@@ -471,13 +471,13 @@ var ADV_PATCH = {
     Dive: { bp: 80, type: "Water", makesContact: true, secondaries: true },
     "Doom Desire": { bp: 120, type: "Steel" },
     Extrasensory: { bp: 80, type: "Psychic" },
-    "Fake Out": { bp: 50, type: "Normal", priority: 1 },
+    "Fake Out": { bp: 45, type: "Normal", priority: 1 },
     "Follow Me": { bp: 0, category: "Status", type: "Normal", priority: 3 },
     Hail: { bp: 0, category: "Status", type: "Ice" },
     "Icicle Spear": { bp: 25, type: "Ice", multihit: [2, 5] },
     Ingrain: { bp: 0, category: "Status", type: "Grass" },
     "Knock Off": { bp: 60, type: "Dark", makesContact: true },
-    "Leaf Blade": { bp: 70, type: "Grass", makesContact: true },
+    "Leaf Blade": { bp: 80, type: "Grass", makesContact: true },
     "Magic Coat": { bp: 0, category: "Status", type: "Psychic", priority: 4 },
     Memento: { bp: 0, category: "Status", type: "Dark" },
     "Nature Power": { bp: 0, category: "Status", type: "Normal", zp: 175 },
@@ -567,8 +567,8 @@ var ADV_PATCH = {
     "Bulk Up": { bp: 0, category: "Status", type: "Fighting" },
     "Calm Mind": { bp: 0, category: "Status", type: "Psychic" },
     "Cosmic Power": { bp: 0, category: "Status", type: "Psychic" },
-    "Jagged Edge": { bp: 70, type: "Rock", makesContact: true },
-    "Dragon Claw": { bp: 70, type: "Dragon", makesContact: true },
+    "Jagged Edge": { bp: 80, type: "Rock", makesContact: true },
+    "Dragon Claw": { bp: 80, type: "Dragon", makesContact: true },
     "Dragon Dance": { bp: 0, category: "Status", type: "Dragon" },
     Eruption: { bp: 150, type: "Fire", target: "allAdjacentFoes" },
     "Fake Tears": { bp: 0, category: "Status", type: "Dark" },
@@ -863,7 +863,8 @@ var DPP_PATCH = {
     Copycat: { bp: 0, type: "Normal" },
     "Crush Grip": {
         bp: 0,
-        type: "Normal",
+        type: "Ground",
+        willCrit: true,
         makesContact: true,
         category: "Physical"
     },
@@ -979,12 +980,11 @@ var DPP_PATCH = {
         category: "Physical"
     },
     "Worry Seed": { bp: 0, type: "Grass" },
-    "Brain Drain": {
+    "Chromosome Crush": {
         bp: 0,
-        drain: [1, 2],
         type: "Psychic",
-        makesContact: true,
-        category: "Special"
+        category: "Special",
+        willCrit: true
     },
     "Air Slash": { bp: 75, type: "Flying", category: "Special" },
     "Aura Sphere": { bp: 90, type: "Fighting", category: "Special" },
@@ -1093,7 +1093,7 @@ var DPP_PATCH = {
         category: "Physical"
     },
     "Cross Poison": {
-        bp: 70,
+        bp: 80,
         type: "Poison",
         makesContact: true,
         category: "Physical"
@@ -1152,7 +1152,7 @@ var DPP_PATCH = {
     },
     "Nasty Plot": { bp: 0, type: "Dark" },
     "Night Slash": {
-        bp: 70,
+        bp: 80,
         type: "Dark",
         makesContact: true,
         category: "Physical"
@@ -1170,7 +1170,7 @@ var DPP_PATCH = {
         makesContact: true,
         category: "Physical"
     },
-    "Psycho Cut": { bp: 70, type: "Psychic", category: "Physical" },
+    "Psycho Cut": { bp: 80, type: "Psychic", category: "Physical" },
     "Rock Polish": { bp: 0, type: "Rock" },
     "Rock Wrecker": { bp: 150, type: "Rock", category: "Physical" },
     "Seed Bomb": {
@@ -1180,7 +1180,7 @@ var DPP_PATCH = {
         secondaries: true
     },
     "Shadow Claw": {
-        bp: 70,
+        bp: 80,
         type: "Ghost",
         makesContact: true,
         category: "Physical"
@@ -1208,7 +1208,7 @@ var DPP_PATCH = {
         category: "Special"
     },
     "X-Scissor": {
-        bp: 70,
+        bp: 80,
         type: "Bug",
         makesContact: true,
         category: "Physical"
@@ -1285,7 +1285,7 @@ var BW_PATCH = {
     "Seed Flare": { secondaries: true },
     "Signal Beam": { secondaries: true },
     "Silver Gale": { secondaries: true },
-    "Poison Dart": { secondaries: true },
+    "Poison Dart": { secondaries: false },
     "Acid Spray": { secondaries: true },
     "Ancient Power": { secondaries: true },
     Spook: { secondaries: true },
@@ -1327,7 +1327,7 @@ var BW_PATCH = {
     "Iron Tail": { secondaries: true },
     "Last Resort": { bp: 140 },
     "Pyro Plume": { secondaries: true },
-    Laceration: { secondaries: true },
+    Laceration: { secondaries: false },
     "Mud Shot": { secondaries: true },
     "Mud Fling": { secondaries: true },
     "Scum Shot": { secondaries: true },
@@ -1438,7 +1438,7 @@ var BW_PATCH = {
         ignoreDefensive: true
     },
     Scald: {
-        bp: 80,
+        bp: 60,
         type: "Water",
         category: "Special",
         secondaries: true
@@ -1594,7 +1594,7 @@ var BW_PATCH = {
         category: "Physical"
     },
     "Drill Run": {
-        bp: 70,
+        bp: 80,
         type: "Ground",
         makesContact: true,
         category: "Physical"
@@ -1636,7 +1636,7 @@ var BW_PATCH = {
     "Electro Outburst": { bp: 180, type: "Electric", category: "Special" },
     "Blazing Outburst": { bp: 180, type: "Fire", category: "Special" },
     "Gear Grind": {
-        bp: 60,
+        bp: 55,
         type: "Steel",
         multihit: 2,
         makesContact: true,
@@ -1697,7 +1697,7 @@ var BW_PATCH = {
     },
     "Quiver Dance": { bp: 0, type: "Bug", category: "Status" },
     "Razor Shell": {
-        bp: 70,
+        bp: 80,
         type: "Water",
         makesContact: true,
         category: "Physical",
@@ -1929,7 +1929,6 @@ var XY_PATCH = {
         multihit: 3,
         breaksProtect: true,
         makesContact: true,
-        priority: 1,
         category: "Physical"
     },
     "Dragon Ascent": {
@@ -2062,7 +2061,7 @@ var XY_PATCH = {
         bp: 90,
         type: "Grass",
         target: "allAdjacent",
-        category: "Physical"
+        category: "Special"
     },
     "Play Nice": { bp: 0, type: "Fairy" },
     "Play Rough": {
@@ -2092,7 +2091,7 @@ var SM_PATCH = {
     Aeroblast: { zp: 175, willCrit: true },
     "Triple Cannonade": { zp: 190, willCrit: true },
     Bide: { zp: 100 },
-    "Bone Club": { zp: 170, bp: 85, secondaries: true },
+    "Bone Club": { zp: 175, bp: 90, secondaries: true },
     Bonemerang: { zp: 190, secondaries: true, bp: 60 },
     "Bubble Barrage": { zp: 120 },
     Commotion: { zp: 170, bp: 85, secondaries: true, target: "allAdjacentFoes" },
@@ -2199,7 +2198,7 @@ var SM_PATCH = {
     Thunder: { zp: 195, bp: 120 },
     "Poison Dart": { zp: 100 },
     "Wake-Up Slap": { zp: 140, secondaries: true },
-    "Brain Drain": { zp: 200 },
+    "Chromosome Crush": { zp: 250 },
     Siphon: { zp: 100 },
     "Acid Spray": { zp: 100, target: "allAdjacentFoes" },
     "Sludge Shot": { zp: 90 },
@@ -2232,7 +2231,7 @@ var SM_PATCH = {
     Bounce: { zp: 150 },
     "Brave Bird": { zp: 195, secondaries: true },
     "Brick Break": { zp: 170 },
-    Brine: { zp: 140, bp: 70 },
+    Brine: { zp: 150, bp: 75 },
     "Bubble Shot": { zp: 90 },
     "Bug Biting": { zp: 140 },
     "Bug Buzz": { zp: 180, bp: 95, secondaries: true, target: "allAdjacentFoes" },
@@ -2246,7 +2245,7 @@ var SM_PATCH = {
     Confusion: { zp: 120, bp: 60 },
     Counter: { zp: 175 },
     Covet: { zp: 120 },
-    Crabhammer: { zp: 180 },
+    Crabhammer: { zp: 190, bp: 80, willCrit: true },
     "Cross Chop": { zp: 140 },
     "Cross Poison": { zp: 140 },
     Crunch: { zp: 170 },
@@ -2373,7 +2372,7 @@ var SM_PATCH = {
     "Megaton Kick": { zp: 190, secondaries: true },
     "Seismic Fist": { zp: 175, secondaries: true },
     "Metal Burst": { zp: 175 },
-    Laceration: { zp: 140 },
+    Laceration: { zp: 140, bp: 80 },
     "Meteor Mash": { zp: 175, secondaries: true },
     "Mirror Coat": { zp: 175 },
     Moonblast: { zp: 180, bp: 100 },
@@ -2413,7 +2412,7 @@ var SM_PATCH = {
     "Power Gem": { zp: 175, bp: 95, secondaries: true },
     "Power-Up Punch": { zp: 100, secondaries: true },
     "Power Whip": { zp: 190, secondaries: true },
-    Present: { zp: 100 },
+    Present: { zp: 250 },
     Influx: { zp: 90 },
     Psychic: { zp: 175 },
     "Psycho Cut": { zp: 140 },
@@ -2428,7 +2427,7 @@ var SM_PATCH = {
     "Rock Blast": { isBullet: true, zp: 140 },
     "Rock Slide": { zp: 175, secondaries: true },
     "Boulder Bash": { zp: 170, bp: 85, type: "Rock", secondaries: true },
-    "Faerie Blow": { zp: 100 },
+    "Faerie Blow": { zp: 100, bp: 50 },
     "Rock Tomb": { zp: 120, secondaries: true },
     "Rock Wrecker": { zp: 210 },
     Rollout: { zp: 100 },
@@ -2440,7 +2439,7 @@ var SM_PATCH = {
         secondaries: true,
         category: "Special"
     },
-    Scald: { zp: 150, bp: 75 },
+    Scald: { zp: 120, bp: 60 },
     "Metal Claw": { zp: 120 },
     "Radiant Edge": { zp: 175, bp: 65, willCrit: true },
     "Seed Bomb": { zp: 160 },
@@ -2470,7 +2469,7 @@ var SM_PATCH = {
     "Dismal Cry": { zp: 120, secondaries: true },
     Snore: { zp: 120, secondaries: true, bp: 60 },
     Spark: { zp: 110 },
-    "Spew Out": { zp: 230, type: "Poison", secondaries: true },
+    "Spew Out": { zp: 230, type: "Poison", secondaries: true, willCrit: true },
     "Steel Wing": { zp: 120, secondaries: true },
     Stomp: { zp: 140 },
     "Stone Edge": { zp: 190, willCrit: true },
@@ -2494,7 +2493,7 @@ var SM_PATCH = {
     "Thunder Punch": { zp: 160 },
     "Thunder Shock": { zp: 80 },
     "Tri Attack": { zp: 180, secondaries: true },
-    "Triple Kick": { zp: 190 },
+    "Triple Kick": { zp: 190, willCrit: true, bp: 10, multihit: 3 },
     Twister: { zp: 100 },
     "U-turn": { zp: 150 },
     Uproar: { zp: 190, type: "Fighting", bp: 120 },
@@ -2522,8 +2521,9 @@ var SM_PATCH = {
     "Zap Cannon": { zp: 210 },
     "Zen Headbutt": { zp: 180 },
     "10,000,000 Volt Thunderbolt": {
-        bp: 195,
+        bp: 250,
         type: "Electric",
+        willCrit: true,
         category: "Special",
         isZ: true
     },
@@ -2550,9 +2550,10 @@ var SM_PATCH = {
     },
     "Breakneck Blitz": { bp: 1, type: "Normal", category: "Physical", isZ: true },
     Catastropika: {
-        bp: 210,
+        bp: 250,
         type: "Electric",
         makesContact: true,
+        willCrit: true,
         category: "Physical",
         isZ: true
     },
@@ -2599,11 +2600,12 @@ var SM_PATCH = {
     },
     "Floral Healing": { bp: 0, type: "Grass" },
     "Genesis Supernova": {
-        bp: 185,
+        bp: 250,
         type: "Psychic",
         category: "Special",
         secondaries: true,
-        isZ: true
+        isZ: true,
+        willCrit: true
     },
     "Gigavolt Havoc": {
         bp: 1,
@@ -2704,11 +2706,11 @@ var SM_PATCH = {
         isZ: true
     },
     "Shadow Bone": {
-        bp: 85,
+        bp: 90,
         type: "Ghost",
         category: "Physical",
         secondaries: true,
-        zp: 160
+        zp: 175
     },
     "Shattered Psyche": {
         bp: 1,
@@ -2746,9 +2748,10 @@ var SM_PATCH = {
     },
     Spotlight: { bp: 0, type: "Normal", priority: 3 },
     "Stoked Sparksurfer": {
-        bp: 175,
+        bp: 250,
         type: "Electric",
         category: "Special",
+        willCrit: true,
         secondaries: true,
         isZ: true
     },
@@ -2947,7 +2950,7 @@ var SM_PATCH = {
     "Stomping Tantrum": {
         bp: 75,
         type: "Ground",
-        makesContact: true,
+        makesContact: false,
         category: "Physical",
         zp: 150
     },
@@ -2958,7 +2961,9 @@ var SM_PATCH = {
         makesContact: true,
         category: "Physical",
         zp: 190,
-        secondaries: true
+        secondaries: true,
+        willCrit: true,
+        recoil: [3, 10]
     },
     "Tearful Look": { bp: 0, type: "Normal" },
     "Trop Kick": {
@@ -4261,7 +4266,7 @@ var SS_PATCH = {
     "Wing Attack": { maxPower: 110 },
     "Wood Hammer": { maxPower: 140 },
     Wrap: { maxPower: 90 },
-    "Brain Drain": { maxPower: 140 },
+    "Chromosome Crush": { maxPower: 140 },
     "X-Scissor": { maxPower: 130 },
     "Zap Cannon": { maxPower: 140 },
     "Zen Headbutt": { maxPower: 130 },

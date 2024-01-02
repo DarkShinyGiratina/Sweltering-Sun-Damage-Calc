@@ -553,7 +553,6 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             desc.moveBP = basePower;
             break;
         case "Hex":
-        case "Infernal Parade":
             basePower =
                 move.bp * (defender.status || defender.hasAbility("Comatose") ? 2 : 1);
             desc.moveBP = basePower;
@@ -701,11 +700,11 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             desc.moveBP = basePower;
             break;
         case "Triple Kick":
-            basePower = move.hits === 2 ? 15 : move.hits === 3 ? 30 : 10;
+            basePower = move.hits === 2 ? 15 : move.hits === 3 ? 20 : 10;
             desc.moveBP = basePower;
             break;
         case "Crush Grip":
-        case "Brain Drain":
+        case "Chromosome Crush":
             basePower =
                 100 * Math.floor((defender.curHP() * 4096) / defender.maxHP());
             basePower =
