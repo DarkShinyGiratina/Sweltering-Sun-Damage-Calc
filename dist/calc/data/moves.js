@@ -1247,7 +1247,7 @@ var BW_PATCH = {
     "Future Sight": { bp: 100, type: "Psychic" },
     "Giga Drain": { bp: 75 },
     "Gunk Shot": { secondaries: true },
-    "Heat Wave": { secondaries: true },
+    "Heat Wave": { secondaries: false },
     "Ice Beam": { secondaries: true },
     "Devious Lick": { secondaries: true },
     "Meteor Mash": { secondaries: true },
