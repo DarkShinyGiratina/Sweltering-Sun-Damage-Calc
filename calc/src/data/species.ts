@@ -6598,7 +6598,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Rhyperior: {
     types: ["Ground", "Rock"],
-    bs: { hp: 115, at: 143, df: 145, sa: 45, sd: 95, sp: 32 },
+    bs: { hp: 115, at: 143, df: 150, sa: 40, sd: 95, sp: 32 },
   },
   Happiny: {
     types: ["Normal", "Fairy"],
@@ -6690,7 +6690,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Magmar: {
     types: ["Fire"],
-    bs: { hp: 70, at: 95, df: 70, sa: 112, sd: 85, sp: 93 },
+    bs: { hp: 70, at: 95, df: 70, sa: 108, sd: 85, sp: 97 },
   },
   Magmortar: {
     types: ["Fire", "Steel"],
@@ -6702,7 +6702,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Electabuzz: {
     types: ["Electric"],
-    bs: { hp: 70, at: 108, df: 65, sa: 95, sd: 75, sp: 112 },
+    bs: { hp: 70, at: 99, df: 65, sa: 99, sd: 75, sp: 117 },
   },
   Electivire: {
     types: ["Electric", "Fighting"],
@@ -6799,11 +6799,11 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Kabuto: {
     types: ["Rock", "Water"],
-    bs: { hp: 45, at: 77, df: 110, sa: 40, sd: 75, sp: 53 },
+    bs: { hp: 50, at: 80, df: 110, sa: 30, sd: 75, sp: 55 },
   },
   Kabutops: {
     types: ["Rock", "Water"],
-    bs: { hp: 70, at: 132, df: 115, sa: 45, sd: 80, sp: 108 },
+    bs: { hp: 70, at: 135, df: 115, sa: 40, sd: 80, sp: 110 },
   },
   Aerodactyl: {
     types: ["Rock", "Flying"],
@@ -6855,7 +6855,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   "Mewtwo-Mega-Y": {
     types: ["Psychic"],
-    bs: { hp: 100, at: 80, df: 60, sa: 250, sd: 180, sp: 180 },
+    bs: { hp: 100, at: 80, df: 40, sa: 250, sd: 200, sp: 180 },
   },
   "Mewtwo-Mega-X": {
     types: ["Psychic", "Fighting"],
@@ -6882,8 +6882,8 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     bs: { hp: 58, at: 69, df: 58, sa: 99, sd: 58, sp: 93 },
   },
   Typhlosion: {
-    types: ["Fire"],
-    bs: { hp: 78, at: 94, df: 73, sa: 129, sd: 73, sp: 103 },
+    types: ["Fire", "Ground"],
+    bs: { hp: 78, at: 97, df: 78, sa: 116, sd: 78, sp: 103 },
   },
   Totodile: {
     types: ["Water"],
@@ -7047,11 +7047,11 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Misdreavus: {
     types: ["Ghost", "Fairy"],
-    bs: { hp: 50, at: 35, df: 50, sa: 100, sd: 100, sp: 100 },
+    bs: { hp: 45, at: 30, df: 45, sa: 110, sd: 110, sp: 110 },
   },
   Mismagius: {
     types: ["Ghost", "Psychic"],
-    bs: { hp: 65, at: 45, df: 65, sa: 125, sd: 125, sp: 125 },
+    bs: { hp: 60, at: 50, df: 60, sa: 135, sd: 135, sp: 135 },
   },
   Unown: {
     types: ["Psychic"],
@@ -7663,7 +7663,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Barboach: {
     types: ["Water", "Ground"],
-    bs: { hp: 50, at: 51, df: 68, sa: 51, sd: 71, sp: 59 },
+    bs: { hp: 55, at: 61, df: 81, sa: 61, sd: 81, sp: 61 },
   },
   Whiscash: {
     types: ["Water", "Ground"],
@@ -8257,15 +8257,15 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Uxie: {
     types: ["Psychic", "Normal"],
-    bs: { hp: 65, at: 40, df: 130, sa: 90, sd: 160, sp: 95 },
+    bs: { hp: 65, at: 40, df: 130, sa: 105, sd: 160, sp: 100 },
   },
   Mesprit: {
     types: ["Psychic", "Fairy"],
-    bs: { hp: 65, at: 60, df: 105, sa: 115, sd: 130, sp: 105 },
+    bs: { hp: 65, at: 60, df: 105, sa: 125, sd: 130, sp: 115 },
   },
   Azelf: {
     types: ["Psychic", "Fighting"],
-    bs: { hp: 65, at: 80, df: 80, sa: 140, sd: 100, sp: 115 },
+    bs: { hp: 65, at: 80, df: 80, sa: 145, sd: 100, sp: 130 },
   },
   Heatran: {
     types: ["Fire", "Steel"],
@@ -8530,11 +8530,11 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Basculin: {
     types: ["Water", "Fighting"],
-    bs: { hp: 65, at: 102, df: 65, sa: 90, sd: 65, sp: 113 },
+    bs: { hp: 65, at: 107, df: 65, sa: 95, sd: 65, sp: 118 },
   },
   "Basculin-Blue-Striped": {
     types: ["Water", "Dark"],
-    bs: { hp: 65, at: 102, df: 65, sa: 90, sd: 65, sp: 113 },
+    bs: { hp: 65, at: 107, df: 65, sa: 95, sd: 65, sp: 118 },
   },
   Sandile: {
     types: ["Ground", "Dark"],
@@ -8546,7 +8546,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Krookodile: {
     types: ["Ground", "Dark"],
-    bs: { hp: 105, at: 128, df: 95, sa: 65, sd: 85, sp: 97 },
+    bs: { hp: 105, at: 138, df: 95, sa: 55, sd: 85, sp: 97 },
   },
   Darumaka: {
     types: ["Fire", "Ground"],
@@ -9699,7 +9699,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Pyukumuku: {
     types: ["Water", "Poison"],
-    bs: { hp: 65, at: 65, df: 150, sa: 65, sd: 150, sp: 5 },
+    bs: { hp: 65, at: 65, df: 180, sa: 40, sd: 180, sp: 5 },
     weightkg: 1.2,
   },
   "Type: Null": {

@@ -2524,7 +2524,7 @@ const SM_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Water Pulse": { zp: 120, secondaries: true },
   "Surging Strikes": { category: "Physical", zp: 190, willCrit: true },
   "Water Spout": { zp: 210 },
-  "Weather Ball": { zp: 150, bp: 45, secondaries: true },
+  "Weather Ball": { zp: 150, bp: 50, secondaries: true },
   Whirlpool: { zp: 200 },
   "Wild Charge": { zp: 185, secondaries: true },
   "Dual Wingbeat": { zp: 175, secondaries: true },

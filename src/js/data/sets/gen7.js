@@ -180,7 +180,7 @@ var SETDEX_SM = {
 			ability: "Adaptability",
 			item: "Pecha Berry",
 			nature: "Bold",
-			moves: ["Quick Attack", "Crunch", "Brick Break", "Protect"],
+			moves: ["Quick Attack", "Pursuit", "Power-Up Punch", "Protect"],
 			evs: {
 				hp: 252,
 				sd: 252,
@@ -197,7 +197,7 @@ var SETDEX_SM = {
 			item: "",
 			nature: "Bold",
 			moves: [
-				"String Shot",
+				"Struggle Bug",
 				"Sludge Fling",
 				"Poison Powder",
 				"Extrasensory",
@@ -839,13 +839,13 @@ var SETDEX_SM = {
 		},
 		"Gladion (Aether House)": {
 			level: 48,
-			ability: "Filter",
-			item: "Eviolite",
+			ability: "Sturdy",
+			item: "Red Card",
 			nature: "Adamant",
-			moves: ["Rage", "Take Down", "Iron Head", "Parting Shot"],
+			moves: ["Retaliate", "Endeavor", "Laceration", "Quick Attack"],
 			evs: {
 				at: 252,
-				hp: 252,
+				sp: 252,
 			},
 		},
 	},
@@ -1228,9 +1228,9 @@ var SETDEX_SM = {
 		"Plumeria (Route 15)": {
 			level: 42,
 			ability: "Merciless",
-			item: "Assault Vest",
+			item: "Shuca Berry",
 			nature: "Brave",
-			moves: ["Gunk Shot", "Hell Thrust", "Psychic Fangs", "Drain Punch"],
+			moves: ["Gunk Shot", "Hell Thrust", "Psychic Fangs", "Parting Shot"],
 			evs: {
 				at: 252,
 				hp: 252,
@@ -1385,10 +1385,10 @@ var SETDEX_SM = {
 			ability: "Sand Rush",
 			item: "Eviolite",
 			nature: "Careful",
-			moves: ["Stone Edge", "Precipice Blades", "Sedimend", "Parting Shot"],
+			moves: ["Stone Edge", "Precipice Blades", "Take Down", "Dragon Dance"],
 			evs: {
 				at: 252,
-				hp: 252,
+				sd: 252,
 			},
 		},
 	},
@@ -1432,7 +1432,12 @@ var SETDEX_SM = {
 			ability: "Sand Stream",
 			item: "Air Balloon",
 			nature: "Modest",
-			moves: ["Sludge Bomb", "Energy Ball", "Scald", "Parting Shot"],
+			moves: [
+				"Sludge Bomb",
+				"Energy Ball",
+				"Scorching Sands",
+				"Parting Shot",
+			],
 			evs: {
 				sa: 252,
 				hp: 252,
@@ -1441,11 +1446,11 @@ var SETDEX_SM = {
 		"Olivia (Elite Four)": {
 			level: 100,
 			ability: "Sand Stream",
-			item: "Air Balloon",
+			item: "Quick Claw",
 			nature: "Modest",
-			moves: ["Sludge Wave", "Energy Ball", "Whirlpool", "Parting Shot"],
+			moves: ["Mineral Shower", "Sticky Web", "Taunt", "Parting Shot"],
 			evs: {
-				sa: 252,
+				df: 252,
 				hp: 252,
 			},
 		},
@@ -1467,7 +1472,7 @@ var SETDEX_SM = {
 			ability: "Ruthless",
 			item: "Focus Sash",
 			nature: "Adamant",
-			moves: ["Stone Edge", "Pursuit", "Taunt", "Parting Shot"],
+			moves: ["Stone Edge", "Pursuit", "Roar", "Parting Shot"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -1489,9 +1494,9 @@ var SETDEX_SM = {
 		"Olivia (Elite Four)": {
 			level: 100,
 			ability: "Hustle",
-			item: "Lycanium Z",
+			item: "Rockium Z",
 			nature: "Jolly",
-			moves: ["Stone Edge", "Retaliate", "Parting Shot", "Take Down"],
+			moves: ["Head Smash", "Double-Edge", "Parting Shot", "Close Combat"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -1524,7 +1529,7 @@ var SETDEX_SM = {
 		"Hau (Champion)": {
 			level: 100,
 			ability: "Psychic Surge",
-			item: "Aloraichium Z",
+			item: "Electrium Z",
 			nature: "Hasty",
 			moves: ["Plasma Shot", "Psystrike", "Hypnosis", "Focus Blast"],
 			evs: {
@@ -2594,9 +2599,9 @@ var SETDEX_SM = {
 		"Gladion (Aether House)": {
 			level: 48,
 			ability: "Stakeout",
-			item: "Focus Sash",
+			item: "Flyinium Z",
 			nature: "Rash",
-			moves: ["Sludge Wave", "Aeroblast", "Taunt", "Parting Shot"],
+			moves: ["Gunk Shot", "Divebomb", "Hypnosis", "Parting Shot"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -2699,7 +2704,7 @@ var SETDEX_SM = {
 		"Gladion (Aether House)": {
 			level: 48,
 			ability: "Dark Aura",
-			item: "Darkinium Z",
+			item: "Focus Sash",
 			nature: "Hasty",
 			moves: ["Wicked Blow", "Play Rough", "Gunk Shot", "Parting Shot"],
 			evs: {
@@ -2781,10 +2786,10 @@ var SETDEX_SM = {
 	Mightyena: {
 		"Nanu (Grand Trial)": {
 			level: 49,
-			ability: "Strong Jaw",
+			ability: "Stakeout",
 			item: "Life Orb",
 			nature: "Jolly",
-			moves: ["Crunch", "Jagged Fangs", "Psychic Fangs", "Fire Fang"],
+			moves: ["Yawn", "Rock Climb", "Parting Shot", "Wicked Blow"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -2810,23 +2815,25 @@ var SETDEX_SM = {
 		},
 	},
 	Honchkrow: {
-		"Nanu (Grand Trial)": {
-			level: 49,
-			ability: "Super Luck",
-			item: "Roseli Berry",
-			nature: "Jolly",
-			moves: ["Night Slash", "Drill Peck", "Laceration", "Parting Shot"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
-		},
 		Cyrus: {
 			level: 100,
 			ability: "Moxie",
 			item: "Life Orb",
 			nature: "Jolly",
 			moves: ["Wicked Blow", "Brave Bird", "Close Combat", "Finishing Blow"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+		},
+	},
+	Liepard: {
+		"Nanu (Grand Trial)": {
+			level: 49,
+			ability: "Technician",
+			item: "Silk Scarf",
+			nature: "Adamant",
+			moves: ["Tail Slap", "Pursuit", "Finishing Blow", "Fake Out"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -3834,9 +3841,9 @@ var SETDEX_SM = {
 		"Mina (Mina's Trial)": {
 			level: 65,
 			ability: "Serene Grace",
-			item: "Babiri Berry",
+			item: "Focus Sash",
 			nature: "Timid",
-			moves: ["Dazzling Gleam", "Air Slash", "Fire Blast", "Dreamy Kiss"],
+			moves: ["Revelation Dance", "Air Slash", "Fire Blast", "Dreamy Kiss"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -4202,7 +4209,7 @@ var SETDEX_SM = {
 			ability: "Volt Rush",
 			item: "Ampharosite",
 			nature: "Modest",
-			moves: ["Thunder", "Dragon Pulse", "Flamethrower", "Focus Blast"],
+			moves: ["Thunder", "Dragon Pulse", "Flamethrower", "Power Glow"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -4437,9 +4444,9 @@ var SETDEX_SM = {
 		"Molayne (Elite Four)": {
 			level: 100,
 			ability: "Drizzle",
-			item: "Assault Vest",
+			item: "Quick Claw",
 			nature: "Modest",
-			moves: ["Psystrike", "Flash Cannon", "Focus Blast", "Weather Ball"],
+			moves: ["Future Sight", "Flash Cannon", "Focus Blast", "Hypnosis"],
 			evs: {
 				sa: 252,
 				hp: 252,
@@ -4450,9 +4457,9 @@ var SETDEX_SM = {
 		"Molayne (Elite Four)": {
 			level: 100,
 			ability: "Levitate",
-			item: "Quick Claw",
+			item: "Chople Berry",
 			nature: "Modest",
-			moves: ["Thunder", "Flash Cannon", "Weather Ball", "Dazzling Gleam"],
+			moves: ["Plasma Shot", "Flash Cannon", "Weather Ball", "Autotomize"],
 			evs: {
 				sa: 252,
 				hp: 252,
@@ -4481,22 +4488,9 @@ var SETDEX_SM = {
 		"Molayne (Elite Four)": {
 			level: 100,
 			ability: "Technician",
-			item: "Chople Berry",
+			item: "Shuca Berry",
 			nature: "Adamant",
 			moves: ["Gear Grind", "Stone Edge", "Drill Run", "Shift Gear"],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
-		},
-	},
-	"Aggron-Mega": {
-		"Molayne (Elite Four)": {
-			level: 100,
-			ability: "Bulletproof",
-			item: "Aggronite",
-			nature: "Adamant",
-			moves: ["Iron Tail", "Dragon Tail", "Take Down", "Precipice Blades"],
 			evs: {
 				at: 252,
 				hp: 252,
@@ -4506,10 +4500,15 @@ var SETDEX_SM = {
 	"Diancie-Mega": {
 		"Olivia (Elite Four)": {
 			level: 100,
-			ability: "Levitate",
+			ability: "Serene Grace",
 			item: "Diancite",
 			nature: "Timid",
-			moves: ["Eternal Beam", "Power Gem", "Focus Blast", "Earth Power"],
+			moves: [
+				"Revelation Dance",
+				"Power Gem",
+				"Focus Blast",
+				"Charming Kiss",
+			],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -4552,15 +4551,15 @@ var SETDEX_SM = {
 			},
 		},
 	},
-	Dhelmise: {
+	Gourgeist: {
 		"Acerola (Elite Four)": {
 			level: 100,
-			ability: "Stormy Seas",
-			item: "Assault Vest",
-			nature: "Adamant",
-			moves: ["Shadow Sneak", "Power Whip", "Wave Crash", "Anchor Shot"],
+			ability: "Unburden",
+			item: "Quick Claw",
+			nature: "Modest",
+			moves: ["Infernal Parade", "Seed Flare", "Fire Blast", "Ingrain"],
 			evs: {
-				at: 252,
+				df: 252,
 				hp: 252,
 			},
 		},
@@ -4584,7 +4583,7 @@ var SETDEX_SM = {
 			ability: "Guarding Gale",
 			item: "Flyinium Z",
 			nature: "Timid",
-			moves: ["Blizzard", "Hurricane", "Rock Slide", "Parting Shot"],
+			moves: ["Blizzard", "Hurricane", "Whirlwind", "Parting Shot"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -5716,6 +5715,22 @@ var SETDEX_SM = {
 				hp: 252,
 			},
 		},
+		"Molayne (Elite Four)": {
+			level: 100,
+			ability: "Rapid Fire",
+			item: "Blastoisinite",
+			nature: "Adamant",
+			moves: [
+				"Surging Strikes",
+				"Triple Cannonade",
+				"Rock Blast",
+				"Swords Dance",
+			],
+			evs: {
+				at: 252,
+				hp: 252,
+			},
+		},
 	},
 	Metagross: {
 		"Faba (Postgame Double Battle)": {
@@ -6334,9 +6349,9 @@ var SETDEX_SM = {
 		"Hapu (Grand Trial)": {
 			level: 73,
 			ability: "Sand Stream",
-			item: "Passho Berry",
+			item: "Smooth Rock",
 			nature: "Adamant",
-			moves: ["Precipice Blades", "Iron Tail", "Stone Edge", "Parting Shot"],
+			moves: ["Earthquake", "Iron Tail", "Stone Edge", "Parting Shot"],
 			evs: {
 				at: 252,
 				hp: 252,
@@ -6364,7 +6379,7 @@ var SETDEX_SM = {
 			nature: "Modest",
 			moves: ["Parabolic Charge", "Energy Ball", "Ice Beam", "Nasty Plot"],
 			evs: {
-				sa: 252,
+				df: 252,
 				hp: 252,
 			},
 		},
