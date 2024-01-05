@@ -4505,7 +4505,7 @@ var SETDEX_SM = {
 			nature: "Timid",
 			moves: [
 				"Revelation Dance",
-				"Power Gem",
+				"Eternal Beam",
 				"Focus Blast",
 				"Charming Kiss",
 			],
