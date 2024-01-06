@@ -2603,7 +2603,7 @@ var SETDEX_SM = {
 			nature: "Rash",
 			moves: ["Gunk Shot", "Divebomb", "Hypnosis", "Parting Shot"],
 			evs: {
-				sa: 252,
+				at: 252,
 				sp: 252,
 			},
 		},
