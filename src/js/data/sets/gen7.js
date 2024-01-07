@@ -4551,7 +4551,7 @@ var SETDEX_SM = {
 			},
 		},
 	},
-	Gourgeist: {
+	"Gourgeist-Small": {
 		"Acerola (Elite Four)": {
 			level: 100,
 			ability: "Unburden",
