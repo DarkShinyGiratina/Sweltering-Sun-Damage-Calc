@@ -7607,7 +7607,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Grumpig: {
     types: ["Dark", "Psychic"],
-    bs: { hp: 95, at: 85, df: 85, sa: 100, sd: 120, sp: 50 },
+    bs: { hp: 95, at: 55, df: 70, sa: 125, sd: 110, sp: 80 },
   },
   Spinda: {
     types: ["Psychic", "Normal"],

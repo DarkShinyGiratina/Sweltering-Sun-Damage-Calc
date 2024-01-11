@@ -3494,7 +3494,7 @@ var SETDEX_SM = {
 		"Lusamine (Aether Paradise)": {
 			level: 57,
 			ability: "Levitate",
-			item: "Expert Belt",
+			item: "Babiri Berry",
 			nature: "Timid",
 			moves: ["Freeze-Dry", "Sludge Wave", "Earth Power", "Hydro Pump"],
 			evs: {
@@ -3514,23 +3514,25 @@ var SETDEX_SM = {
 			},
 		},
 	},
-	Lilligant: {
+	Bellossom: {
 		"Lusamine (Aether Paradise)": {
 			level: 57,
-			ability: "Serene Grace",
+			ability: "Queenly Majesty",
 			item: "Focus Sash",
-			nature: "Timid",
+			nature: "Modest",
 			moves: [
 				"Revelation Dance",
 				"Seed Flare",
 				"Earth Power",
-				"Quiver Dance",
+				"Blossom Dance",
 			],
 			evs: {
 				sa: 252,
 				sp: 252,
 			},
 		},
+	},
+	Lilligant: {
 		"Lusamine (Title Defense)": {
 			level: 100,
 			ability: "Serene Grace",
