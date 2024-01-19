@@ -498,3 +498,19 @@ table.field {
 .extraSetMoves {
     width: 100%;
 }
+
+/* TRAINER PREVIEW  */
+.trainer-poks {
+    margin-top:  10px;
+}
+
+.trainer-pok {
+    width:  calc(16.66% - 5px);
+    cursor:  pointer;
+    border:  1px solid rgba(0,0,0,0);
+    border-radius: 5px;
+}
+
+.trainer-pok:hover {
+    border:  1px solid #f6900c;
+}
