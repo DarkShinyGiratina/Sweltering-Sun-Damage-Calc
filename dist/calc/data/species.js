@@ -6020,7 +6020,7 @@ var SM_PATCH = {
     },
     Metapod: {
         types: ["Bug"],
-        bs: { hp: 50, at: 40, df: 85, sa: 55, sd: 70, sp: 30 }
+        bs: { hp: 50, at: 40, df: 95, sa: 55, sd: 80, sp: 30 }
     },
     Butterfree: {
         types: ["Bug", "Flying"],
@@ -6032,11 +6032,11 @@ var SM_PATCH = {
     },
     Kakuna: {
         types: ["Bug", "Poison"],
-        bs: { hp: 50, at: 60, df: 85, sa: 40, sd: 60, sp: 35 }
+        bs: { hp: 50, at: 60, df: 95, sa: 40, sd: 70, sp: 35 }
     },
     Beedrill: {
         types: ["Bug", "Poison"],
-        bs: { hp: 65, at: 119, df: 65, sa: 45, sd: 65, sp: 121 }
+        bs: { hp: 65, at: 120, df: 65, sa: 45, sd: 65, sp: 120 }
     },
     "Beedrill-Mega": {
         types: ["Bug", "Poison"],
@@ -6246,11 +6246,11 @@ var SM_PATCH = {
     },
     Venonat: {
         types: ["Bug", "Poison"],
-        bs: { hp: 60, at: 45, df: 50, sa: 82, sd: 72, sp: 66 }
+        bs: { hp: 60, at: 40, df: 60, sa: 82, sd: 92, sp: 66 }
     },
     Venomoth: {
         types: ["Bug", "Poison"],
-        bs: { hp: 70, at: 65, df: 65, sa: 117, sd: 87, sp: 111 }
+        bs: { hp: 70, at: 65, df: 65, sa: 117, sd: 97, sp: 111 }
     },
     Diglett: {
         types: ["Ground"],
@@ -6492,7 +6492,7 @@ var SM_PATCH = {
     },
     Shellder: {
         types: ["Water"],
-        bs: { hp: 50, at: 60, df: 110, sa: 30, sd: 50, sp: 50 }
+        bs: { hp: 55, at: 60, df: 120, sa: 30, sd: 55, sp: 50 }
     },
     Cloyster: {
         types: ["Water", "Steel"],
@@ -6524,7 +6524,7 @@ var SM_PATCH = {
     },
     "Steelix-Mega": {
         types: ["Steel", "Rock"],
-        bs: { hp: 130, at: 150, df: 200, sa: 40, sd: 150, sp: 30 }
+        bs: { hp: 130, at: 160, df: 200, sa: 30, sd: 160, sp: 20 }
     },
     Drowzee: {
         types: ["Psychic"],
@@ -6761,7 +6761,7 @@ var SM_PATCH = {
     },
     Lapras: {
         types: ["Water", "Dragon"],
-        bs: { hp: 130, at: 85, df: 100, sa: 95, sd: 115, sp: 50 }
+        bs: { hp: 130, at: 60, df: 115, sa: 105, sd: 115, sp: 50 }
     },
     Ditto: {
         types: ["Normal"],
@@ -6898,7 +6898,7 @@ var SM_PATCH = {
     },
     Meganium: {
         types: ["Grass", "Fairy"],
-        bs: { hp: 112, at: 82, df: 100, sa: 93, sd: 115, sp: 48 }
+        bs: { hp: 117, at: 67, df: 100, sa: 93, sd: 125, sp: 48 }
     },
     Cyndaquil: {
         types: ["Fire"],
@@ -6958,11 +6958,11 @@ var SM_PATCH = {
     },
     Chinchou: {
         types: ["Water", "Electric"],
-        bs: { hp: 55, at: 38, df: 55, sa: 85, sd: 95, sp: 42 }
+        bs: { hp: 65, at: 38, df: 65, sa: 95, sd: 115, sp: 42 }
     },
     Lanturn: {
         types: ["Water", "Electric"],
-        bs: { hp: 80, at: 58, df: 80, sa: 115, sd: 125, sp: 67 }
+        bs: { hp: 100, at: 48, df: 80, sa: 115, sd: 125, sp: 67 }
     },
     Togepi: {
         types: ["Fairy"],
@@ -7050,11 +7050,11 @@ var SM_PATCH = {
     },
     Yanma: {
         types: ["Bug", "Flying"],
-        bs: { hp: 49, at: 65, df: 49, sa: 99, sd: 49, sp: 129 }
+        bs: { hp: 49, at: 66, df: 49, sa: 96, sd: 49, sp: 126 }
     },
     Yanmega: {
         types: ["Bug", "Dragon"],
-        bs: { hp: 89, at: 90, df: 59, sa: 129, sd: 59, sp: 149 }
+        bs: { hp: 99, at: 96, df: 59, sa: 116, sd: 59, sp: 146 }
     },
     Wooper: {
         types: ["Water", "Ground"],
@@ -7082,7 +7082,7 @@ var SM_PATCH = {
     },
     Unown: {
         types: ["Psychic"],
-        bs: { hp: 1, at: 54, df: 1, sa: 72, sd: 1, sp: 72 }
+        bs: { hp: 2, at: 51, df: 2, sa: 72, sd: 2, sp: 72 }
     },
     Wynaut: {
         types: ["Psychic"],
@@ -7102,7 +7102,7 @@ var SM_PATCH = {
     },
     Forretress: {
         types: ["Bug", "Steel"],
-        bs: { hp: 75, at: 90, df: 140, sa: 90, sd: 100, sp: 40 }
+        bs: { hp: 75, at: 100, df: 140, sa: 100, sd: 100, sp: 20 }
     },
     Dunsparce: {
         types: ["Ground", "Fairy"],
@@ -7118,7 +7118,7 @@ var SM_PATCH = {
     },
     Snubbull: {
         types: ["Fairy"],
-        bs: { hp: 60, at: 80, df: 60, sa: 40, sd: 60, sp: 50 }
+        bs: { hp: 65, at: 80, df: 65, sa: 40, sd: 65, sp: 55 }
     },
     Granbull: {
         types: ["Fairy", "Fighting"],
@@ -7162,7 +7162,7 @@ var SM_PATCH = {
     },
     Magcargo: {
         types: ["Fire", "Rock"],
-        bs: { hp: 70, at: 50, df: 120, sa: 115, sd: 115, sp: 30 }
+        bs: { hp: 70, at: 50, df: 120, sa: 135, sd: 120, sp: 30 }
     },
     Swinub: {
         types: ["Ice", "Ground"],
@@ -7346,7 +7346,7 @@ var SM_PATCH = {
     },
     Silcoon: {
         types: ["Bug"],
-        bs: { hp: 50, at: 40, df: 85, sa: 55, sd: 85, sp: 15 }
+        bs: { hp: 50, at: 40, df: 95, sa: 55, sd: 95, sp: 15 }
     },
     Beautifly: {
         types: ["Bug", "Flying"],
@@ -7354,7 +7354,7 @@ var SM_PATCH = {
     },
     Cascoon: {
         types: ["Bug"],
-        bs: { hp: 50, at: 40, df: 85, sa: 55, sd: 85, sp: 15 }
+        bs: { hp: 50, at: 40, df: 95, sa: 55, sd: 95, sp: 15 }
     },
     Dustox: {
         types: ["Bug", "Poison"],
@@ -7382,7 +7382,7 @@ var SM_PATCH = {
     },
     Shiftry: {
         types: ["Grass", "Dark"],
-        bs: { hp: 75, at: 105, df: 95, sa: 105, sd: 65, sp: 105 }
+        bs: { hp: 75, at: 105, df: 95, sa: 105, sd: 60, sp: 110 }
     },
     Taillow: {
         types: ["Normal", "Flying"],
@@ -7782,7 +7782,7 @@ var SM_PATCH = {
     },
     Tropius: {
         types: ["Grass", "Dragon"],
-        bs: { hp: 119, at: 108, df: 98, sa: 102, sd: 97, sp: 51 }
+        bs: { hp: 129, at: 103, df: 103, sa: 102, sd: 102, sp: 36 }
     },
     Chingling: {
         types: ["Psychic", "Flying"],
@@ -7814,7 +7814,7 @@ var SM_PATCH = {
     },
     Froslass: {
         types: ["Ice", "Ghost"],
-        bs: { hp: 70, at: 50, df: 70, sa: 125, sd: 95, sp: 125 }
+        bs: { hp: 70, at: 40, df: 70, sa: 130, sd: 95, sp: 130 }
     },
     Spheal: {
         types: ["Ice", "Water"],
@@ -7959,7 +7959,7 @@ var SM_PATCH = {
     },
     Torterra: {
         types: ["Grass", "Ground"],
-        bs: { hp: 125, at: 129, df: 125, sa: 40, sd: 90, sp: 41 }
+        bs: { hp: 120, at: 124, df: 120, sa: 40, sd: 90, sp: 56 }
     },
     Chimchar: {
         types: ["Fire"],
@@ -7979,11 +7979,11 @@ var SM_PATCH = {
     },
     Prinplup: {
         types: ["Water"],
-        bs: { hp: 69, at: 91, df: 73, sa: 71, sd: 81, sp: 50 }
+        bs: { hp: 69, at: 96, df: 73, sa: 61, sd: 86, sp: 50 }
     },
     Empoleon: {
         types: ["Water", "Steel"],
-        bs: { hp: 84, at: 116, df: 118, sa: 71, sd: 101, sp: 60 }
+        bs: { hp: 84, at: 122, df: 122, sa: 61, sd: 101, sp: 60 }
     },
     Starly: {
         types: ["Normal", "Flying"],
@@ -8533,7 +8533,7 @@ var SM_PATCH = {
     },
     Whirlipede: {
         types: ["Bug", "Poison"],
-        bs: { hp: 61, at: 70, df: 101, sa: 40, sd: 81, sp: 87 }
+        bs: { hp: 66, at: 70, df: 101, sa: 40, sd: 81, sp: 82 }
     },
     Scolipede: {
         types: ["Bug", "Poison"],
@@ -9059,7 +9059,7 @@ var SM_PATCH = {
     },
     Spewpa: {
         types: ["Bug"],
-        bs: { hp: 50, at: 22, df: 88, sa: 53, sd: 88, sp: 29 }
+        bs: { hp: 50, at: 22, df: 98, sa: 53, sd: 98, sp: 29 }
     },
     Vivillon: {
         types: ["Bug", "Flying"],
@@ -9324,11 +9324,11 @@ var SM_PATCH = {
     },
     Bergmite: {
         types: ["Ice"],
-        bs: { hp: 61, at: 72, df: 134, sa: 34, sd: 71, sp: 28 }
+        bs: { hp: 66, at: 73, df: 134, sa: 28, sd: 76, sp: 23 }
     },
     Avalugg: {
         types: ["Ice"],
-        bs: { hp: 116, at: 132, df: 184, sa: 34, sd: 81, sp: 28 }
+        bs: { hp: 121, at: 138, df: 184, sa: 28, sd: 81, sp: 23 }
     },
     Noibat: {
         types: ["Flying", "Dragon"],
@@ -9926,7 +9926,7 @@ var SM_PATCH = {
     },
     Poipole: {
         types: ["Poison", "Psychic"],
-        bs: { hp: 67, at: 51, df: 73, sa: 113, sd: 73, sp: 103 },
+        bs: { hp: 67, at: 31, df: 73, sa: 101, sd: 127, sp: 101 },
         nfe: true,
         weightkg: 1.8
     },
@@ -9942,7 +9942,7 @@ var SM_PATCH = {
     },
     Blacephalon: {
         types: ["Fire", "Ghost"],
-        bs: { hp: 73, at: 73, df: 53, sa: 167, sd: 107, sp: 127 },
+        bs: { hp: 73, at: 53, df: 53, sa: 167, sd: 127, sp: 127 },
         weightkg: 13
     },
     Magearna: {

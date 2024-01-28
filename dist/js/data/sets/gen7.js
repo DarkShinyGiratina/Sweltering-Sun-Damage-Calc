@@ -89,7 +89,7 @@ var SETDEX_SM = {
 			ability: "Stakeout",
 			item: "Silk Scarf",
 			nature: "Jolly",
-			moves: ["Headbutt", "Pursuit", "Growl", "Quick Attack"],
+			moves: ["Headbutt", "Pursuit", "Scary Face", "Quick Attack"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -842,7 +842,7 @@ var SETDEX_SM = {
 			ability: "Sturdy",
 			item: "Red Card",
 			nature: "Adamant",
-			moves: ["Retaliate", "Endeavor", "Laceration", "Quick Attack"],
+			moves: ["Retaliate", "Taunt", "Laceration", "Parting Shot"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -1263,9 +1263,9 @@ var SETDEX_SM = {
 		"Plumeria (Route 15)": {
 			level: 42,
 			ability: "Adaptability",
-			item: "Quick Claw",
+			item: "Life Orb",
 			nature: "Timid",
-			moves: ["Torrential Pulse", "Toxic Spikes", "Taunt", "Parting Shot"],
+			moves: ["Torrential Pulse", "Sludge Bomb", "Hypnosis", "Parting Shot"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -1298,9 +1298,9 @@ var SETDEX_SM = {
 		"Plumeria (Route 15)": {
 			level: 42,
 			ability: "Merciless",
-			item: "Air Balloon",
+			item: "Quick Claw",
 			nature: "Timid",
-			moves: ["Venoshock", "Burning Malice", "Parting Shot", "Toxic Spikes"],
+			moves: ["Inferno", "Taunt", "Parting Shot", "Toxic Spikes"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -3704,10 +3704,10 @@ var SETDEX_SM = {
 	Kartana: {
 		"Dulse (Vast Poni Canyon)": {
 			level: 60,
-			ability: "Proficiency",
+			ability: "Ruthless",
 			item: "Scope Lens",
 			nature: "Jolly",
-			moves: ["Leaf Blade", "Laceration", "Sacred Sword", "Swords Dance"],
+			moves: ["Leaf Blade", "Laceration", "Sacred Sword", "Night Slash"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -3821,18 +3821,13 @@ var SETDEX_SM = {
 			},
 		},
 	},
-	Granbull: {
+	"Meloette-Pirouette": {
 		"Mina (Mina's Trial)": {
 			level: 65,
-			ability: "Quick Feet",
-			item: "Toxic Orb",
+			ability: "Pixilate",
+			item: "Life Orb",
 			nature: "Jolly",
-			moves: [
-				"Play Rough",
-				"Knockout Punch",
-				"Zen Headbutt",
-				"Parting Shot",
-			],
+			moves: ["Retaliate", "Take Down", "Psycho Warp", "Sing"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -4163,7 +4158,7 @@ var SETDEX_SM = {
 			ability: "Sturdy",
 			item: "Weakness Policy",
 			nature: "Timid",
-			moves: ["Power Gem", "Parabolic Charge", "Energy Ball", "Shell Smash"],
+			moves: ["Power Gem", "Plasma Shot", "Energy Ball", "Shell Smash"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -4557,7 +4552,7 @@ var SETDEX_SM = {
 		"Acerola (Elite Four)": {
 			level: 100,
 			ability: "Unburden",
-			item: "Quick Claw",
+			item: "White Herb",
 			nature: "Modest",
 			moves: ["Infernal Parade", "Seed Flare", "Fire Blast", "Ingrain"],
 			evs: {
@@ -4596,7 +4591,7 @@ var SETDEX_SM = {
 		"Kahili (Elite Four)": {
 			level: 100,
 			ability: "Sheer Force",
-			item: "Life Orb",
+			item: "Yache Berry",
 			nature: "Jolly",
 			moves: ["Take Down", "Brave Bird", "Rock Slide", "Parting Shot"],
 			evs: {
@@ -4637,7 +4632,7 @@ var SETDEX_SM = {
 			ability: "Guarding Gale",
 			item: "Pidgeotite",
 			nature: "Modest",
-			moves: ["Hyper Voice", "Hurricane", "Sing", "Focus Blast"],
+			moves: ["Boomburst", "Hurricane", "Sing", "Focus Blast"],
 			evs: {
 				sa: 252,
 				sp: 252,
