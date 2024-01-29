@@ -2427,7 +2427,7 @@ var SM_PATCH = {
     Reversal: { zp: 180 },
     "Rock Blast": { isBullet: true, zp: 140 },
     "Rock Slide": { zp: 175, secondaries: true },
-    "Boulder Bash": { zp: 170, bp: 85, type: "Rock", secondaries: true },
+    "Boulder Bash": { zp: 180, bp: 90, type: "Rock", secondaries: true },
     "Faerie Blow": { zp: 100, bp: 50 },
     "Rock Tomb": { zp: 120, secondaries: true },
     "Rock Wrecker": { zp: 210 },
@@ -2825,12 +2825,12 @@ var SM_PATCH = {
         zp: 195
     },
     "Fire Lash": {
-        bp: 85,
+        bp: 90,
         type: "Fire",
         makesContact: true,
         category: "Physical",
         secondaries: true,
-        zp: 170
+        zp: 180
     },
     "First Impression": {
         bp: 60,
