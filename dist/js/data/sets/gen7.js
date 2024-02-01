@@ -4206,7 +4206,7 @@ var SETDEX_SM = {
 			ability: "Volt Rush",
 			item: "Ampharosite",
 			nature: "Modest",
-			moves: ["Thunder", "Dragon Pulse", "Flamethrower", "Power Glow"],
+			moves: ["Thunder", "Dragon Fury", "Flamethrower", "Power Glow"],
 			evs: {
 				sa: 252,
 				sp: 252,
