@@ -3821,7 +3821,7 @@ var SETDEX_SM = {
 			},
 		},
 	},
-	"Meloette-Pirouette": {
+	"Meloetta-Pirouette": {
 		"Mina (Mina's Trial)": {
 			level: 65,
 			ability: "Pixilate",
