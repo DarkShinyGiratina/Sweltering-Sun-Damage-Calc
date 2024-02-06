@@ -7567,7 +7567,7 @@ const SM_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   },
   Carvanha: {
     types: ["Water", "Dark"],
-    bs: { hp: 45, at: 95, df: 35, sa: 65, sd: 35, sp: 95 },
+    bs: { hp: 45, at: 95, df: 35, sa: 70, sd: 35, sp: 90 },
   },
   Sharpedo: {
     types: ["Water", "Dark"],
