@@ -1923,13 +1923,13 @@ const XY_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   Powder: { bp: 0, type: "Bug", priority: 1 },
   "Spiky Shield": { bp: 0, type: "Grass", priority: 4 },
   "Thousand Arrows": {
-    bp: 125,
+    bp: 100,
     type: "Ground",
     target: "allAdjacentFoes",
-    category: "Physical",
+    category: "Special",
   },
   "Thousand Waves": {
-    bp: 100,
+    bp: 125,
     type: "Ground",
     target: "allAdjacentFoes",
     category: "Special",

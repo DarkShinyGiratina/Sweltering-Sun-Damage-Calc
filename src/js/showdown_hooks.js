@@ -456,28 +456,14 @@ function get_current_trainer() {
 
 $(document).on("click", ".trainer-pok.left-side", function () {
 	var set = $(this).attr("data-id");
-	$(".player").val(set);
-	getSet(set, $(".player")[0]);
+	$("input.set-selector").first().val(set).change();
 	$(".player .select2-chosen").text(set);
-	if ($(".info-group:not(.opp) > * > .forme").is(":visible")) {
-		$(".info-group:not(.opp) > * > .forme").change();
-	}
-
-	var right_max_hp = $("#p1 .max-hp").text();
-	$("#p1 .current-hp").val(right_max_hp).change();
 });
 
 $(document).on("click", ".trainer-pok.right-side", function () {
 	var set = $(this).attr("data-id");
-	// $('.opposing').val(set)
-	getSet(set, $(".opposing")[0]);
+	$("input.set-selector").last().val(set).change();
 	$(".opposing .select2-chosen").text(set);
-	// if ($('.info-group:not(.opp) > * > .forme').is(':visible')) {
-	//     $('.info-group:not(.opp) > * > .forme').change()
-	// }
-
-	var left_max_hp = $("#p2 .max-hp").text();
-	$("#p2 .current-hp").val(left_max_hp).change();
 });
 
 $(document).on("change", ".opposing", function () {
