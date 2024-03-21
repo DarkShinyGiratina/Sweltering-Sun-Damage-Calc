@@ -129,7 +129,7 @@ var RBY = {
     Stomp: { bp: 70, type: "Normal", secondaries: true },
     Struggle: { bp: 50, type: "Normal", recoil: [1, 2] },
     "Stun Spore": { bp: 0, category: "Status", type: "Grass" },
-    Submission: { bp: 150, type: "Fighting", recoil: [3, 10] },
+    Submission: { bp: 150, type: "Fighting", recoil: [1, 2] },
     Substitute: { bp: 0, category: "Status", type: "Normal" },
     "Super Fang": { bp: 1, type: "Normal" },
     Swift: { bp: 55, type: "Normal" },
@@ -913,7 +913,7 @@ var DPP_PATCH = {
     "Head Smash": {
         bp: 150,
         type: "Rock",
-        recoil: [3, 10],
+        recoil: [1, 2],
         makesContact: true,
         category: "Physical"
     },
@@ -1525,7 +1525,7 @@ var BW_PATCH = {
     "Headlong Rush": {
         bp: 150,
         type: "Ground",
-        recoil: [3, 10],
+        recoil: [1, 2],
         makesContact: true,
         category: "Physical"
     },
@@ -1566,7 +1566,7 @@ var BW_PATCH = {
     "Electro Assault": {
         bp: 150,
         type: "Electric",
-        recoil: [3, 10],
+        recoil: [1, 2],
         makesContact: true,
         category: "Physical",
         secondaries: true
@@ -1741,7 +1741,7 @@ var BW_PATCH = {
     "Blazing Assault": {
         bp: 150,
         type: "Fire",
-        recoil: [3, 10],
+        recoil: [1, 2],
         makesContact: true,
         category: "Physical"
     },

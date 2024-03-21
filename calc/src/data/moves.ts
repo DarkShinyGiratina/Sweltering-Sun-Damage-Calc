@@ -130,7 +130,7 @@ const RBY: { [name: string]: MoveData } = {
   Stomp: { bp: 70, type: "Normal", secondaries: true },
   Struggle: { bp: 50, type: "Normal", recoil: [1, 2] },
   "Stun Spore": { bp: 0, category: "Status", type: "Grass" },
-  Submission: { bp: 150, type: "Fighting", recoil: [3, 10] },
+  Submission: { bp: 150, type: "Fighting", recoil: [1, 2] },
   Substitute: { bp: 0, category: "Status", type: "Normal" },
   "Super Fang": { bp: 1, type: "Normal" },
   Swift: { bp: 55, type: "Normal" },
@@ -919,7 +919,7 @@ const DPP_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Head Smash": {
     bp: 150,
     type: "Rock",
-    recoil: [3, 10],
+    recoil: [1, 2],
     makesContact: true,
     category: "Physical",
   },
@@ -1533,7 +1533,7 @@ const BW_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Headlong Rush": {
     bp: 150,
     type: "Ground",
-    recoil: [3, 10],
+    recoil: [1, 2],
     makesContact: true,
     category: "Physical",
   },
@@ -1574,7 +1574,7 @@ const BW_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Electro Assault": {
     bp: 150,
     type: "Electric",
-    recoil: [3, 10],
+    recoil: [1, 2],
     makesContact: true,
     category: "Physical",
     secondaries: true,
@@ -1749,7 +1749,7 @@ const BW_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Blazing Assault": {
     bp: 150,
     type: "Fire",
-    recoil: [3, 10],
+    recoil: [1, 2],
     makesContact: true,
     category: "Physical",
   },
