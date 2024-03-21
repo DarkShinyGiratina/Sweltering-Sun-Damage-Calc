@@ -6737,11 +6737,11 @@ var SM_PATCH = {
     },
     Pinsir: {
         types: ["Bug", "Ground"],
-        bs: { hp: 80, at: 135, df: 113, sa: 40, sd: 80, sp: 87 }
+        bs: { hp: 80, at: 135, df: 123, sa: 30, sd: 80, sp: 87 }
     },
     "Pinsir-Mega": {
         types: ["Bug", "Flying"],
-        bs: { hp: 80, at: 165, df: 123, sa: 60, sd: 90, sp: 117 }
+        bs: { hp: 80, at: 165, df: 128, sa: 50, sd: 95, sp: 117 }
     },
     Tauros: {
         types: ["Normal"],
@@ -7826,7 +7826,7 @@ var SM_PATCH = {
     },
     Walrein: {
         types: ["Ice", "Water"],
-        bs: { hp: 125, at: 130, df: 95, sa: 95, sd: 95, sp: 35 }
+        bs: { hp: 130, at: 130, df: 95, sa: 95, sd: 95, sp: 30 }
     },
     Clamperl: {
         types: ["Water"],
@@ -9352,17 +9352,17 @@ var SM_PATCH = {
     },
     "Zygarde-10%": {
         types: ["Dragon", "Normal"],
-        bs: { hp: 64, at: 110, df: 71, sa: 110, sd: 71, sp: 134 },
+        bs: { hp: 62, at: 106, df: 74, sa: 106, sd: 74, sp: 138 },
         baseSpecies: "Zygarde"
     },
     Zygarde: {
         types: ["Dragon", "Ground"],
-        bs: { hp: 128, at: 121, df: 121, sa: 121, sd: 95, sp: 74 },
+        bs: { hp: 124, at: 124, df: 124, sa: 124, sd: 95, sp: 69 },
         otherFormes: ["Zygarde-10%", "Zygarde-Complete"]
     },
     "Zygarde-Complete": {
         types: ["Dragon", "Ground"],
-        bs: { hp: 228, at: 121, df: 121, sa: 121, sd: 95, sp: 74 },
+        bs: { hp: 248, at: 124, df: 124, sa: 124, sd: 113, sp: 69 },
         baseSpecies: "Zygarde"
     },
     Xerneas: {

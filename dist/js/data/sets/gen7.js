@@ -24,7 +24,7 @@ var SETDEX_SM = {
 		"Ilima (Hau'oli City)": {
 			level: 13,
 			ability: "Fluffy",
-			item: "Oran Berry",
+			item: "Kee Berry",
 			nature: "Calm",
 			moves: ["Harmonize", "Air Cutter", "Work Up", "Cotton Spore"],
 			evs: {
@@ -66,7 +66,7 @@ var SETDEX_SM = {
 		"Ilima (Hau'oli City)": {
 			level: 13,
 			ability: "Moxie",
-			item: "Oran Berry",
+			item: "Liechi Berry",
 			nature: "Jolly",
 			moves: ["Thief", "Quick Attack", "Work Up", "Fake Out"],
 			evs: {
@@ -364,9 +364,9 @@ var SETDEX_SM = {
 		"Hau (Paniola Town)": {
 			level: 21,
 			ability: "Galvanize",
-			item: "Air Balloon",
+			item: "Quick Claw",
 			nature: "Hasty",
-			moves: ["Headbutt", "Grass Knot", "Ice Punch", "Fire Punch"],
+			moves: ["Headbutt", "Nuzzle", "Ice Punch", "Fire Punch"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -842,7 +842,7 @@ var SETDEX_SM = {
 			ability: "Sturdy",
 			item: "Red Card",
 			nature: "Adamant",
-			moves: ["Retaliate", "Taunt", "Laceration", "Parting Shot"],
+			moves: ["Slash", "Taunt", "Laceration", "Thunder Wave"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -1252,7 +1252,7 @@ var SETDEX_SM = {
 		"Plumeria (Akala Outskirts)": {
 			level: 32,
 			ability: "Adaptability",
-			item: "Shuca Berry",
+			item: "Quick Claw",
 			nature: "Timid",
 			moves: ["Venoshock", "Brine", "Toxic Spikes", "Parting Shot"],
 			evs: {
@@ -1396,7 +1396,7 @@ var SETDEX_SM = {
 		"Olivia (Grand Trial)": {
 			level: 33,
 			ability: "Ruthless",
-			item: "Scope Lens",
+			item: "Passho Berry",
 			nature: "Careful",
 			moves: [
 				"First Impression",
@@ -1520,7 +1520,7 @@ var SETDEX_SM = {
 			ability: "Psychic Surge",
 			item: "Focus Sash",
 			nature: "Hasty",
-			moves: ["Psychic", "Aura Sphere", "Taunt", "Volt Switch"],
+			moves: ["Psychic", "Aura Sphere", "Nuzzle", "Volt Switch"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -1736,7 +1736,12 @@ var SETDEX_SM = {
 			ability: "Prankster",
 			item: "Focus Sash",
 			nature: "Adamant",
-			moves: ["Spectral Thief", "Will-O-Wisp", "Taunt", "Parting Shot"],
+			moves: [
+				"Spectral Thief",
+				"Thunder Wave",
+				"Destiny Bond",
+				"Parting Shot",
+			],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -3206,7 +3211,7 @@ var SETDEX_SM = {
 			ability: "Hustle",
 			item: "Buginium Z",
 			nature: "Adamant",
-			moves: ["Ice Fang", "Electro Assault", "Take Down", "U-turn"],
+			moves: ["Guillotine", "Electro Assault", "Take Down", "U-turn"],
 			evs: {
 				sp: 252,
 				at: 252,
@@ -3472,7 +3477,7 @@ var SETDEX_SM = {
 			ability: "Queenly Majesty",
 			item: "Icium Z",
 			nature: "Naive",
-			moves: ["Hell Thrust", "U-turn", "Blizzard", "Focus Blast"],
+			moves: ["Sheer Cold", "U-turn", "Blizzard", "Focus Blast"],
 			evs: {
 				sa: 252,
 				at: 252,
@@ -3889,7 +3894,7 @@ var SETDEX_SM = {
 	Cinccino: {
 		"Ilima (Mina's Trial)": {
 			level: 66,
-			ability: "Skill Link",
+			ability: "Technician",
 			item: "Life Orb",
 			nature: "Hasty",
 			moves: ["Comet Punch", "Tail Slap", "Pummel", "Fury Swipes"],
@@ -4106,9 +4111,9 @@ var SETDEX_SM = {
 		"Sophocles (Mina's Trial)": {
 			level: 69,
 			ability: "Electric Surge",
-			item: "Focus Sash",
+			item: "Quick Claw",
 			nature: "Modest",
-			moves: ["Energy Ball", "Surf", "Taunt", "Volt Switch"],
+			moves: ["Nuzzle", "Surf", "Taunt", "Volt Switch"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -4143,7 +4148,7 @@ var SETDEX_SM = {
 		"Sophocles (Mina's Trial)": {
 			level: 69,
 			ability: "Galvanize",
-			item: "Life Orb",
+			item: "Focus Sash",
 			nature: "Modest",
 			moves: ["Hyper Beam", "Explosion", "Energy Ball", "Parting Shot"],
 			evs: {
@@ -4497,7 +4502,7 @@ var SETDEX_SM = {
 	"Diancie-Mega": {
 		"Olivia (Elite Four)": {
 			level: 100,
-			ability: "Serene Grace",
+			ability: "Levitate",
 			item: "Diancite",
 			nature: "Timid",
 			moves: [
@@ -4580,7 +4585,7 @@ var SETDEX_SM = {
 			ability: "Guarding Gale",
 			item: "Flyinium Z",
 			nature: "Timid",
-			moves: ["Blizzard", "Hurricane", "Whirlwind", "Parting Shot"],
+			moves: ["Blizzard", "Hurricane", "Whirlwind", "Sing"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -6346,9 +6351,9 @@ var SETDEX_SM = {
 		"Hapu (Grand Trial)": {
 			level: 73,
 			ability: "Sand Stream",
-			item: "Smooth Rock",
+			item: "Red Card",
 			nature: "Adamant",
-			moves: ["Earthquake", "Iron Tail", "Stone Edge", "Parting Shot"],
+			moves: ["Earthquake", "Iron Tail", "Stone Edge", "Fissure"],
 			evs: {
 				at: 252,
 				hp: 252,
