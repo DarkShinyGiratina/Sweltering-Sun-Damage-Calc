@@ -2670,7 +2670,7 @@ const SM_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     isZ: true,
   },
   "Mind Blown": {
-    bp: 150,
+    bp: 200,
     type: "Fire",
     mindBlownRecoil: true,
     target: "allAdjacent",

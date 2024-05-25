@@ -4187,7 +4187,7 @@ var SETDEX_SM = {
 			ability: "Electric Surge",
 			item: "Shuca Berry",
 			nature: "Modest",
-			moves: ["Mud Bomb", "Plasma Shot", "Hydro Pump", "Parting Shot"],
+			moves: ["Earth Power", "Plasma Shot", "Hydro Pump", "Parting Shot"],
 			evs: {
 				sa: 252,
 				hp: 252,
@@ -4409,7 +4409,7 @@ var SETDEX_SM = {
 		"Gladion (Mount Lanakila)": {
 			level: 75,
 			ability: "Adaptability",
-			item: "Silk Scarf",
+			item: "Chople Berry",
 			nature: "Adamant",
 			moves: ["Extreme Speed", "Hell Thrust", "Earthquake", "Swords Dance"],
 			evs: {
@@ -4505,12 +4505,7 @@ var SETDEX_SM = {
 			ability: "Levitate",
 			item: "Diancite",
 			nature: "Timid",
-			moves: [
-				"Revelation Dance",
-				"Eternal Beam",
-				"Focus Blast",
-				"Charming Kiss",
-			],
+			moves: ["Power Gem", "Eternal Beam", "Focus Blast", "Charming Kiss"],
 			evs: {
 				sa: 252,
 				sp: 252,
