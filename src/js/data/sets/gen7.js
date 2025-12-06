@@ -1,6 +1,44 @@
 var SETDEX_SM = {
 	Igglybuff: {
-		"Ilima (Hau'oli City)": {
+		"Ilima (Hau'oli City) (Rowlet)": {
+			level: 13,
+			ability: "Fluffy",
+			item: "Oran Berry",
+			nature: "Calm",
+			moves: ["Pixie Dust", "Encore", "Swift", "Disable"],
+			evs: {
+				sa: 252,
+				hp: 252,
+			},
+			ivs: {
+				hp: 15,
+				at: 15,
+				df: 15,
+				sa: 15,
+				sd: 15,
+				sp: 15,
+			},
+		},
+		"Ilima (Hau'oli City) (Litten)": {
+			level: 13,
+			ability: "Fluffy",
+			item: "Oran Berry",
+			nature: "Calm",
+			moves: ["Pixie Dust", "Encore", "Swift", "Disable"],
+			evs: {
+				sa: 252,
+				hp: 252,
+			},
+			ivs: {
+				hp: 15,
+				at: 15,
+				df: 15,
+				sa: 15,
+				sd: 15,
+				sp: 15,
+			},
+		},
+		"Ilima (Hau'oli City) (Popplio)": {
 			level: 13,
 			ability: "Fluffy",
 			item: "Oran Berry",
@@ -21,7 +59,45 @@ var SETDEX_SM = {
 		},
 	},
 	Swablu: {
-		"Ilima (Hau'oli City)": {
+		"Ilima (Hau'oli City) (Rowlet)": {
+			level: 13,
+			ability: "Fluffy",
+			item: "Kee Berry",
+			nature: "Calm",
+			moves: ["Harmonize", "Air Cutter", "Work Up", "Cotton Spore"],
+			evs: {
+				sd: 252,
+				hp: 252,
+			},
+			ivs: {
+				hp: 15,
+				at: 15,
+				df: 15,
+				sa: 15,
+				sd: 15,
+				sp: 15,
+			},
+		},
+		"Ilima (Hau'oli City) (Litten)": {
+			level: 13,
+			ability: "Fluffy",
+			item: "Kee Berry",
+			nature: "Calm",
+			moves: ["Harmonize", "Air Cutter", "Work Up", "Cotton Spore"],
+			evs: {
+				sd: 252,
+				hp: 252,
+			},
+			ivs: {
+				hp: 15,
+				at: 15,
+				df: 15,
+				sa: 15,
+				sd: 15,
+				sp: 15,
+			},
+		},
+		"Ilima (Hau'oli City) (Popplio)": {
 			level: 13,
 			ability: "Fluffy",
 			item: "Kee Berry",
@@ -42,7 +118,45 @@ var SETDEX_SM = {
 		},
 	},
 	Minccino: {
-		"Ilima (Hau'oli City)": {
+		"Ilima (Hau'oli City) (Rowlet)": {
+			level: 13,
+			ability: "Technician",
+			item: "Petaya Berry",
+			nature: "Hasty",
+			moves: ["Faerie Blow", "Swift", "Endure", "Draining Kiss"],
+			evs: {
+				sa: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 15,
+				at: 15,
+				df: 15,
+				sa: 15,
+				sd: 15,
+				sp: 15,
+			},
+		},
+		"Ilima (Hau'oli City) (Litten)": {
+			level: 13,
+			ability: "Technician",
+			item: "Petaya Berry",
+			nature: "Hasty",
+			moves: ["Faerie Blow", "Swift", "Endure", "Draining Kiss"],
+			evs: {
+				sa: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 15,
+				at: 15,
+				df: 15,
+				sa: 15,
+				sd: 15,
+				sp: 15,
+			},
+		},
+		"Ilima (Hau'oli City) (Popplio)": {
 			level: 13,
 			ability: "Technician",
 			item: "Petaya Berry",
@@ -63,7 +177,45 @@ var SETDEX_SM = {
 		},
 	},
 	Glameow: {
-		"Ilima (Hau'oli City)": {
+		"Ilima (Hau'oli City) (Rowlet)": {
+			level: 13,
+			ability: "Moxie",
+			item: "Liechi Berry",
+			nature: "Jolly",
+			moves: ["Thief", "Quick Attack", "Work Up", "Fake Out"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 15,
+				at: 15,
+				df: 15,
+				sa: 15,
+				sd: 15,
+				sp: 15,
+			},
+		},
+		"Ilima (Hau'oli City) (Litten)": {
+			level: 13,
+			ability: "Moxie",
+			item: "Liechi Berry",
+			nature: "Jolly",
+			moves: ["Thief", "Quick Attack", "Work Up", "Fake Out"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 15,
+				at: 15,
+				df: 15,
+				sa: 15,
+				sd: 15,
+				sp: 15,
+			},
+		},
+		"Ilima (Hau'oli City) (Popplio)": {
 			level: 13,
 			ability: "Moxie",
 			item: "Liechi Berry",
@@ -84,7 +236,45 @@ var SETDEX_SM = {
 		},
 	},
 	Yungoos: {
-		"Ilima (Hau'oli City)": {
+		"Ilima (Hau'oli City) (Rowlet)": {
+			level: 13,
+			ability: "Stakeout",
+			item: "Silk Scarf",
+			nature: "Jolly",
+			moves: ["Headbutt", "Pursuit", "Scary Face", "Quick Attack"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 15,
+				at: 15,
+				df: 15,
+				sa: 15,
+				sd: 15,
+				sp: 15,
+			},
+		},
+		"Ilima (Hau'oli City) (Litten)": {
+			level: 13,
+			ability: "Stakeout",
+			item: "Silk Scarf",
+			nature: "Jolly",
+			moves: ["Headbutt", "Pursuit", "Scary Face", "Quick Attack"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 15,
+				at: 15,
+				df: 15,
+				sa: 15,
+				sd: 15,
+				sp: 15,
+			},
+		},
+		"Ilima (Hau'oli City) (Popplio)": {
 			level: 13,
 			ability: "Stakeout",
 			item: "Silk Scarf",
@@ -1019,7 +1209,7 @@ var SETDEX_SM = {
 		},
 	},
 	Masquerain: {
-		"Guzma (Po Town)": {
+		"Guzma (Shady House / Po Town)": {
 			level: 47,
 			ability: "Drizzle",
 			item: "Focus Sash",
@@ -1520,7 +1710,7 @@ var SETDEX_SM = {
 			ability: "Psychic Surge",
 			item: "Focus Sash",
 			nature: "Hasty",
-			moves: ["Psychic", "Aura Sphere", "Nuzzle", "Volt Switch"],
+			moves: ["Psychic", "Aura Sphere", "Taunt", "Volt Switch"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -1776,7 +1966,7 @@ var SETDEX_SM = {
 				hp: 252,
 			},
 		},
-		"Guzma (Po Town)": {
+		"Guzma (Shady House / Po Town)": {
 			level: 47,
 			ability: "Swift Swim",
 			item: "Assault Vest",
@@ -1827,7 +2017,7 @@ var SETDEX_SM = {
 				sp: 252,
 			},
 		},
-		"Guzma (Po Town)": {
+		"Guzma (Shady House / Po Town)": {
 			level: 47,
 			ability: "Tinted Lens",
 			item: "Life Orb",
@@ -2546,7 +2736,7 @@ var SETDEX_SM = {
 		},
 	},
 	Galvantula: {
-		"Guzma (Po Town)": {
+		"Guzma (Shady House / Po Town)": {
 			level: 47,
 			ability: "Tinted Lens",
 			item: "Buginium Z",
@@ -2559,7 +2749,7 @@ var SETDEX_SM = {
 		},
 	},
 	Scolipede: {
-		"Guzma (Po Town)": {
+		"Guzma (Shady House / Po Town)": {
 			level: 47,
 			ability: "Speed Boost",
 			item: "Coba Berry",
@@ -2583,7 +2773,7 @@ var SETDEX_SM = {
 		},
 	},
 	"Scizor-Mega": {
-		"Guzma (Po Town)": {
+		"Guzma (Shady House / Po Town)": {
 			level: 47,
 			ability: "Tough Claws",
 			item: "Scizorite",
@@ -3123,7 +3313,7 @@ var SETDEX_SM = {
 		},
 	},
 	"Minior-Orange": {
-		"Employee (Aether Paradise)": {
+		"Faba Doubles (Aether Paradise)": {
 			level: 50,
 			ability: "Interstellar",
 			item: "Focus Sash",
@@ -3136,7 +3326,7 @@ var SETDEX_SM = {
 		},
 	},
 	"Minior-Yellow": {
-		"Employee (Aether Paradise)": {
+		"Faba Doubles (Aether Paradise)": {
 			level: 50,
 			ability: "Interstellar",
 			item: "Air Balloon",
@@ -3149,7 +3339,7 @@ var SETDEX_SM = {
 		},
 	},
 	"Minior-Green": {
-		"Employee (Aether Paradise)": {
+		"Faba Doubles (Aether Paradise)": {
 			level: 50,
 			ability: "Interstellar",
 			item: "Expert Belt",
@@ -3162,7 +3352,7 @@ var SETDEX_SM = {
 		},
 	},
 	"Minior-Blue": {
-		"Employee (Aether Paradise)": {
+		"Faba Doubles (Aether Paradise)": {
 			level: 50,
 			ability: "Interstellar",
 			item: "Life Orb",
@@ -3175,7 +3365,7 @@ var SETDEX_SM = {
 		},
 	},
 	"Minior-Indigo": {
-		"Employee (Aether Paradise)": {
+		"Faba Doubles (Aether Paradise)": {
 			level: 50,
 			ability: "Interstellar",
 			item: "Wise Glasses",
@@ -3188,7 +3378,7 @@ var SETDEX_SM = {
 		},
 	},
 	"Minior-Violet": {
-		"Employee (Aether Paradise)": {
+		"Faba Doubles (Aether Paradise)": {
 			level: 50,
 			ability: "Interstellar",
 			item: "White Herb",

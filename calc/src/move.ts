@@ -244,7 +244,7 @@ export function getZMoveName(
     return "Let's Snuggle Forever";
   if (moveName === "Chromosome Crush" && item === "Mewnium Z")
     return "Genesis Supernova";
-  if (moveName === "Sparkling Aria" && item === "Primarium Z")
+  if (moveName === "Bubble Burst" && item === "Primarium Z")
     return "Oceanic Operetta";
   if (moveName === "Spectral Thief" && item === "Marshadium Z") {
     return "Soul-Stealing 7-Star Strike";
