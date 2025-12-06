@@ -846,7 +846,7 @@ export function calculateBasePowerSMSSSV(
         move.bp * (defender.status || defender.hasAbility("Comatose") ? 2 : 1);
       desc.moveBP = basePower;
       break;
-    case "Barb Barrage":
+    case "Barb Barrage (GameFreak)":
       basePower = move.bp * (defender.hasStatus("psn", "tox") ? 2 : 1);
       desc.moveBP = basePower;
       break;
