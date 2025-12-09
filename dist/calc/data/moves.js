@@ -1321,7 +1321,6 @@ var BW_PATCH = {
     Divebomb: { bp: 130 },
     "Ice Fang": { secondaries: true },
     "Ice Punch": { secondaries: true },
-    "Glacial Barrage": { bp: 25 },
     "Icy Wind": { secondaries: true },
     "Iron Head": { secondaries: true },
     "Iron Tail": { secondaries: true },
@@ -1923,14 +1922,6 @@ var XY_PATCH = {
         target: "allAdjacentFoes",
         category: "Special"
     },
-    "Surging Strikes (GameFreak)": {
-        bp: 25,
-        type: "Water",
-        multihit: 3,
-        breaksProtect: true,
-        makesContact: true,
-        category: "Physical"
-    },
     "Dragon Ascent": {
         bp: 150,
         type: "Dragon",
@@ -2352,7 +2343,7 @@ var SM_PATCH = {
     "Ice Punch": { zp: 160 },
     "Ice Shard": { zp: 90 },
     "Icicle Crash": { zp: 185 },
-    "Glacial Barrage": { zp: 140 },
+    "Glacial Barrage": { zp: 190 },
     "Icy Wind": { zp: 120, bp: 60, secondaries: true, target: "allAdjacentFoes" },
     "Burning Malice": { zp: 170, bp: 85 },
     Inferno: { zp: 205, bp: 130 },
@@ -2510,7 +2501,16 @@ var SM_PATCH = {
     "Snipe Shot": { zp: 150, bp: 50, priority: 3, willCrit: true },
     "Water Pledge": { zp: 160, secondaries: true },
     "Water Pulse": { zp: 120, secondaries: true },
-    "Surging Strikes": { category: "Physical", zp: 190, willCrit: true },
+    "Surging Strikes": {
+        bp: 25,
+        type: "Water",
+        multihit: 3,
+        breaksProtect: true,
+        makesContact: true,
+        category: "Physical",
+        zp: 190,
+        willCrit: true
+    },
     "Water Spout": { zp: 210 },
     "Weather Ball": { zp: 150, bp: 50, secondaries: true },
     Whirlpool: { zp: 200 },
@@ -2890,7 +2890,7 @@ var SM_PATCH = {
         multihit: 3,
         category: "Special",
         isBullet: true,
-        zp: 175,
+        zp: 190,
         willCrit: true
     },
     "Power Trip": {
