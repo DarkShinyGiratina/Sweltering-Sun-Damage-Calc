@@ -422,7 +422,9 @@ $(".move-selector").change(function () {
 	$(this).attr('data-prev', moveName);
 	moveGroupObj.children(".move-type").val(move.type);
 	moveGroupObj.children(".move-cat").val(move.category);
-	moveGroupObj.children(".move-crit").prop("checked", move.willCrit === true);
+	const isZMove = moveGroupObj.children(".move-z").prop("checked");
+	const shouldCrit = move.willCrit === true && !isZMove;
+	moveGroupObj.children(".move-crit").prop("checked", shouldCrit);
 
 	var stat = move.category === 'Special' ? 'spa' : 'atk';
 	var dropsStats =
@@ -442,6 +444,20 @@ $(".move-selector").change(function () {
 	}
 	moveGroupObj.children(".move-z").prop("checked", false);
 });
+
+$(".move-z").on("change", function () {
+    const $group = $(this).closest(".move1, .move2, .move3, .move4");
+    const $crit = $group.find(".move-crit");
+
+    if ($(this).prop("checked")) {
+        // Z ON → always clear crit
+        $crit.prop("checked", false).change();
+    } else {
+        // Z OFF → re-run the original crit logic
+        $group.find(".move-selector").trigger("change");
+    }
+});
+
 
 $(".item").change(function () {
 	var itemName = $(this).val();
