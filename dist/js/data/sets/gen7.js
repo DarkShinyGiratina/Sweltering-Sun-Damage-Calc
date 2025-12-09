@@ -2008,7 +2008,7 @@ var SETDEX_SM = {
 	Yanmega: {
 		"Kantonian Gym (Pre-League)": {
 			level: 35,
-			ability: "Tinted Lens",
+			ability: "Instinct",
 			item: "Life Orb",
 			nature: "Rash",
 			moves: ["Bug Buzz", "Dragon Breath", "Energy Ball", "Boomburst"],
@@ -2019,7 +2019,7 @@ var SETDEX_SM = {
 		},
 		"Guzma (Shady House / Po Town)": {
 			level: 47,
-			ability: "Tinted Lens",
+			ability: "Instinct",
 			item: "Life Orb",
 			nature: "Modest",
 			moves: ["Bug Buzz", "Dragon Pulse", "Protect", "Parting Shot"],
