@@ -2040,6 +2040,32 @@ var SETDEX_SM = {
 			},
 		},
 	},
+	Camerupt: {
+		"Kiawe & Hiker David (Mina's Trial)": {
+			level: 68,
+			ability: "Drought",
+			item: "Quick Claw",
+			nature: "Modest",
+			moves: ["Heat Wave", "Land's Wrath", "Detonate", "Parting Shot"],
+			evs: {
+				sa: 252,
+				hp: 252,
+			},
+		},
+	},
+	Emboar: {
+		"Kiawe & Hiker David (Mina's Trial)": {
+			level: 68,
+			ability: "Solar Rush",
+			item: "Life Orb",
+			nature: "Adamant",
+			moves: ["Blazing Assault", "Submission", "Wild Charge", "Solar Blade"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+		},
+	},
 	Darmanitan: {
 		"Kantonian Gym (Pre-League)": {
 			level: 35,
@@ -2057,7 +2083,7 @@ var SETDEX_SM = {
 				sp: 252,
 			},
 		},
-		"Kiawe (Mina's Trial)": {
+		"Kiawe & Hiker David (Mina's Trial)": {
 			level: 68,
 			ability: "Hustle",
 			item: "Firium Z",
@@ -2085,6 +2111,92 @@ var SETDEX_SM = {
 			},
 		},
 	},
+	Turtonator: {
+		"Kantonian Gym (Pre-League)": {
+			level: 35,
+			ability: "Rapid Fire",
+			item: "Shuca Berry",
+			nature: "Modest",
+			moves: ["Fire Spin", "Dragon Breath", "Scorching Sands", "Explosion"],
+			evs: {
+				sa: 252,
+				hp: 252,
+			},
+		},
+		"Kiawe & Hiker David (Mina's Trial)": {
+			level: 68,
+			ability: "Rapid Fire",
+			item: "Assault Vest",
+			nature: "Modest",
+			moves: ["Flame Burst", "Dragon Burst", "Detonate", "Explosion"],
+			evs: {
+				sa: 252,
+				hp: 252,
+			},
+		},
+		"Ryuki (Title Defense and Kantonian Gym)": {
+			level: 100,
+			ability: "Rapid Fire",
+			item: "Shuca Berry",
+			nature: "Modest",
+			moves: ["Parting Shot", "Nasty Plot", "Detonate", "Explosion"],
+			evs: {
+				sa: 252,
+				hp: 252,
+			},
+		},
+	},
+	Magmortar: {
+		"Kiawe & Hiker David (Mina's Trial)": {
+			level: 68,
+			ability: "Rapid Fire",
+			item: "Focus Sash",
+			nature: "Adamant",
+			moves: [
+				"Burning Barrage",
+				"Triple Cannonade",
+				"Rock Blast",
+				"Swords Dance",
+			],
+			evs: {
+				at: 252,
+				hp: 252,
+			},
+		},
+		"Youngster Tristan (Title Defense)": {
+			level: 100,
+			ability: "Rapid Fire",
+			item: "Air Balloon",
+			nature: "Modest",
+			moves: ["Flame Burst", "Explosion", "Detonate", "Nasty Plot"],
+			evs: {
+				sa: 252,
+				hp: 252,
+			},
+		},
+	},
+	"Manectric-Mega": {
+		"Kiawe & Hiker David (Mina's Trial)": {
+			level: 68,
+			ability: "Instinct",
+			item: "Mega Stone I",
+			nature: "Mild",
+			moves: ["Fire Vortex", "Plasma Shot", "Play Rough", "Energy Ball"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+		},
+	},
+	"Magmar": {
+		"Kiawe & Hiker David (Mina's Trial)": {
+			level: 65,
+			ability: "Drought",
+			item: "Sitrus Berry",
+			nature: "Serious",
+			moves: ["Eruption", "Blazing Assault", "Overheat", "Fire Vortex"],
+		},
+	},
 	Gabite: {
 		"Kantonian Gym (Pre-League)": {
 			level: 35,
@@ -2108,41 +2220,6 @@ var SETDEX_SM = {
 			evs: {
 				at: 252,
 				sp: 252,
-			},
-		},
-	},
-	Turtonator: {
-		"Kantonian Gym (Pre-League)": {
-			level: 35,
-			ability: "Rapid Fire",
-			item: "Shuca Berry",
-			nature: "Modest",
-			moves: ["Fire Spin", "Dragon Breath", "Scorching Sands", "Explosion"],
-			evs: {
-				sa: 252,
-				hp: 252,
-			},
-		},
-		"Kiawe (Mina's Trial)": {
-			level: 68,
-			ability: "Rapid Fire",
-			item: "Assault Vest",
-			nature: "Modest",
-			moves: ["Flame Burst", "Dragon Burst", "Detonate", "Explosion"],
-			evs: {
-				sa: 252,
-				hp: 252,
-			},
-		},
-		"Ryuki (Title Defense and Kantonian Gym)": {
-			level: 100,
-			ability: "Rapid Fire",
-			item: "Shuca Berry",
-			nature: "Modest",
-			moves: ["Parting Shot", "Nasty Plot", "Detonate", "Explosion"],
-			evs: {
-				sa: 252,
-				hp: 252,
 			},
 		},
 	},
@@ -4226,74 +4303,6 @@ var SETDEX_SM = {
 			evs: {
 				hp: 252,
 				df: 252,
-			},
-		},
-	},
-	Camerupt: {
-		"Kiawe (Mina's Trial)": {
-			level: 68,
-			ability: "Drought",
-			item: "Quick Claw",
-			nature: "Modest",
-			moves: ["Heat Wave", "Land's Wrath", "Detonate", "Parting Shot"],
-			evs: {
-				sa: 252,
-				hp: 252,
-			},
-		},
-	},
-	Emboar: {
-		"Kiawe (Mina's Trial)": {
-			level: 68,
-			ability: "Solar Rush",
-			item: "Life Orb",
-			nature: "Adamant",
-			moves: ["Blazing Assault", "Submission", "Wild Charge", "Solar Blade"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
-		},
-	},
-	Magmortar: {
-		"Kiawe (Mina's Trial)": {
-			level: 68,
-			ability: "Rapid Fire",
-			item: "Focus Sash",
-			nature: "Adamant",
-			moves: [
-				"Burning Barrage",
-				"Triple Cannonade",
-				"Rock Blast",
-				"Swords Dance",
-			],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
-		},
-		"Youngster Tristan (Title Defense)": {
-			level: 100,
-			ability: "Rapid Fire",
-			item: "Air Balloon",
-			nature: "Modest",
-			moves: ["Flame Burst", "Explosion", "Detonate", "Nasty Plot"],
-			evs: {
-				sa: 252,
-				hp: 252,
-			},
-		},
-	},
-	"Manectric-Mega": {
-		"Kiawe (Mina's Trial)": {
-			level: 68,
-			ability: "Instinct",
-			item: "Mega Stone I",
-			nature: "Mild",
-			moves: ["Fire Vortex", "Plasma Shot", "Play Rough", "Energy Ball"],
-			evs: {
-				sa: 252,
-				sp: 252,
 			},
 		},
 	},
