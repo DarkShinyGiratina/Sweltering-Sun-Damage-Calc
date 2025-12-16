@@ -30,7 +30,7 @@ import {
   computeFinalStats,
   countBoosts,
   getBaseDamage,
-  getEVDescriptionText,
+  getStatDescriptionText,
   getFinalDamage,
   getModifiedStat,
   getMostProficientStat,
@@ -1407,8 +1407,8 @@ export function calculateAttackSMSSSV(
       ? "spa"
       : "atk";
   desc.attackEVs = move.named("Foul Play")
-    ? getEVDescriptionText(gen, defender, attackStat, defender.nature)
-    : getEVDescriptionText(gen, attacker, attackStat, attacker.nature);
+    ? getStatDescriptionText(gen, defender, attackStat, defender.nature)
+    : getStatDescriptionText(gen, attacker, attackStat, attacker.nature);
 
   if (
     attackSource.boosts[attackStat] === 0 ||
@@ -1637,7 +1637,7 @@ export function calculateDefenseSMSSSV(
     (move.named("Shell Side Arm") &&
       getShellSideArmCategory(attacker, defender) === "Physical");
   const defenseStat = hitsPhysical ? "def" : "spd";
-  desc.defenseEVs = getEVDescriptionText(
+  desc.defenseEVs = getStatDescriptionText(
     gen,
     defender,
     defenseStat,

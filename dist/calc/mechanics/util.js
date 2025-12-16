@@ -487,6 +487,24 @@ function getEVDescriptionText(gen, pokemon, stat, natureName) {
         stats_1.Stats.displayStat(stat));
 }
 exports.getEVDescriptionText = getEVDescriptionText;
+function getStatDescriptionText(gen, pokemon, stat, natureName) {
+    var nature = gen.natures.get((0, util_1.toID)(natureName));
+    var desc = pokemon.evs[stat] +
+        (stat === "hp" || nature.plus === nature.minus
+            ? ""
+            : nature.plus === stat
+                ? "+"
+                : nature.minus === stat
+                    ? "-"
+                    : "") +
+        " " +
+        stats_1.Stats.displayStat(stat);
+    var iv = pokemon.ivs[stat];
+    if (iv !== 31)
+        desc += " ".concat(iv, " IVs");
+    return desc;
+}
+exports.getStatDescriptionText = getStatDescriptionText;
 function handleFixedDamageMoves(attacker, move) {
     if (move.named('Seismic Toss', 'Soul Absorb')) {
         return attacker.level;

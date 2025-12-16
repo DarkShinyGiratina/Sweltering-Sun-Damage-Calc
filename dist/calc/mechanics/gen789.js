@@ -985,8 +985,8 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
                 ? "spa"
                 : "atk";
     desc.attackEVs = move.named("Foul Play")
-        ? (0, util_2.getEVDescriptionText)(gen, defender, attackStat, defender.nature)
-        : (0, util_2.getEVDescriptionText)(gen, attacker, attackStat, attacker.nature);
+        ? (0, util_2.getStatDescriptionText)(gen, defender, attackStat, defender.nature)
+        : (0, util_2.getStatDescriptionText)(gen, attacker, attackStat, attacker.nature);
     if (attackSource.boosts[attackStat] === 0 ||
         (isCritical && attackSource.boosts[attackStat] < 0)) {
         attack = attackSource.rawStats[attackStat];
@@ -1151,7 +1151,7 @@ function calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCr
         (move.named("Shell Side Arm") &&
             (0, util_2.getShellSideArmCategory)(attacker, defender) === "Physical");
     var defenseStat = hitsPhysical ? "def" : "spd";
-    desc.defenseEVs = (0, util_2.getEVDescriptionText)(gen, defender, defenseStat, defender.nature);
+    desc.defenseEVs = (0, util_2.getStatDescriptionText)(gen, defender, defenseStat, defender.nature);
     if (defender.boosts[defenseStat] === 0 ||
         (isCritical && defender.boosts[defenseStat] > 0) ||
         move.ignoreDefensive) {

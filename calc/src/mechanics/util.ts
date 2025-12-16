@@ -484,6 +484,29 @@ export function getEVDescriptionText(
      Stats.displayStat(stat));
 }
 
+export function getStatDescriptionText(
+  gen: Generation,
+  pokemon: Pokemon,
+  stat: StatID,
+  natureName?: NatureName
+): string {
+  const nature = gen.natures.get(toID(natureName))!;
+  let desc =
+    pokemon.evs[stat] +
+    (stat === "hp" || nature.plus === nature.minus
+      ? ""
+      : nature.plus === stat
+      ? "+"
+      : nature.minus === stat
+      ? "-"
+      : "") +
+    " " +
+    Stats.displayStat(stat);
+  const iv = pokemon.ivs[stat];
+  if (iv !== 31) desc += ` ${iv} IVs`;
+  return desc;
+}
+
 export function handleFixedDamageMoves(attacker: Pokemon, move: Move) {
   if (move.named('Seismic Toss', 'Soul Absorb')) {
     return attacker.level;
