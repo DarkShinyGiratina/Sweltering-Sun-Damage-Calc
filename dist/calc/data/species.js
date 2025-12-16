@@ -6149,7 +6149,7 @@ var SM_PATCH = {
     },
     Nidoqueen: {
         types: ["Poison", "Ground"],
-        bs: { hp: 90, at: 131, df: 128, sa: 55, sd: 90, sp: 81 }
+        bs: { hp: 90, at: 131, df: 123, sa: 60, sd: 90, sp: 81 }
     },
     "Nidoran-M": {
         types: ["Poison", "Normal"],
@@ -6882,7 +6882,7 @@ var SM_PATCH = {
     },
     "Mewtwo-Mega-Y": {
         types: ["Psychic"],
-        bs: { hp: 100, at: 80, df: 40, sa: 250, sd: 200, sp: 180 }
+        bs: { hp: 100, at: 60, df: 60, sa: 250, sd: 200, sp: 180 }
     },
     "Mewtwo-Mega-X": {
         types: ["Psychic", "Fighting"],

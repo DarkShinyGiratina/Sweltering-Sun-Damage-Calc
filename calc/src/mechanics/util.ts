@@ -225,7 +225,7 @@ export function checkIntimidate(gen: Generation, source: Pokemon, target: Pokemo
 }
 
 export function checkDownload(source: Pokemon, target: Pokemon, wonderRoomActive?: boolean) {
-  if (source.hasAbility('Download')) {
+  if (source.hasAbility('Instinct')) {
     let def = target.stats.def;
     let spd = target.stats.spd;
     // We swap the defense stats again here since Download ignores Wonder Room
@@ -482,6 +482,29 @@ export function getEVDescriptionText(
     : nature.minus === stat ? '-'
     : '') + ' ' +
      Stats.displayStat(stat));
+}
+
+export function getStatDescriptionText(
+  gen: Generation,
+  pokemon: Pokemon,
+  stat: StatID,
+  natureName?: NatureName
+): string {
+  const nature = gen.natures.get(toID(natureName))!;
+  let desc =
+    pokemon.evs[stat] +
+    (stat === "hp" || nature.plus === nature.minus
+      ? ""
+      : nature.plus === stat
+      ? "+"
+      : nature.minus === stat
+      ? "-"
+      : "") +
+    " " +
+    Stats.displayStat(stat);
+  const iv = pokemon.ivs[stat];
+  if (iv !== 31) desc += ` ${iv} IVs`;
+  return desc;
 }
 
 export function handleFixedDamageMoves(attacker: Pokemon, move: Move) {
