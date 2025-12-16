@@ -4419,7 +4419,7 @@ var SETDEX_SM = {
 			},
 		},
 	},
-	"Rimbombee-Totem": {
+	"Ribombee-Totem": {
 		"Totem Ribombee Fight": {
 			level: 70,
 			ability: "Serene Grace",
@@ -6389,19 +6389,6 @@ var SETDEX_SM = {
 			evs: {
 				sa: 252,
 				sp: 252,
-			},
-		},
-	},
-	"Ribombee-Totem": {
-		"Totem Ribombee Fight": {
-			level: 70,
-			ability: "Serene Grace",
-			item: "Focus Sash",
-			nature: "Bold",
-			moves: ["Bug Buzz", "Revelation Dance", "Focus Blast", "Protect"],
-			evs: {
-				hp: 252,
-				df: 252,
 			},
 		},
 	},
