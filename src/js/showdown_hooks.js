@@ -88,6 +88,8 @@ function get_box() {
 				.replace("’", "")
 				.replace(":", "")
 				.replace("minior-pink", "minior-red")
+				.replace("dusk-mane", "dusk")
+				.replace("dawn-wings", "dawn")
 				.replace("-totem", "");
 			var pok = `<img class="trainer-pok left-side" src="./img/pokesprite/${pok_name}.png" data-id="${
 				names[i].split("[")[0]
@@ -115,6 +117,8 @@ function get_trainer_preview(poks) {
 			.replace("’", "")
 			.replace(":", "")
 			.replace("minior-pink", "minior-red")
+			.replace("dusk-mane", "dusk")
+			.replace("dawn-wings", "dawn")
 			.replace("-totem", "");
 		var pok_html = `<img class="trainer-pok right-side" src="./img/pokesprite/${pok_name}.png" data-id="${
 			poks[i].split("[")[0]
