@@ -279,15 +279,15 @@ function autosetWeather(ability, i) {
 			$("#hail").prop("checked", true);
 		}
 		break;
-	case "Desolate Land":
+	case "Sweltering Sun":
 		lastAutoWeather[i] = "Harsh Sunshine";
 		$("#harsh-sunshine").prop("checked", true);
 		break;
-	case "Primordial Sea":
+	case "Stormy Seas":
 		lastAutoWeather[i] = "Heavy Rain";
 		$("#heavy-rain").prop("checked", true);
 		break;
-	case "Delta Stream":
+	case "Guarding Gale":
 		lastAutoWeather[i] = "Strong Winds";
 		$("#strong-winds").prop("checked", true);
 		break;
