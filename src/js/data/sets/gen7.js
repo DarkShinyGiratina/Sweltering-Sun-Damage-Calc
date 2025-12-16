@@ -4287,8 +4287,8 @@ var SETDEX_SM = {
 	"Manectric-Mega": {
 		"Kiawe (Mina's Trial)": {
 			level: 68,
-			ability: "Instinc",
-			item: "Charizardite Y",
+			ability: "Instinct",
+			item: "Mega Stone I",
 			nature: "Mild",
 			moves: ["Fire Vortex", "Plasma Shot", "Play Rough", "Energy Ball"],
 			evs: {
