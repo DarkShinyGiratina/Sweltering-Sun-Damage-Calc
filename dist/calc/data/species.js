@@ -6882,7 +6882,7 @@ var SM_PATCH = {
     },
     "Mewtwo-Mega-Y": {
         types: ["Psychic"],
-        bs: { hp: 100, at: 80, df: 40, sa: 250, sd: 200, sp: 180 }
+        bs: { hp: 100, at: 60, df: 60, sa: 250, sd: 200, sp: 180 }
     },
     "Mewtwo-Mega-X": {
         types: ["Psychic", "Fighting"],
