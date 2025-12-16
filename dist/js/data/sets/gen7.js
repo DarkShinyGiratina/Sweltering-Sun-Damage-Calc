@@ -4051,7 +4051,7 @@ var SETDEX_SM = {
 	},
 	"Necrozma-Dusk-Mane": {
 		"Ultra Necrozma Showdown": {
-			level: 65,
+			level: 64,
 			ability: "Berserk",
 			item: "Focus Sash",
 			nature: "Bold",
