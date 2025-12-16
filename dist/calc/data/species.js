@@ -6149,7 +6149,7 @@ var SM_PATCH = {
     },
     Nidoqueen: {
         types: ["Poison", "Ground"],
-        bs: { hp: 90, at: 131, df: 128, sa: 55, sd: 90, sp: 81 }
+        bs: { hp: 90, at: 131, df: 123, sa: 60, sd: 90, sp: 81 }
     },
     "Nidoran-M": {
         types: ["Poison", "Normal"],
