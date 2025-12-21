@@ -2629,6 +2629,7 @@ var SM_PATCH = {
         secondaries: true
     },
     "Inferno Overdrive": { bp: 1, type: "Fire", category: "Physical", isZ: true },
+    "Bloom Doom": { bp: 1, type: "Grass", category: "Physical", isZ: true },
     Instruct: { bp: 0, type: "Psychic" },
     "Let's Snuggle Forever": {
         bp: 190,
