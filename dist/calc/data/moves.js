@@ -2305,7 +2305,11 @@ var SM_PATCH = {
     "Force Waves": { zp: 160, secondaries: true },
     "Foul Play": { zp: 175 },
     "Freeze-Dry": { zp: 170, bp: 85 },
-    "Ice Breaker": { zp: 250, willCrit: true },
+    "Ice Breaker": {
+        zp: 250,
+        willCrit: true,
+        breaksProtect: true
+    },
     "Frenzy Plant": { zp: 210 },
     "Frost Breath": { zp: 175 },
     "Spike Cannon": { zp: 140 },
@@ -2338,7 +2342,12 @@ var SM_PATCH = {
     "Hyper Beam": { zp: 220 },
     "Hyper Voice": { zp: 175, bp: 95 },
     "Ice Beam": { zp: 175 },
-    "Freezer Burn": { zp: 250 },
+    "Freezer Burn": {
+        zp: 250,
+        bp: 120,
+        willCrit: true,
+        breaksProtect: true
+    },
     "Ice Fang": { zp: 150 },
     "Ice Punch": { zp: 160 },
     "Ice Shard": { zp: 90 },
