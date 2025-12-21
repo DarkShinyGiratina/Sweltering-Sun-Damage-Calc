@@ -483,13 +483,6 @@ var ADV_PATCH = {
     "Nature Power": { bp: 0, category: "Status", type: "Normal", zp: 175 },
     "Needle Bash": { bp: 95, type: "Grass", makesContact: true },
     "Odor Sleuth": { bp: 0, category: "Status", type: "Normal" },
-    Overheat: {
-        bp: 125,
-        type: "Fire",
-        self: { boosts: { spa: -2 } },
-        makesContact: true,
-        recoil: [1, 4]
-    },
     "Raging Fury": { bp: 50, type: "Fire", makesContact: true },
     "Rock Blast": { bp: 25, type: "Rock", multihit: [2, 5] },
     "Role Play": { bp: 0, category: "Status", type: "Psychic" },
@@ -584,12 +577,6 @@ var ADV_PATCH = {
     "Poison Tail": { bp: 95, type: "Poison", makesContact: true },
     "Shadow Punch": { bp: 80, type: "Ghost", makesContact: true },
     "Shock Wave": { bp: 55, type: "Electric" },
-    Superpower: {
-        bp: 150,
-        type: "Fighting",
-        self: { boosts: { atk: -1, def: -1 } },
-        makesContact: true
-    },
     "Water Pulse": { bp: 60, type: "Water" },
     "Water Spout": { bp: 150, type: "Water", target: "allAdjacentFoes" },
     Yawn: { bp: 0, category: "Status", type: "Normal" }
@@ -708,7 +695,6 @@ var DPP_PATCH = {
     "Devious Lick": { category: "Physical" },
     "Meteor Mash": { isPunch: true, category: "Physical" },
     "Muddy Water": { category: "Special" },
-    Overheat: { category: "Special", makesContact: false },
     "Poison Fang": { isBite: true, category: "Physical" },
     "Rock Tomb": { category: "Physical" },
     "Skull Bash": { category: "Physical", secondaries: true },
@@ -817,7 +803,6 @@ var DPP_PATCH = {
     "Steel Wing": { category: "Physical" },
     Strength: { category: "Physical" },
     "Super Fang": { category: "Physical" },
-    Superpower: { category: "Physical" },
     Swift: { category: "Special" },
     "Thunder Punch": { isPunch: true, category: "Physical" },
     "Thunder Shock": { category: "Special" },
@@ -1252,7 +1237,6 @@ var BW_PATCH = {
     "Devious Lick": { secondaries: true },
     "Meteor Mash": { secondaries: true },
     "Muddy Water": { secondaries: true },
-    Overheat: {},
     "Poison Fang": { secondaries: true },
     "Poison Gas": { target: "allAdjacentFoes" },
     "Rock Tomb": { secondaries: true },
@@ -1831,7 +1815,6 @@ var XY_PATCH = {
     "Meteor Mash": { bp: 95 },
     "Muddy Water": { bp: 90 },
     "Scum Shot": { isBullet: true, secondaries: true },
-    Overheat: { bp: 125 },
     "Pin Missile": { bp: 25 },
     "Power Gem": { bp: 80 },
     "Rage Powder": { priority: 2 },
@@ -2305,7 +2288,11 @@ var SM_PATCH = {
     "Force Waves": { zp: 160, secondaries: true },
     "Foul Play": { zp: 175 },
     "Freeze-Dry": { zp: 170, bp: 85 },
-    "Ice Breaker": { zp: 250, willCrit: true },
+    "Ice Breaker": {
+        zp: 250,
+        willCrit: true,
+        breaksProtect: true
+    },
     "Frenzy Plant": { zp: 210 },
     "Frost Breath": { zp: 175 },
     "Spike Cannon": { zp: 140 },
@@ -2338,7 +2325,12 @@ var SM_PATCH = {
     "Hyper Beam": { zp: 220 },
     "Hyper Voice": { zp: 175, bp: 95 },
     "Ice Beam": { zp: 175 },
-    "Freezer Burn": { zp: 250 },
+    "Freezer Burn": {
+        zp: 250,
+        bp: 120,
+        willCrit: true,
+        breaksProtect: true
+    },
     "Ice Fang": { zp: 150 },
     "Ice Punch": { zp: 160 },
     "Ice Shard": { zp: 90 },
@@ -2378,7 +2370,15 @@ var SM_PATCH = {
     Nuzzle: { category: "Status", bp: 0 },
     "Scum Shot": { zp: 120 },
     Outrage: { zp: 190 },
-    Overheat: { zp: 195, secondaries: true },
+    Overheat: {
+        bp: 125,
+        type: "Fire",
+        category: "Special",
+        makesContact: false,
+        recoil: [1, 4],
+        zp: 195,
+        secondaries: false
+    },
     "Paleo Wave": { zp: 160 },
     "Parabolic Charge": { bp: 70, zp: 140 },
     Payback: { zp: 190, bp: 60, priority: -4 },
@@ -2472,7 +2472,14 @@ var SM_PATCH = {
     Submission: { zp: 210 },
     "Sucker Punch": { bp: 70, zp: 150 },
     "Super Fang": { zp: 200 },
-    Superpower: { zp: 210 },
+    Superpower: {
+        bp: 150,
+        type: "Fighting",
+        category: "Physical",
+        makesContact: true,
+        self: { boosts: { atk: -2 } },
+        zp: 210
+    },
     Surf: { zp: 175, bp: 95 },
     Swift: { zp: 110 },
     Tackle: { bp: 55, zp: 110 },
@@ -2629,6 +2636,7 @@ var SM_PATCH = {
         secondaries: true
     },
     "Inferno Overdrive": { bp: 1, type: "Fire", category: "Physical", isZ: true },
+    "Bloom Doom": { bp: 1, type: "Grass", category: "Physical", isZ: true },
     Instruct: { bp: 0, type: "Psychic" },
     "Let's Snuggle Forever": {
         bp: 190,
