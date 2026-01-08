@@ -1854,7 +1854,7 @@ var SETDEX_SM = {
 			ability: "Instinct",
 			item: "Focus Sash",
 			nature: "Naive",
-			moves: ["Seed Flare", "Focus Blast", "Protect", "Grass Whistle"],
+			moves: ["Seed Flare", "Close Combat", "Protect", "Grass Whistle"],
 			evs: {
 				sa: 252,
 				sp: 252,
