@@ -331,9 +331,9 @@ function checkExeptions(poke) {
 		case "Aegislash":
 			poke = "Aegislash-Blade";
 			break;
-		case "Basculin-Blue-Striped":
-			poke = "Basculin";
-			break;
+		// case "Basculin-Blue-Striped":
+		// 	poke = "Basculin";
+		// 	break;
 		case "Mimikyu-Busted-Totem":
 			poke = "Mimikyu-Totem";
 			break;
@@ -359,6 +359,16 @@ function checkExeptions(poke) {
 		case "Florges-Orange":
 		case "Florges-Yellow":
 			poke = "Florges";
+			break;
+		case "Deerling-Summer":
+		case "Deerling-Autumn":
+		case "Deerling-Winter":
+			poke = "Deerling";
+			break;
+		case "Sawsbuck-Summer":
+		case "Sawsbuck-Autumn":
+		case "Sawsbuck-Winter":
+			poke = "Sawsbuck";
 			break;
 	}
 	return poke;
