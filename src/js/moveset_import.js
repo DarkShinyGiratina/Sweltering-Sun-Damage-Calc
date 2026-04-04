@@ -360,11 +360,13 @@ function checkExeptions(poke) {
 		case "Florges-Yellow":
 			poke = "Florges";
 			break;
+		case "Deerling-Spring":
 		case "Deerling-Summer":
 		case "Deerling-Autumn":
 		case "Deerling-Winter":
 			poke = "Deerling";
 			break;
+		case "Sawsbuck-Spring":
 		case "Sawsbuck-Summer":
 		case "Sawsbuck-Autumn":
 		case "Sawsbuck-Winter":
