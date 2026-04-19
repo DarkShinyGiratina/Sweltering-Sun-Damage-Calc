@@ -133,7 +133,10 @@
             <input type="text" class="set-selector calc-trigger" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
-                <button id="clearSets">Clear Imported Sets</button>
+                <div style="display: flex !important;">
+                    <button class="pranks-buttons" id="clearThisSet">Delete this Set</button>
+                    <button class="pranks-buttons" id="clearSets" style="margin-left: auto;">Delete ALL Sets</button>
+                </div>
             </span>
             <div class="info-group top">
                 <div>
@@ -1033,7 +1036,6 @@
             <input type="text" class="set-selector calc-trigger" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
-                <button id="clearSets">Clear Imported Sets</button>
             </span>
             <div class="info-group top">
                 <div>

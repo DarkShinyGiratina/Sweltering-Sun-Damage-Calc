@@ -376,10 +376,35 @@ function checkExeptions(poke) {
 	return poke;
 }
 
+$(allPokemon("#clearThisSet")).click(function () {
+	var playerText = document.querySelector('.calc-trigger.player .select2-chosen').textContent;
+	var name = playerText.split(' (')[0];
+
+	var customsets;
+	if (localStorage.customsets) {
+		customsets = JSON.parse(localStorage.customsets);
+	} else {
+		customsets = {};
+	}
+
+	if (customsets[name]) {
+		if (
+			confirm(
+				"Are you sure you want to delete your " + name + " Custom Set? This action cannot be undone."
+			)
+		) {
+			customsets[name] = {};
+			updateDex(customsets);
+			alert("Your Custom Set was successfully deleted. Please refresh the page.");
+			$(allPokemon("#importedSetsOptions")).css("display", "inline");
+		}
+	}
+});
+
 $(allPokemon("#clearSets")).click(function () {
 	if (
 		confirm(
-			"Are you sure you want to delete your custom sets? This action cannot be undone."
+			"Are you sure you want to delete ALL your custom sets? This action cannot be undone."
 		)
 	) {
 		localStorage.removeItem("customsets");
