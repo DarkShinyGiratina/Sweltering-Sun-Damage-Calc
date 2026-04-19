@@ -664,3 +664,18 @@ table.field {
 .player-party .trainer-pok-container:hover {
 	border: none;
 }
+
+.pranks-buttons {
+  border-radius: 5px;
+  margin: 2px;
+}
+
+#clearThisSet {
+  color: #d00000;
+  border: 1px solid #c00000;
+}
+
+#clearSets {
+  color: #b00000;
+  border: 2px solid #a00000;
+}
